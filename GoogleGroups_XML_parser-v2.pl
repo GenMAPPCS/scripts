@@ -1,8 +1,9 @@
 #!/usr/bin/perl 
 
-#use warnings;
+use warnings;
 use strict;
 use XML::LibXML;
+use Encode;
 
 ## Script processes output from GoogleGroupsScraper (http://saturnboy.com/2010/03/scraping-google-groups)
 ##
@@ -18,33 +19,47 @@ use XML::LibXML;
 ## get input filename
 my $inputxml = "";
 if (scalar(@ARGV) == 1)
-	{
-	$inputxml = $ARGV[0];
-	if (!($inputxml =~ /\.xml/))
-		{
-		print "Incorrect argument for input filename. Try again.\n";
-		exit;
-		}
-	}
+        {
+        $inputxml = $ARGV[0];
+        if (!($inputxml =~ /\.xml/))
+                {
+                print "Incorrect argument for input filename. Try again.\n";
+                exit;
+                }
+        }
 else
-	{
-	print "Too many arguments. Try again.\n";
-	exit;
-	}
+        {
+        print "Too many arguments. Try again.\n";
+        exit;
+        }
 
 my $filename = (split(".xml", $inputxml))[0];
 
+## convert to utf-8 and scrub error lines
+my $utffile = $filename."-utf.xml";
+open (XML, "$inputxml") or die "Can't open $inputxml: $!";
+open (UTF, ">$utffile") or die "Can't open $utffile: $!";
+while (<XML>){
+        my $line = $_;
+        unless ($line =~ /^ERROR:/){
+                print UTF encode('utf8', $line);
+        }
+}
+close XML;
+close UTF;
+
 ## setup logfile
-my $statsfile = $filename."-stats.txt";	
+my $statsfile = $filename."-stats.txt";
 unless ( open(LOGFILE, ">$statsfile") )
        {
          print "could not open file $statsfile\n";
          exit;
- 	}
+        }
 
 ## setup parser and specify input
 my $parser = XML::LibXML->new();
-my $dom = $parser->parse_file($inputxml);
+my $dom = $parser->parse_file($utffile); 
+unlink($utffile); #delete temp file
 
 ## setup data structures and define staff members
 my %stats = ();
@@ -72,6 +87,10 @@ foreach my $topic (@topics) {
     
     ## get date for post
     my $firstpost = $posts[0];
+ 	#check for blank posts
+ 	if (!defined($firstpost)){
+ 		next;
+ 	}
 	my @dateelement = $firstpost->getElementsByTagName('date');
 	my $date = $dateelement[0]->textContent;
 	$date =~ m/,.(\d{4})/;
