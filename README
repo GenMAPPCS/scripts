@@ -1,0 +1,9 @@
+You can run GoogleGroupsScraper on any google group in order to transform the entire archive into a single xml file. More info about script he
+re: http://saturnboy.com/2010/03/scraping-google-groups/
+1. Edit scrape.php and enter the group name (e.g., cytoscape-helpdesk); then save and quit
+2. Run by typing command: 
+php scrape.php > scrape.xml
+3. Then run our perl scripts on the xml to parse out various stats:
+perl GoogleGroups_XML_parser-v2.pl scrape.xml
+
+Note: the output of the per parser is a "-stats.txt" file which can be imported into Excel to generate charts.
