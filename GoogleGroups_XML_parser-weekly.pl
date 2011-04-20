@@ -84,7 +84,7 @@ my $cutoff = $currenttime - '604800'; #define last week in epoch timestamp
 my $startdate = localtime($cutoff);
 my $enddate = localtime($currenttime);
 print LOGFILE "Unanswered email for the week of $startdate - $enddate\n";
-print LOGFILE "Topic\tAuthor\tDate\n\n";
+print LOGFILE "Topic\tAuthor\tDate\n";
 
 ## setup data structures and define staff members
 my %binnedstats = ();
