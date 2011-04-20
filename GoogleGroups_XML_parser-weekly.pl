@@ -79,15 +79,12 @@ my $dom = $parser->parse_file($utffile);
 unlink($utffile); #delete temp file
 
 ## define date range: last week
-my $currenttime = time();
-my $cutoff = $currenttime - '604800'; #define last week in epoch timestamp
-my $startdate = localtime($cutoff);
+my $currenttime = time(); 		
+my $cutoff = $currenttime - '604800'; #define last week in epoch timestamp, 604800 is number of seconds in epoch format
+my $startdate = localtime($cutoff);  ## switch format for readability
 my $enddate = localtime($currenttime);
 print LOGFILE "Unanswered email for the week of $startdate - $enddate\n";
 print LOGFILE "Topic\tAuthor\tDate\n";
-
-## setup data structures and define staff members
-my %binnedstats = ();
 
 ## start parsing tree
 my $root = $dom->documentElement();  
@@ -95,6 +92,7 @@ my @topics = $root->getElementsByTagName('topic');
 
 foreach my $topic (@topics) {
 	
+	## get topic title
 	my @title = $topic->getElementsByTagName('title');
 	my $title = $title[0]->textContent;
 	
@@ -102,19 +100,13 @@ foreach my $topic (@topics) {
     my @postselement = $topic->getElementsByTagName('posts');
     my @posts = $postselement[0]->getElementsByTagName('post'); ## there is only one 'posts' element per topic. This is the parent of 'post' elements.
     my $numposts = scalar(@posts);
-    
-    ## get date for post
     my $firstpost = $posts[0];
  	#check for blank posts
  	if (!defined($firstpost)){
  		next;
  	}
-	my @dateelement = $firstpost->getElementsByTagName('date');
-	my $date = $dateelement[0]->textContent;
-	$date =~ m/,.(\d{4})/;
-	my $year = $1;
-	my $month = (split(" ", $date))[0];
 	
+	## get author information
 	my @author = $firstpost->getElementsByTagName('author');
 	my $author = $author[0]->textContent;	
 	
