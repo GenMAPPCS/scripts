@@ -7,7 +7,7 @@ use Encode;
 
 ## Script processes output from GoogleGroupsScraper (http://saturnboy.com/2010/03/scraping-google-groups)
 ##
-## Input: xml file directly from scraper. One file per google group. The input file name is provided as an argument at runtime.
+## Input: one or more xml files directly from scraper. One file per google group. The input file name is provided as an argument at runtime.
 ##
 ## Output: File with list of unanswered posts in the last week. Topic, author name and date is recorded.
 ## The output is written to an existing file, with the existing contents preserved (adds at the top of the file)
@@ -17,38 +17,7 @@ use Encode;
 ## perl -MCPAN -e shell
 ## at cpan prompt: install XML::LibXML 
 
-## get input filename
-my $inputxml = "";
-if (scalar(@ARGV) == 1)
-        {
-        $inputxml = $ARGV[0];
-        if (!($inputxml =~ /\.xml/))
-                {
-                print "Incorrect argument for input filename. Try again.\n";
-                exit;
-                }
-        }
-else
-        {
-        print "Too many arguments. Try again.\n";
-        exit;
-        }
 
-my $filename = (split(".xml", $inputxml))[0];
-
-## convert to utf-8 and scrub error lines
-my $utffile = $filename."-utf.xml";
-open (XML, "$inputxml") or die "Can't open $inputxml: $!";
-open (UTF, ">$utffile") or die "Can't open $utffile: $!";
-while (<XML>){
-        my $line = $_;
-        unless ($line =~ /^ERROR:/){
-                print UTF encode('utf8', $line);
-        }
-}
-close XML;
-close UTF;
-        
 ## setup logfile and read in contents. 
 ## rather than appending, this method (reading / overwriting) allows for adding new content at the beginning of file.
 my $statsfile = "/var/www/meta/trunk/nrnb/helpdesk.html";
@@ -78,13 +47,8 @@ else    ## read from existing file, then open the same file for output
 	}
 
 ## print header
-print LOGFILE "<html><body><b><font size='+2'>Weekly report on unanswered helpdesk emails</font></b>\n";
+print LOGFILE "<html><head><title>Mailing List Tracker</title></head><body><b><font size='+2'>Weekly report on unanswered helpdesk emails</font></b>\n";
 print LOGFILE "<br><a href=\"http://groups.google.com/group/cytoscape-helpdesk?hl=en_US\">cytoscape-helpdesk</a><br>\n";
-
-## setup parser and specify input
-my $parser = XML::LibXML->new();
-my $dom = $parser->parse_file($utffile); 
-unlink($utffile); #delete temp file
 
 ## define date range: last week
 my $currenttime = time(); 		
@@ -95,6 +59,36 @@ print LOGFILE "<hr>\n";
 print LOGFILE "<b>$startdate - $enddate</b><br>\n";
 print LOGFILE "<table cellspacing='10'>\n";
 print LOGFILE '<thead><tr><th>Topic</th><th>Author</th><th>Date</th></tr>'."\n";
+
+## loop through files
+foreach my $inputxml (@ARGV) {
+
+if (!($inputxml =~ /\.xml/))
+	{
+        print "Incorrect argument for input filename. Try again.\n";
+        exit;
+        }
+
+my $filename = (split(".xml", $inputxml))[0];
+
+## convert to utf-8 and scrub error lines
+my $utffile = $filename."-utf.xml";
+open (XML, "$inputxml") or die "Can't open $inputxml: $!";
+open (UTF, ">$utffile") or die "Can't open $utffile: $!";
+while (<XML>){
+        my $line = $_;
+        unless ($line =~ /^ERROR:/){
+                print UTF encode('utf8', $line);
+        }
+}
+close XML;
+close UTF;
+
+
+## setup parser and specify input
+my $parser = XML::LibXML->new();
+my $dom = $parser->parse_file($utffile);
+unlink($utffile); #delete temp file
 
 ## start parsing tree
 my $root = $dom->documentElement();  
@@ -140,7 +134,9 @@ foreach my $topic (@topics) {
 			}
 	}	
 	}
-}
+} #end foreach topic
+} #end foreach input file
+
 print LOGFILE "</table>\n";
 print LOGFILE "<hr>\n$log\n"; ## print old contents of logifle at the end of file
 print "Done\n";
