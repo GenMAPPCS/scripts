@@ -3,7 +3,12 @@ re: http://saturnboy.com/2010/03/scraping-google-groups/
 1. Edit scrape.php and enter the group name (e.g., cytoscape-helpdesk); then save and quit
 2. Run by typing command: 
 php scrape.php > scrape.xml
-3. Then run our perl scripts on the xml to parse out various stats:
+3. Then run our perl script on the xml to parse out various stats:
 perl GoogleGroups_XML_parser-v2.pl scrape.xml
-
 Note: the output of the per parser is a "-stats.txt" file which can be imported into Excel to generate charts.
+
+You can also run an alternative perl script in order to update the report on unanswered helpdesk posts:
+3b. Then run perl script to generate report:
+perl GoogleGroups_XML_parser-weekly.pl scrape.xml
+Note: the output is to update an html file to serve as an online report
+
