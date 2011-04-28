@@ -21,43 +21,45 @@ use Encode;
 ## setup logfile and read in contents. 
 ## rather than appending, this method (reading / overwriting) allows for adding new content at the beginning of file.
 my $statsfile = "/var/www/meta/trunk/nrnb/helpdesk.html";
-my $log = ""; #scalar to store existing contents of log file
+#my $log = ""; #scalar to store existing contents of log file
 	
-unless ( open(LOGFILE, "<$statsfile") )   ## open existing file, if fail create new and open for output
+unless ( open(LOGFILE, ">$statsfile") )   ## open existing file, if fail create new and open for output
        {
-	   unless ( open(LOGFILE, ">$statsfile") )
-       		{
+#	   unless ( open(LOGFILE, ">$statsfile") )
+#       		{
         	print "opening new file $statsfile failed.\n";
         	exit;
-       		}
+#       		}
 	  
        }
 
-else    ## read from existing file, then open the same file for output
-	{
+#else    ## read from existing file, then open the same file for output
+#	{
 	## store old log contents (excluding header)
-	while (<LOGFILE>) {
-		$log .= $_ unless 1 .. /^<hr>/;
-	}
-	unless ( open(LOGFILE, ">$statsfile") )
-       		{
-        	print "opening $statsfile for output failed.\n";
-        	exit;
-       		}	
-	}
+#	while (<LOGFILE>) {
+#		$log .= $_ unless 1 .. /^<hr>/;
+#	}
+#	unless ( open(LOGFILE, ">$statsfile") )
+#      		{
+#        	print "opening $statsfile for output failed.\n";
+#        	exit;
+#       		}	
+#	}
 
 ## print header
-print LOGFILE "<html><head><title>Mailing List Triage</title></head><body><b><font size='+2'>Weekly report on unanswered helpdesk emails</font></b>\n";
-print LOGFILE "<br><a href=\"http://groups.google.com/group/cytoscape-helpdesk?hl=en_US\">cytoscape-helpdesk</a><br>\n";
+print LOGFILE "<html><head><title>Mailing List Triage</title></head><body><b><font size='+2'>Mailing List Triage</font></b>\n";
 
 ## define date range: last week
 my $currenttime = time(); 		
-my $cutoff = $currenttime - 604800; #define last week in epoch timestamp, 604800 is number of seconds in epoch format
+my $cutoff = $currenttime - 4*604800; #define last 4 weeks in epoch timestamp, 604800 is number of seconds in epoch format
+my $new = $currenttime - 604800; #define last week to distinguish new from old reports (highlighted in red)
 my $startdate = localtime($cutoff);  ## switch format for readability
 my $enddate = localtime($currenttime);
 print LOGFILE "<hr>\n";
-print LOGFILE "<b>$startdate - $enddate</b><br>\n";
-print LOGFILE "<table cellspacing='10'>\n";
+print LOGFILE "<b>Updated $enddate</b><br>\n";
+print LOGFILE "<font style=\"color:blue;\"><u>blue</u> = new unanswered email</font><br>\n";
+print LOGFILE "<font style=\"color:red;\"><u>red</u> = previously assign, but still unanswered</font><br>\n";
+print LOGFILE "<br><table cellspacing='10'>\n";
 print LOGFILE '<thead><tr><th>Topic</th><th>Author</th><th>Date</th></tr>'."\n";
 
 ## loop through files
@@ -83,6 +85,9 @@ while (<XML>){
 }
 close XML;
 close UTF;
+
+## print out mailing list subheader
+print LOGFILE '<tr><td><a href="http://groups.google.com/group/'.$filename.'?hl=en_US\" style="color:black;">'.$filename.'</a></td><td></td><td></td></tr>'."\n";
 
 
 ## setup parser and specify input
@@ -129,15 +134,17 @@ foreach my $topic (@topics) {
 		#print "post from the last week!\n";
 		if ($numposts == 1) 
 			{
+			my $color = 'blue';
+			if ($timestamp < $new ) {$color = 'red';}
 			my $time = localtime($timestamp);
-			print LOGFILE '<tr><td><a href="'.$link.'">'.$title.'</a></td><td>'.$author.'</td><td>'.$time.'</td></tr>'."\n";
+			print LOGFILE '<tr><td><a href="'.$link.'" style="color:'.$color.';">'.$title.'</a></td><td>'.$author.'</td><td>'.$time.'</td></tr>'."\n";
 			}
 	}	
 	}
 } #end foreach topic
 } #end foreach input file
 
-print LOGFILE "</table>\n";
-print LOGFILE "<hr>\n$log\n"; ## print old contents of logifle at the end of file
+print LOGFILE "</table></body></html>\n";
+#print LOGFILE "<hr>\n$log\n"; ## print old contents of logifle at the end of file
 print "Done\n";
 close LOGFILE;
