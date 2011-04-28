@@ -58,7 +58,7 @@ my $enddate = localtime($currenttime);
 print LOGFILE "<hr>\n";
 print LOGFILE "<b>Updated $enddate</b><br>\n";
 print LOGFILE "<font style=\"color:blue;\"><u>blue</u> = new unanswered email</font><br>\n";
-print LOGFILE "<font style=\"color:red;\"><u>red</u> = previously assign, but still unanswered</font><br>\n";
+print LOGFILE "<font style=\"color:red;\"><u>red</u> = previously assigned, but still unanswered</font><br>\n";
 print LOGFILE "<br><table cellspacing='10'>\n";
 print LOGFILE '<thead><tr><th>Topic</th><th>Author</th><th>Date</th></tr>'."\n";
 
