@@ -47,7 +47,7 @@ else    ## read from existing file, then open the same file for output
 	}
 
 ## print header
-print LOGFILE "<html><head><title>Mailing List Tracker</title></head><body><b><font size='+2'>Weekly report on unanswered helpdesk emails</font></b>\n";
+print LOGFILE "<html><head><title>Mailing List Triage</title></head><body><b><font size='+2'>Weekly report on unanswered helpdesk emails</font></b>\n";
 print LOGFILE "<br><a href=\"http://groups.google.com/group/cytoscape-helpdesk?hl=en_US\">cytoscape-helpdesk</a><br>\n";
 
 ## define date range: last week
