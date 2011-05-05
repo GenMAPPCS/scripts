@@ -88,7 +88,7 @@ close UTF;
 
 ## print out mailing list subheader
 print LOGFILE '<tr><td><a href="http://groups.google.com/group/'.$filename.'?hl=en_US\" style="color:black;">'.$filename.'</a></td><td></td><td></td></tr>'."\n";
-
+my $count = 0;
 
 ## setup parser and specify input
 my $parser = XML::LibXML->new();
@@ -134,14 +134,21 @@ foreach my $topic (@topics) {
 		#print "post from the last week!\n";
 		if ($numposts == 1) 
 			{
+			$count++;
 			my $color = 'blue';
 			if ($timestamp < $new ) {$color = 'red';}
 			my $time = localtime($timestamp);
-			print LOGFILE '<tr><td><a href="'.$link.'" style="color:'.$color.';">'.$title.'</a></td><td>'.$author.'</td><td>'.$time.'</td></tr>'."\n";
+			print LOGFILE '<tr><td>'.$count.')&nbsp;<a href="'.$link.'" style="color:'.$color.';">'.$title.'</a></td><td>'.$author.'</td><td>'.$time.'</td></tr>'."\n";
 			}
 	}	
 	}
 } #end foreach topic
+
+## mark mailing list as answered when empty 
+if ($count == 0){
+	print LOGFILE '<tr><td><font color="green">No unanswered email!</blue></td><td></td><td></td></tr>'."\n";
+}
+
 } #end foreach input file
 
 print LOGFILE "</table></body></html>\n";
