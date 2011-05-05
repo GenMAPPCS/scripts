@@ -57,7 +57,7 @@ my $startdate = localtime($cutoff);  ## switch format for readability
 my $enddate = localtime($currenttime);
 print LOGFILE "<hr>\n";
 print LOGFILE "<b>Updated $enddate</b><br>\n";
-print LOGFILE "<font style=\"color:blue;\"><u>blue</u> = new unanswered email</font><br>\n";
+print LOGFILE "<font style=\"color:blue;\"><u>blue</u> = new unanswered message</font><br>\n";
 print LOGFILE "<font style=\"color:red;\"><u>red</u> = previously assigned, but still unanswered</font><br>\n";
 print LOGFILE "<br><table cellspacing='10'>\n";
 print LOGFILE '<thead><tr><th>Topic</th><th>Author</th><th>Date</th></tr>'."\n";
@@ -146,7 +146,7 @@ foreach my $topic (@topics) {
 
 ## mark mailing list as answered when empty 
 if ($count == 0){
-	print LOGFILE '<tr><td><font color="green">No unanswered email!</blue></td><td></td><td></td></tr>'."\n";
+	print LOGFILE '<tr><td><font color="green">No unanswered messages!</blue></td><td></td><td></td></tr>'."\n";
 }
 
 } #end foreach input file
