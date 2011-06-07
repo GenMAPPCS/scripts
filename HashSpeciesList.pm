@@ -27,7 +27,7 @@ my %speciesTable = ();                # Hash of Arrays for storing species table
 
 unless( open( SPECIES, $speciesFile)){
 	# if attempting with custom file, then quit
-	if ($speciesFile != 'SpeciesList'){
+	if ($speciesFile ne 'SpeciesList'){
 		print "Could not open file $speciesFile: $!\n";
                 exit; 
 	} else {

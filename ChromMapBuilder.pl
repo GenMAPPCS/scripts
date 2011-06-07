@@ -160,29 +160,26 @@ my $counter = 0;
 
 ## print single Chromosome label at the top
 print OUTFILE "<node label=\"Chromosome\" id=\"Chromosome\">
-    <att type=\"string\" name=\"NODE_TYPE\" value=\"DefaultNode\"/>
     <att type=\"string\" name=\"canonicalName\" value=\"Chromosome\"/>
     <att type=\"string\" name=\"vizmap:Human Chromosome Map NODE_LABEL\" value=\"Chromosome\"/>
 	<graphics type=\"RECTANGLE\" h=\"1.0\" w=\"1.0\" 
     x=\"$startx\" y=\"$starty\" fill=\"#FFFFFF\" 
-    outline=\"#666666\" cy:nodeLabelFont=\"SansSerif.bold-0-500\"/>
+    cy:nodeLabelFont=\"SansSerif.bold-0-500\" cy:nodeLabel=\"Chromosome\"/>
  </node>\n";
 
 foreach my $key (sort keys %chrominfo)
 	{	
 	## Print label node for each chromosome
-	my $labely = $starty + ($chroms{$key})*1500; ## add offset to create vertical rows
+	my $labely = $starty + ($chroms{$key})*800; ## add offset to create vertical rows
 	my $genex = 800; ## reset genex to chromosome start
 	my $label = (split('chr',$key))[1];
 	
-	print OUTFILE "<node label=\"$key\" id=\"$key\">
-    <att type=\"string\" name=\"NODE_TYPE\" value=\"DefaultNode\"/>
+	print OUTFILE "<node label=\"$label\" id=\"$key\">
     <att type=\"string\" name=\"canonicalName\" value=\"$label\"/>
     <att type=\"string\" name=\"Chromosome number\" value=\"$label\"/>
-    <att type=\"string\" name=\"vizmap:Human Chromosome Map NODE_LABEL\" value=\"$label\"/>
     <graphics type=\"RECTANGLE\" h=\"1.0\" w=\"1.0\" 
 	x=\"$startx\" y=\"$labely\" fill=\"#FFFFFF\" 
-    outline=\"#666666\" cy:nodeLabelFont=\"SansSerif.bold-0-500\"/>
+    cy:nodeLabelFont=\"SansSerif.bold-0-500\" cy:nodeLabel=\"$label\"/>
   </node>\n";
   
 	foreach my $gene (sort keys %{$chrominfo{$key}})
@@ -209,7 +206,7 @@ foreach my $key (sort keys %chrominfo)
 			$width  = 50;
 			}
 				
-		print OUTFILE "<node label=\"$gene\" id=\"$gene\">
+		print OUTFILE "<node label=\"$chrominfo{$key}{$gene}{'symbol'}\" id=\"$gene\">
 			<att type=\"string\" name=\"canonicalName\" value=\"$chrominfo{$key}{$gene}{'symbol'}\"/>
 			<att type=\"string\" name=\"Strand\" value=\"$chrominfo{$key}{$gene}{'strand'}\"/>
 			<att type=\"integer\" name=\"Start position\" value=\"$startint\"/>
@@ -217,9 +214,8 @@ foreach my $key (sort keys %chrominfo)
 			<att type=\"integer\" name=\"Length\" value=\"$length\"/>
 			<att type=\"string\" name=\"Type\" value=\"$chrominfo{$key}{$gene}{'annotation'}\"/>
 			<att type=\"string\" name=\"Chromosome number\" value=\"$label\"/>
-			<att type=\"string\" name=\"vizmap:Human Chromosome Map NODE_LABEL\" value=\"$chrominfo{$key}{$gene}{'symbol'}\"/>
   		    <graphics type=\"RECTANGLE\" h=\"200.0\" w=\"60\" x=\"$genex\" y=\"$geney\" 
-			fill=\"#CCCCCC\" cy:nodeLabelFont=\"SansSerif.bold-0-12\"/>
+			fill=\"#CCCCCC\" cy:nodeLabelFont=\"SansSerif.bold-0-12\" cy:nodeLabel=\"$chrominfo{$key}{$gene}{'symbol'}\"/>
   		</node>\n";
   			
   		$genex = $genex + 60; # add spacer
