@@ -51,7 +51,7 @@ print LOGFILE "<html><head><title>Mailing List Triage</title></head><body><b><fo
 
 ## define date range: last week
 my $currenttime = time(); 		
-my $cutoff = $currenttime - 4*604800; #define last 4 weeks in epoch timestamp, 604800 is number of seconds in epoch format
+my $cutoff = $currenttime - 2*604800; #define last 4 weeks in epoch timestamp, 604800 is number of seconds in epoch format
 my $new = $currenttime - 604800; #define last week to distinguish new from old reports (highlighted in red)
 my $startdate = localtime($cutoff);  ## switch format for readability
 my $enddate = localtime($currenttime);
