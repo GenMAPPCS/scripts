@@ -91,7 +91,6 @@ my %chroms = ();
 my $currentchrom = "";
 my $chromcounter = 0;
 my %chrominfo = ();
-#my %genes = ();
 my $number = ();
 my $symbol = ();
 my $ensembl = ();
@@ -99,6 +98,7 @@ my $start = ();
 my $stop = ();
 my $strand = ();
 my $annot = ();
+my %sortedgenes = ();
 
 ## max coordinates for network dimensions
 my $maxx = 0;
@@ -128,27 +128,34 @@ while (my $line = <INPUT>)
       	{
       	$chromcounter ++;
       	my $temp = (split (/chr/, $number))[1];
+		
+		if (($temp =~ m/\d+/) && !($temp =~ m/\D/) )  ## handle purely numeric chromosome names
+			{
+			if ($refcode eq 'dm')  ## exception for drosophila which has one chromosome that is purely numeric
+				{
+				foreach my $n (keys %chroms)
+      			{
+      			if ($chroms{$n} eq $temp)
+      				{
+      				$chroms{$number} = $chromcounter;	
+      				}
+      			else
+      				{
+      				$chroms{$number} = int($temp);
+      				}
+      			}	
+				}
+			else 
+				{
+				$chroms{$number} = int($temp);	
+				}
+			}
       	
-      	$chroms{$number} = $chromcounter;
+      	else
+      		{
+      		$chroms{$number} = $chromcounter;	## handle non-numeric chromosome names
+      		}
       	
-      	#if (($temp =~ m/\d+/) && !($temp =~ m/\D/) )
-#      		{
-#      		$chroms{$number} = int($temp);
-#      		print "numeric only: $temp\n";	
-#      		}
-      		
-#      	elsif (($temp =~ m/\D*/) && !($temp =~ m/\d*/))  
-#      		{
-#      		$chroms{$number} = $chromcounter;
-#      		print "letter only: $temp\n";
-#      		}
-#      	
-#      	else
-#      		{
-#      		$chroms{$number} = $chromcounter;	## handle non-numeric chromosome names
-#      		}
-      	print "for $number, count is $chroms{$number}\n";	
-      	print "chromcounter: $chromcounter\n";
       	$currentchrom = $number;
       	}
       	  
@@ -158,23 +165,10 @@ while (my $line = <INPUT>)
       	$chrominfo{$number}{$ensembl}{'start'} = int($start); 
       	$chrominfo{$number}{$ensembl}{'stop'} = int($stop);
       	$chrominfo{$number}{$ensembl}{'strand'} = $strand;
-      	$chrominfo{$number}{$ensembl}{'annotation'} = $annot;		
+      	$chrominfo{$number}{$ensembl}{'annotation'} = $annot;
+      	$sortedgenes{$ensembl} = int($start);	   ## create another hash that can easily be sorted based on start position
       	}
       } 
-      
-######################
-
-## sort hash
-
-my %sortedgenes = ();
-
-foreach my $k (keys %chrominfo)
-	{
-	foreach my $ensembl (sort keys %{$chrominfo{$k}})
-		{
-		$sortedgenes{$ensembl} = $chrominfo{$k}{$ensembl}{'start'};	
-		}	
-	}
 
 ######################
 ## Print xgmml
@@ -208,6 +202,11 @@ foreach my $key (sort keys %chrominfo)
   
 	foreach my $gene (sort {$sortedgenes{$a} <=> $sortedgenes{$b}} keys %sortedgenes)
 			{
+		
+		if (exists $chrominfo{$key}{$gene}{'start'})
+		{
+			
+		
 		$counter ++; ## keep track of all genes
 		my $geney = ();
 		
@@ -220,9 +219,6 @@ foreach my $key (sort keys %chrominfo)
 			{
 			$geney = $labely + 100;
 			}
-		
-#		my $startint = int($chrominfo{$key}{$gene}{'start'});  ##convert from string to int for calculation
-#		my $stopint = int($chrominfo{$key}{$gene}{'stop'});
 
 		my $startint = $chrominfo{$key}{$gene}{'start'};  ##convert from string to int for calculation
 		my $stopint = $chrominfo{$key}{$gene}{'stop'};
@@ -261,7 +257,8 @@ foreach my $key (sort keys %chrominfo)
 			$maxy = $geney;
 			}
 		}
-	}
+		} ## end foreach gene
+	} ## end foreach chromosome
 
 ## center x and y dependent on network size
 #my $centerx = $maxx/2;
