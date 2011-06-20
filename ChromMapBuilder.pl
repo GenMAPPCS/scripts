@@ -128,28 +128,53 @@ while (my $line = <INPUT>)
       	{
       	$chromcounter ++;
       	my $temp = (split (/chr/, $number))[1];
-      	if ($temp =~ m/\d+/)
-      		{
-      		$chroms{$number} = int($temp);	
-      		}
-      	else
-      		{
-      		$chroms{$number} = $chromcounter;	## handle non-numeric chromosome names
-      		}
-      	#print "for $number, count is $chroms{$number}\n";	
+      	
+      	$chroms{$number} = $chromcounter;
+      	
+      	#if (($temp =~ m/\d+/) && !($temp =~ m/\D/) )
+#      		{
+#      		$chroms{$number} = int($temp);
+#      		print "numeric only: $temp\n";	
+#      		}
+      		
+#      	elsif (($temp =~ m/\D*/) && !($temp =~ m/\d*/))  
+#      		{
+#      		$chroms{$number} = $chromcounter;
+#      		print "letter only: $temp\n";
+#      		}
+#      	
+#      	else
+#      		{
+#      		$chroms{$number} = $chromcounter;	## handle non-numeric chromosome names
+#      		}
+      	print "for $number, count is $chroms{$number}\n";	
+      	print "chromcounter: $chromcounter\n";
       	$currentchrom = $number;
       	}
       	  
       if (($annot eq 'protein_coding')) ##collect information for protein coding genes only
       	{
       	$chrominfo{$number}{$ensembl}{'symbol'} = $symbol;
-      	$chrominfo{$number}{$ensembl}{'start'} = $start; 
-      	$chrominfo{$number}{$ensembl}{'stop'} = $stop;
+      	$chrominfo{$number}{$ensembl}{'start'} = int($start); 
+      	$chrominfo{$number}{$ensembl}{'stop'} = int($stop);
       	$chrominfo{$number}{$ensembl}{'strand'} = $strand;
       	$chrominfo{$number}{$ensembl}{'annotation'} = $annot;		
       	}
       } 
+      
+######################
 
+## sort hash
+
+my %sortedgenes = ();
+
+foreach my $k (keys %chrominfo)
+	{
+	foreach my $ensembl (sort keys %{$chrominfo{$k}})
+		{
+		$sortedgenes{$ensembl} = $chrominfo{$k}{$ensembl}{'start'};	
+		}	
+	}
 
 ######################
 ## Print xgmml
@@ -161,7 +186,6 @@ my $counter = 0;
 ## print single Chromosome label at the top
 print OUTFILE "<node label=\"Chromosome\" id=\"Chromosome\">
     <att type=\"string\" name=\"canonicalName\" value=\"Chromosome\"/>
-    <att type=\"string\" name=\"vizmap:Human Chromosome Map NODE_LABEL\" value=\"Chromosome\"/>
 	<graphics type=\"RECTANGLE\" h=\"1.0\" w=\"1.0\" 
     x=\"$startx\" y=\"$starty\" fill=\"#FFFFFF\" 
     cy:nodeLabelFont=\"SansSerif.bold-0-500\" cy:nodeLabel=\"Chromosome\"/>
@@ -170,8 +194,8 @@ print OUTFILE "<node label=\"Chromosome\" id=\"Chromosome\">
 foreach my $key (sort keys %chrominfo)
 	{	
 	## Print label node for each chromosome
-	my $labely = $starty + ($chroms{$key})*800; ## add offset to create vertical rows
-	my $genex = 800; ## reset genex to chromosome start
+	my $labely = $starty + ($chroms{$key})*600; ## add offset to create vertical rows
+	my $genex = 500; ## reset genex to chromosome start
 	my $label = (split('chr',$key))[1];
 	
 	print OUTFILE "<node label=\"$label\" id=\"$key\">
@@ -179,11 +203,11 @@ foreach my $key (sort keys %chrominfo)
     <att type=\"string\" name=\"Chromosome number\" value=\"$label\"/>
     <graphics type=\"RECTANGLE\" h=\"1.0\" w=\"1.0\" 
 	x=\"$startx\" y=\"$labely\" fill=\"#FFFFFF\" 
-    cy:nodeLabelFont=\"SansSerif.bold-0-500\" cy:nodeLabel=\"$label\"/>
+     cy:nodeLabelFont=\"SansSerif.bold-0-500\" cy:nodeLabel=\"$label\"/>
   </node>\n";
   
-	foreach my $gene (sort keys %{$chrominfo{$key}})
-		{
+	foreach my $gene (sort {$sortedgenes{$a} <=> $sortedgenes{$b}} keys %sortedgenes)
+			{
 		$counter ++; ## keep track of all genes
 		my $geney = ();
 		
@@ -197,8 +221,12 @@ foreach my $key (sort keys %chrominfo)
 			$geney = $labely + 100;
 			}
 		
-		my $startint = int($chrominfo{$key}{$gene}{'start'});  ##convert from string to int for calculation
-		my $stopint = int($chrominfo{$key}{$gene}{'stop'});
+#		my $startint = int($chrominfo{$key}{$gene}{'start'});  ##convert from string to int for calculation
+#		my $stopint = int($chrominfo{$key}{$gene}{'stop'});
+
+		my $startint = $chrominfo{$key}{$gene}{'start'};  ##convert from string to int for calculation
+		my $stopint = $chrominfo{$key}{$gene}{'stop'};
+
 		my $length = ($stopint-$startint);
 		my $width  = 0.01*$length;
 		if ($width > 50)
@@ -214,6 +242,9 @@ foreach my $key (sort keys %chrominfo)
 			<att type=\"integer\" name=\"Length\" value=\"$length\"/>
 			<att type=\"string\" name=\"Type\" value=\"$chrominfo{$key}{$gene}{'annotation'}\"/>
 			<att type=\"string\" name=\"Chromosome number\" value=\"$label\"/>
+			<att type=\"list\" name=\"__Ensembl $speciesname\">
+				<att type=\"string\" value=\"$gene\"/>
+			</att>
   		    <graphics type=\"RECTANGLE\" h=\"200.0\" w=\"60\" x=\"$genex\" y=\"$geney\" 
 			fill=\"#CCCCCC\" cy:nodeLabelFont=\"SansSerif.bold-0-12\" cy:nodeLabel=\"$chrominfo{$key}{$gene}{'symbol'}\"/>
   		</node>\n";
