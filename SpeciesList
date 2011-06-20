@@ -1,0 +1,47 @@
+*Genus species*	*Common Name*	*TaxID*	*UniGene*	*two-letter code*
+Dasypus novemcinctus	Armadillo			Dn
+Caenorhabditis elegans	Celegans	6239	cel	Ce
+Gallus gallus	Chicken	9031	gga	Gg
+Pan troglodytes	Chimp	9598	ptr	Pt
+Bos taurus	Cow	9913	bta	Bt
+Canis familiaris	Dog	9615	cfa	Cf
+Loxodonta africana	Elephant			La
+Drosophila melanogaster	Fruitfly	7227	dme	Dm
+Echinops telfairi	Hedgehog			Et
+Equus caballus	Horse	9796	eca	Qc
+Homo sapiens	Human	9606	hsa	Hs
+Callithrix jacchus	Marmoset	9483	cja	Cj
+Oryzias latipes	Medaka Fish			Ol
+Aedes aegypti	Mosquito_Aa 			Aa
+Anopheles gambiae	Mosquito_Ag 	7165	aga	Ag
+Mus musculus	Mouse	10090	mmu	Mm
+Monodelphis domestica	Opossum	13616	 	Md
+Sus scrofa	Pig	9823	ssc	Ss
+Ornithorhynchus anatinus	Platypus			Oa
+Tetraodon nigroviridis	Pufferfish	99883	 	Tn
+Oryctolagus cuniculus	Rabbit			Oc
+Rattus norvegicus	Rat	10116	rno	Rn
+Macaca mulatta	Rhesus Monkey		mml	Ml
+Sorex araneus	Shrew	42254		Sa
+Ciona intestinalis	Sea Squirt 	7719	 	Ci
+Ciona savignyi	Pacific Sea Squirt 		 	Cs
+Gasterosteus aculeatus	Stickleback Fish			Ga
+Takifugu rubripes	Tora Fugu	31033	 	Fr
+Xenopus tropicalis	Xenopus	8364	xtr	Xt
+Saccharomyces cerevisiae	Yeast	4932	sce 	Sc
+Danio rerio	Zebrafish	7955	dre	Dr
+Arabidopsis thaliana	Arabidopsis	3702	ath	At
+Oryza glaberrima	African Rice	4538		Og
+Oryza rufipogon	Red Rice	4529		Or	
+Oryza indica	Indian Rice	39946		Oi
+Oryza japonica	Japanese Rice	39947	osa	Oj
+Sorghum bicolor	Sorghum	4558	sbi	Sb
+Vitis vinifera	Wine Grape	29760	vvi	Vv
+Populus trichocarpa	Western Balsam Poplar	3694	pth	Pi
+Bacillus subtilis	Bsubtilis	1423	bsu	Bs
+Escherichia coli K12	Ecoli K12	562	eco	Ec
+Mycobacterium collection	Mycobacterium			Mx
+Neisseria collection	Neisseria			Nx
+Pyrococcus collection	Pytococcus			Px
+Staphylococcus collection	Staphylococcus			Sx
+Streptococcus collection	Streptococcus			Tx
