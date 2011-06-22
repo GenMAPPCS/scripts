@@ -57,6 +57,16 @@ unless ( open(OUTFILE, ">$xgmml") )
          print "could not open file $xgmml\n";
          exit;
  	}
+
+## define file to track exceptions
+my $exceptions = $refcode."-ChromMap-EX.txt";	
+unless ( open(EX, ">$exceptions") )
+       {
+         print "could not open file $exceptions\n";
+         exit;
+ 	}
+
+print EX "Gene ID\tOriginal symbol\tNew symbol\n";
  	
 print OUTFILE "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n";
 print OUTFILE "<graph label=\"$speciesname Chromosome Map\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:cy=\"http://www.cytoscape.org\" xmlns=\"http://www.cs.rpi.edu/XGMML\"  directed=\"1\">\n";
@@ -117,6 +127,15 @@ while (my $line = <INPUT>)
       my @line = split("\t", $line);
       $ensembl = $line[0];
       $symbol = $line[1];
+      
+      if ($symbol =~ /</) ## check for superimposed notation of gene names (mainly in rat)
+      	{
+      	my $symboltemp = (split("<", $symbol))[0];	
+      	print "New symbol: $symboltemp\n";
+      	print EX "$ensembl\t$symbol\t$symboltemp\n";
+      	$symbol = $symboltemp;
+      	}
+      	
       $number = $line[2];
       $strand = $line[3];
       $start = $line[4];
