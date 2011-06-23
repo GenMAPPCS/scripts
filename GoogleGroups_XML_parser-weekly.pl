@@ -87,7 +87,7 @@ close XML;
 close UTF;
 
 ## print out mailing list subheader
-print LOGFILE '<tr><td><a href="http://groups.google.com/group/'.$filename.'?hl=en_US\" style="color:black;">'.$filename.'</a></td><td></td><td></td></tr>'."\n";
+print LOGFILE '<tr><td><a href="http://groups.google.com/group/'.$filename.'?hl=en_US\" style="color:black;" target="_blank">'.$filename.'</a></td><td></td><td></td></tr>'."\n";
 my $count = 0;
 
 ## setup parser and specify input
@@ -138,7 +138,7 @@ foreach my $topic (@topics) {
 			my $color = 'blue';
 			if ($timestamp < $new ) {$color = 'red';}
 			my $time = localtime($timestamp);
-			print LOGFILE '<tr><td>'.$count.')&nbsp;<a href="'.$link.'" style="color:'.$color.';">'.$title.'</a></td><td>'.$author.'</td><td>'.$time.'</td></tr>'."\n";
+			print LOGFILE '<tr><td>'.$count.')&nbsp;<a href="'.$link.'" style="color:'.$color.';" target="_blank">'.$title.'</a></td><td>'.$author.'</td><td>'.$time.'</td></tr>'."\n";
 			}
 	}	
 	}
