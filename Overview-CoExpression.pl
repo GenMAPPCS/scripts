@@ -19,7 +19,7 @@ my $cutoff = 0.003;
 #define input and output files
 my @inputfiles = <coexp/Sc/*.txt>;
 
-my $output = "CoExpression-".$cutoff."txt";
+my $output = "CoExpression-".$cutoff.".txt";
 unless ( open(OUT, ">$output") )
        {
          print "could not open file $output\n";
