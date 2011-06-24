@@ -15,18 +15,19 @@ my $geneb = ();
 my $weight = ();
 my @datasets = ();
 my $cutoff = 0.003;
+my $species = "Hs";
 
 #define input and output files
-my @inputfiles = <coexp/Sc/*.txt>;
+my @inputfiles = <coexp/$species/*.txt>;
 
-my $output = "CoExpression-".$cutoff.".txt";
+my $output = "CoExpression-".$cutoff."-".$species.".txt";
 unless ( open(OUT, ">$output") )
        {
          print "could not open file $output\n";
          exit;
  	}
  	
-my $attributes = "CoExpression-attr.txt";
+my $attributes = "CoExpression-attr-".$species.".txt";
 unless ( open(ATTR, ">$attributes") )
        {
          print "could not open file $attribues\n";
