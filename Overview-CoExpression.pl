@@ -6,8 +6,18 @@
 ## Output: Tab-delimited text network file and tab-delimited edge attribute file
 #######
 
+#data structures
+
+my %coexpression = ();
+my %attributes = ();
+my $genea = ();
+my $geneb = ();
+my $weight = ();
+my @datasets = ();
+my $cutoff = 0.003;
+
 #define input and output files
-my @inputfiles = <coexp/*.txt>;
+my @inputfiles = <coexp/Sc/*.txt>;
 
 my $output = "CoExpression-".$cutoff."txt";
 unless ( open(OUT, ">$output") )
@@ -25,16 +35,6 @@ unless ( open(ATTR, ">$attributes") )
 
 print OUT "GeneA\tGeneB\tInteraction type\n";
 print ATTR "ID\tNumber of datasets\n";
-
-#data structures
-
-my %coexpression = ();
-my %attributes = ();
-my $genea = ();
-my $geneb = ();
-my $weight = ();
-my @datasets = ();
-my $cutoff = 0.003;
 
 #loop through input files 
 
@@ -65,7 +65,7 @@ foreach my $input (@inputfiles)
 			if ($weightdecimal < $cutoff) 
 				{
 				$counter ++;
-				print OUT "$a\t$b\tco-expression\n";
+				print OUT "$genea\t$geneb\tco-expression\n";
 				}
 			      		
       		my $interaction = $genea." (co-expression) ".$geneb;
