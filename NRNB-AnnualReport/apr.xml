@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?><P41_Progress_Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://sis.ncrr.nih.gov" xsi:schemaLocation="http://sis.ncrr.nih.gov http://APRSIS.NCRR.NIH.GOV/XML/p41_progress_report.xsd"><Grant_Info><Serial_Number>31228</Serial_Number><Fiscal_Year>2011</Fiscal_Year><Reporting_To_Date>2011-04-30</Reporting_To_Date><Reporting_From_Date>2010-09-13</Reporting_From_Date><Project_Title>Resource for Analysis, Vizualization, and Integration of Networks (RAVIN)</Project_Title><Recipient_Institution_Name>UNIVERSITY OF CALIFORNIA SAN DIEGO</Recipient_Institution_Name><Activity_Code>P41</Activity_Code><Director_Person_ID>453037</Director_Person_ID>
+<Health_Professional_School_Name></Health_Professional_School_Name><Patent_Or_Copyright_Award>N</Patent_Or_Copyright_Award></Grant_Info><Person Person_ID="453037"><Last_Name>IDEKER</Last_Name><First_Name>TREY</First_Name><Full_Name>IDEKER, TREY</Full_Name><Academic_Degree>BS</Academic_Degree><Academic_Degree>MOTH</Academic_Degree><Academic_Degree>PHD</Academic_Degree><Phone_Number>(858) 822-4558</Phone_Number><Fax_Number>(858) 822-4246</Fax_Number><Email_Address>tideker@ucsd.edu</Email_Address><Department>MEDICINE</Department><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305242</Sub_ID>
+<Grant_Or_Contract_Number>5R01GM070743-07</Grant_Or_Contract_Number><Total_Support_Funds>427772</Total_Support_Funds></Federal_PHS_Funding><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305101</Sub_ID>
+<Grant_Or_Contract_Number>2R01ES014811-06</Grant_Or_Contract_Number><Total_Support_Funds>564570</Total_Support_Funds></Federal_PHS_Funding></Person><Person Person_ID="548476"><Last_Name>PICO</Last_Name><First_Name>ALEXANDER</First_Name><Full_Name>PICO, ALEXANDER</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>GICD</Department><Nonhost_Name>GLADSTONE INSTITUTES</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548477"><Last_Name>SANDER</Last_Name><First_Name>CHRIS</First_Name><Full_Name>SANDER, CHRIS</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>COMPUTATION BIOLOGY CENTER</Department><Nonhost_Name>MEMORIAL SLOAN-KETTERING CANCER CENTER</Nonhost_Name><Nonhost_State>NY</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305078</Sub_ID>
+<Grant_Or_Contract_Number>5R21CA135870-02</Grant_Or_Contract_Number><Total_Support_Funds>142200</Total_Support_Funds></Federal_PHS_Funding><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305089</Sub_ID>
+<Grant_Or_Contract_Number>5U24CA143840-02</Grant_Or_Contract_Number><Total_Support_Funds>1617563</Total_Support_Funds></Federal_PHS_Funding><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305089</Sub_ID>
+<Grant_Or_Contract_Number>3U24CA143840-02S1</Grant_Or_Contract_Number><Total_Support_Funds>785924</Total_Support_Funds></Federal_PHS_Funding></Person><Person Person_ID="548478"><Last_Name>FOWLER</Last_Name><First_Name>JAMES</First_Name><Full_Name>FOWLER, JAMES</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548479"><Last_Name>BADER</Last_Name><First_Name>GARY</First_Name><Full_Name>BADER, GARY</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>CCBR</Department><Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="548480"><Last_Name>CONKLIN</Last_Name><First_Name>BRUCE</First_Name><Full_Name>CONKLIN, BRUCE</Full_Name><Academic_Degree>MD</Academic_Degree>
+<Department>GICD</Department><Nonhost_Name>GLADSTONE INSTITUTES</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548481"><Last_Name>SCHWIKOWSKI</Last_Name><First_Name>BENNO</First_Name><Full_Name>SCHWIKOWSKI, BENNO</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>SYSTEMS BIOLOGY</Department><Nonhost_Name>INSTITUT PASTEUR</Nonhost_Name><Nonhost_Country>FRANCE</Nonhost_Country></Person><Person Person_ID="548482"><Last_Name>SMOOT</Last_Name><First_Name>MIKE</First_Name><Full_Name>SMOOT, MIKE</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548483"><Last_Name>MORRIS</Last_Name><First_Name>JOHN</First_Name><Middle_Name>&quot;SCOOTER&quot;</Middle_Name><Full_Name>MORRIS, JOHN &quot;SCOOTER&quot;</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>FERRIN LAB</Department><Nonhost_Name>UCSF</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548485"><Last_Name>HANSPERS</Last_Name><First_Name>KRISTINA</First_Name><Full_Name>HANSPERS, KRISTINA</Full_Name><Academic_Degree>ME</Academic_Degree>
+<Department>GICD</Department><Nonhost_Name>GLADSTONE INSTITUTES</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548486"><Last_Name>ONO</Last_Name><First_Name>KEIICHIRO</First_Name><Full_Name>ONO, KEIICHIRO</Full_Name><Academic_Degree>MS</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548487"><Last_Name>TRUEBLOOD</Last_Name><First_Name>FELICITA</First_Name><Full_Name>TRUEBLOOD, FELICITA</Full_Name><Department>MEDICINE</Department></Person><Person Person_ID="548488"><Last_Name>RUGHEIMER</Last_Name><First_Name>FRANK</First_Name><Full_Name>RUGHEIMER, FRANK</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>SYSTEMS BIOLOGY</Department><Nonhost_Name>INSTITUT PASTEUR</Nonhost_Name><Nonhost_Country>FRANCE</Nonhost_Country></Person><Person Person_ID="548489"><Last_Name>CERAMI</Last_Name><First_Name>ETHAN</First_Name><Full_Name>CERAMI, ETHAN</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>COMPUTATION BIOLOGY CENTER</Department><Nonhost_Name>MEMORIAL SLOAN-KETTERING CANCER CENTER</Nonhost_Name><Nonhost_State>NY</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548490"><Last_Name>BEMIS</Last_Name><First_Name>DEBRA</First_Name><Full_Name>BEMIS, DEBRA</Full_Name><Department>COMPUTATION BIOLOGY CENTER</Department><Nonhost_Name>MEMORIAL SLOAN-KETTERING CANCER CENTER</Nonhost_Name><Nonhost_State>NY</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548491"><Last_Name>HIGGINS</Last_Name><First_Name>MATTHEW</First_Name><Full_Name>HIGGINS, MATTHEW</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>GICD</Department><Nonhost_Name>GLADSTONE INSTITUTES</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548492"><Last_Name>LADANYI</Last_Name><First_Name>MARC</First_Name><Full_Name>LADANYI, MARC</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>COMPUTATION BIOLOGY CENTER</Department><Nonhost_Name>MEMORIAL SLOAN-KETTERING CANCER CENTER</Nonhost_Name><Nonhost_State>NY</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Federal_PHS_Funding>
+  <Organization>NIH</Organization>
+  <Sub_ID>305089</Sub_ID>
+  <Grant_Or_Contract_Number>3U24CA126543-03S1</Grant_Or_Contract_Number>
+  <Total_Support_Funds>532000</Total_Support_Funds>
+</Federal_PHS_Funding>
+</Person><Person Person_ID="548493"><Last_Name>KIPPS</Last_Name><First_Name>THOMAS</First_Name><Full_Name>KIPPS, THOMAS</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305090</Sub_ID>
+<Grant_Or_Contract_Number>3P01CA081534-11S1</Grant_Or_Contract_Number><Total_Support_Funds>116714</Total_Support_Funds></Federal_PHS_Funding><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305090</Sub_ID>
+<Grant_Or_Contract_Number>5P01CA081534-11</Grant_Or_Contract_Number><Total_Support_Funds>4044476</Total_Support_Funds></Federal_PHS_Funding></Person><Person Person_ID="548494"><Last_Name>CHRISTAKIS</Last_Name><First_Name>NICHOLAS</First_Name><Full_Name>CHRISTAKIS, NICHOLAS</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department><Nonhost_Name>HARVARD MEDICAL SCHOOL</Nonhost_Name><Nonhost_State>MA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Federal_PHS_Funding>
+  <Organization>NIH</Organization>
+  <Sub_ID>305091</Sub_ID>
+  <Sub_ID>305096</Sub_ID>
+  <Grant_Or_Contract_Number>5P01AG031093-04</Grant_Or_Contract_Number>
+  <Total_Support_Funds>2040560</Total_Support_Funds>
+</Federal_PHS_Funding>
+</Person><Person Person_ID="548495"><Last_Name>MERCOLA</Last_Name><First_Name>MARK</First_Name><Full_Name>MERCOLA, MARK</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MUSCLE DEV AND REGEN...</Department><Nonhost_Name>SANFORD|BURNHAM</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Federal_PHS_Funding>
+  <Organization>NIH</Organization>
+  <Sub_ID>305092</Sub_ID>
+  <Grant_Or_Contract_Number>5R37HL059502-14</Grant_Or_Contract_Number>
+  <Total_Support_Funds>286500</Total_Support_Funds>
+</Federal_PHS_Funding>
+</Person><Person Person_ID="548496"><Last_Name>ANDREWS</Last_Name><First_Name>BRENDA</First_Name><Full_Name>ANDREWS, BRENDA</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="548497"><Last_Name>BOONE</Last_Name><First_Name>CHARLES</First_Name><Full_Name>BOONE, CHARLES</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="548498"><Last_Name>SANSONETTI</Last_Name><First_Name>PHILIPPE</First_Name><Full_Name>SANSONETTI, PHILIPPE</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>INSTITUT PASTEUR</Nonhost_Name><Nonhost_Country>FRANCE</Nonhost_Country></Person><Person Person_ID="548499"><Last_Name>WRENSCH</Last_Name><First_Name>MARGARET</First_Name><Full_Name>WRENSCH, MARGARET</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>EPIDEMIOLOGY AND BIOSTATS</Department><Nonhost_Name>UCSF</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305097</Sub_ID>
+<Grant_Or_Contract_Number>3R01CA052689-19S1</Grant_Or_Contract_Number><Total_Support_Funds>496140</Total_Support_Funds></Federal_PHS_Funding><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305097</Sub_ID>
+<Grant_Or_Contract_Number>5R01CA052689-20</Grant_Or_Contract_Number><Total_Support_Funds>907868</Total_Support_Funds></Federal_PHS_Funding></Person><Person Person_ID="548500"><Last_Name>SAWYERS</Last_Name><First_Name>CHARLES</First_Name><Full_Name>SAWYERS, CHARLES</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>MEMORIAL SLOAN-KETTERING CANCER CENTER</Nonhost_Name><Nonhost_State>NY</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548501"><Last_Name>ADLER</Last_Name><First_Name>ANNETTE</First_Name><Full_Name>ADLER, ANNETTE</Full_Name><Department>LIFE SCIENCES</Department><Nonhost_Name>AGILENT TECHNOLOGIES</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Non_Federal_Funding>
+  <Source_Type>IND</Source_Type>
+  <Sub_ID>305098</Sub_ID>
+  <Organization_Name>AGILENT TECHNOLOGIES</Organization_Name>
+  <Grant_Or_Contract_Number>None Provided</Grant_Or_Contract_Number>
+</Non_Federal_Funding>
+</Person><Person Person_ID="548502"><Last_Name>EMILI</Last_Name><First_Name>ANDREW</First_Name><Full_Name>EMILI, ANDREW</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="548503"><Last_Name>NOIROT</Last_Name><First_Name>PHILIPPE</First_Name><Full_Name>NOIROT, PHILIPPE</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>INRA</Nonhost_Name><Nonhost_Country>FRANCE</Nonhost_Country></Person><Person Person_ID="548504"><Last_Name>SAVAS</Last_Name><First_Name>JEFFREY</First_Name><Full_Name>SAVAS, JEFFREY</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>SCRIPPS</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548505"><Last_Name>NOVARINO</Last_Name><First_Name>GAIA</First_Name><Full_Name>NOVARINO, GAIA</Full_Name><Academic_Degree>PHD</Academic_Degree>
+</Person><Person Person_ID="548506"><Last_Name>GUMA</Last_Name><First_Name>MONICA</First_Name><Full_Name>GUMA, MONICA</Full_Name><Academic_Degree>PHD</Academic_Degree>
+</Person><Person Person_ID="548507"><Last_Name>YUMOTO</Last_Name><First_Name>FUMIAKI</First_Name><Full_Name>YUMOTO, FUMIAKI</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>UCSF</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548508"><Last_Name>SHARMA</Last_Name><First_Name>KUMAR</First_Name><Full_Name>SHARMA, KUMAR</Full_Name><Academic_Degree>MD</Academic_Degree>
+<Department>TRANSLATIONAL RESEARCH IN KIDN</Department></Person><Person Person_ID="548509"><Last_Name>JONES</Last_Name><First_Name>LEANNE</First_Name><Full_Name>JONES, LEANNE</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>GENETICS</Department><Nonhost_Name>SALK INSTITUTE</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Non_Federal_Funding>
+  <Source_Type>PVAS</Source_Type>
+  <Sub_ID>305110</Sub_ID>
+  <Organization_Name>AMERICAN CANCER SOCIETY</Organization_Name>
+  <Grant_Or_Contract_Number>None Provided</Grant_Or_Contract_Number>
+</Non_Federal_Funding>
+</Person><Person Person_ID="548510"><Last_Name>HOFREE</Last_Name><First_Name>MATAN</First_Name><Full_Name>HOFREE, MATAN</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548511"><Last_Name>HANNUM</Last_Name><First_Name>GREG</First_Name><Full_Name>HANNUM, GREG</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548512"><Last_Name>SRIVAS</Last_Name><First_Name>ROHITH</First_Name><Full_Name>SRIVAS, ROHITH</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548513"><Last_Name>CHUANG</Last_Name><First_Name>HAN-YU</First_Name><Full_Name>CHUANG, HAN-YU</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548514"><Last_Name>DUTKOWSKI</Last_Name><First_Name>JANUSZ</First_Name><Full_Name>DUTKOWSKI, JANUSZ</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548515"><Last_Name>BANDYOPADYAY</Last_Name><First_Name>SOURAV</First_Name><Full_Name>BANDYOPADYAY, SOURAV</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548516"><Last_Name>LEE</Last_Name><First_Name>KIYOUNG</First_Name><Full_Name>LEE, KIYOUNG</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548517"><Last_Name>EMIG</Last_Name><First_Name>DOROTHEA</First_Name><Full_Name>EMIG, DOROTHEA</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MEDICINE</Department></Person><Person Person_ID="548518"><Last_Name>GILSON</Last_Name><First_Name>MICHAEL</First_Name><Full_Name>GILSON, MICHAEL</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Federal_PHS_Funding>
+  <Organization>NIH</Organization>
+  <Sub_ID>305111</Sub_ID>
+  <Grant_Or_Contract_Number>5R01GM070064-07</Grant_Or_Contract_Number>
+  <Total_Support_Funds>468007</Total_Support_Funds>
+</Federal_PHS_Funding>
+</Person><Person Person_ID="548519"><Last_Name>DUVVURI</Last_Name><First_Name>VIKAS</First_Name><Full_Name>DUVVURI, VIKAS</Full_Name><Academic_Degree>PHD</Academic_Degree>
+</Person><Person Person_ID="548520"><Last_Name>ZHANG</Last_Name><First_Name>KANG</First_Name><Full_Name>ZHANG, KANG</Full_Name><Academic_Degree>PHD</Academic_Degree>
+</Person><Person Person_ID="548521"><Last_Name>WHITE</Last_Name><First_Name>MICHAEL</First_Name><Full_Name>WHITE, MICHAEL</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>UT SOUTHWESTERN</Nonhost_Name><Nonhost_State>TX</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="548522"><Last_Name>MURRE</Last_Name><First_Name>KEES</First_Name><Full_Name>MURRE, KEES</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Federal_Non_PHS_Funding>
+  <Organization>NSF</Organization>
+  <Sub_ID>305426</Sub_ID>
+  <Grant_Or_Contract_Number>IIS-0803937</Grant_Or_Contract_Number>
+</Federal_Non_PHS_Funding>
+</Person><Person Person_ID="548523"><Last_Name>VAN ATTIKUM</Last_Name><First_Name>HAICO</First_Name><Full_Name>VAN ATTIKUM, HAICO</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>LEIDEN UNIVERSITY MEDICAL CENTER</Nonhost_Name><Nonhost_Country>THE NETHERLANDS</Nonhost_Country></Person><Person Person_ID="548524"><Last_Name>GLEESON</Last_Name><First_Name>JOSEPH</First_Name><Full_Name>GLEESON, JOSEPH</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305116</Sub_ID>
+<Grant_Or_Contract_Number>5R01NS048453-07</Grant_Or_Contract_Number><Total_Support_Funds>399080</Total_Support_Funds></Federal_PHS_Funding><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305116</Sub_ID>
+<Grant_Or_Contract_Number>2R01NS052455-05</Grant_Or_Contract_Number><Total_Support_Funds>331617</Total_Support_Funds></Federal_PHS_Funding></Person><Person Person_ID="548525"><Last_Name>GRAMOLINI</Last_Name><First_Name>ANTHONY</First_Name><Full_Name>GRAMOLINI, ANTHONY</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country><Non_Federal_Funding>
+  <Source_Type>FDN</Source_Type>
+  <Sub_ID>305414</Sub_ID>
+  <Organization_Name>HEART AND STROKE FOUNDATION OF ONTARIO</Organization_Name>
+  <Grant_Or_Contract_Number>None Provided</Grant_Or_Contract_Number>
+</Non_Federal_Funding>
+</Person><Person Person_ID="548526"><Last_Name>DANSKA</Last_Name><First_Name>JAYNE</First_Name><Full_Name>DANSKA, JAYNE</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country><Non_Federal_Funding>
+  <Source_Type>FDN</Source_Type>
+  <Sub_ID>305415</Sub_ID>
+  <Organization_Name>ONTARIO INSTITUTE FOR CANCER RESEARCH</Organization_Name>
+  <Grant_Or_Contract_Number>None Provided</Grant_Or_Contract_Number>
+</Non_Federal_Funding>
+</Person><Person Person_ID="548527"><Last_Name>TAYLOR</Last_Name><First_Name>MICHAEL</First_Name><Full_Name>TAYLOR, MICHAEL</Full_Name><Academic_Degree>MD</Academic_Degree><Academic_Degree>PHD</Academic_Degree><Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country><Non_Federal_Funding>
+  <Source_Type>FDN</Source_Type>
+  <Sub_ID>305416</Sub_ID>
+  <Organization_Name>GENOME CANADA</Organization_Name>
+  <Grant_Or_Contract_Number>None Provided</Grant_Or_Contract_Number>
+</Non_Federal_Funding>
+</Person><Person Person_ID="548528"><Last_Name>SCHERER</Last_Name><First_Name>STEVE</First_Name><Full_Name>SCHERER, STEVE</Full_Name><Academic_Degree>FRCS</Academic_Degree><Academic_Degree>PHD</Academic_Degree><Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="548529"><Last_Name>GAIEVER</Last_Name><First_Name>GURI</First_Name><Full_Name>GAIEVER, GURI</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country><Federal_PHS_Funding>
+  <Organization>NIH</Organization>
+  <Sub_ID>305418</Sub_ID>
+  <Grant_Or_Contract_Number>5R01HG003317-7</Grant_Or_Contract_Number>
+  <Total_Support_Funds>1015482</Total_Support_Funds>
+</Federal_PHS_Funding>
+</Person><Person Person_ID="548530"><Last_Name>COWEN</Last_Name><First_Name>LEAH</First_Name><Full_Name>COWEN, LEAH</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>MOLECULAR GENETICS</Department><Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="548531"><Last_Name>SIMINOVITCH</Last_Name><First_Name>KATHERINE</First_Name><Full_Name>SIMINOVITCH, KATHERINE</Full_Name><Academic_Degree>MD</Academic_Degree><Academic_Degree>PHD</Academic_Degree><Department>MOLECULAR GENETICS</Department><Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="548532"><Last_Name>ZANDSTRA</Last_Name><First_Name>PEER</First_Name><Full_Name>ZANDSTRA, PEER</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="548533"><Last_Name>MORRIS</Last_Name><First_Name>QUAID</First_Name><Full_Name>MORRIS, QUAID</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country><Non_Federal_Funding>
+  <Source_Type>FDN</Source_Type>
+  <Sub_ID>305422</Sub_ID>
+  <Organization_Name>GENOME CANADA</Organization_Name>
+  <Grant_Or_Contract_Number>None Provided</Grant_Or_Contract_Number>
+</Non_Federal_Funding>
+</Person><Person Person_ID="548534"><Last_Name>WODAK</Last_Name><First_Name>SHOSHANA</First_Name><Full_Name>WODAK, SHOSHANA</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country><Non_Federal_Funding>
+  <Source_Type>FDN</Source_Type>
+  <Sub_ID>305423</Sub_ID>
+  <Organization_Name>GENOME CANADA</Organization_Name>
+  <Grant_Or_Contract_Number>None Provided</Grant_Or_Contract_Number>
+</Non_Federal_Funding>
+</Person><Person Person_ID="548535"><Last_Name>TILL</Last_Name><First_Name>ANDREAS</First_Name><Full_Name>TILL, ANDREAS</Full_Name><Department>MOLECULAR BIOLOGY</Department></Person><Person Person_ID="548536"><Last_Name>NAKANO</Last_Name><First_Name>KAZUHISA</First_Name><Full_Name>NAKANO, KAZUHISA</Full_Name><Academic_Degree>MD</Academic_Degree><Academic_Degree>PHD</Academic_Degree><Department>RHEUMATOLOGY, ALLERGY AND IMMU</Department></Person><Person Person_ID="553992"><Last_Name>NORMAN</Last_Name><First_Name>MICHAEL</First_Name><Middle_Name>L</Middle_Name><Full_Name>NORMAN, MICHAEL L</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>SDSC</Department></Person><Person Person_ID="554088"><Last_Name>KARIN</Last_Name><First_Name>MICHAEL</First_Name><Full_Name>KARIN, MICHAEL</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>DEPT OF PHARMACOLOGY</Department><Federal_PHS_Funding>
+  <Organization>NIH</Organization>
+  <Sub_ID>305107</Sub_ID>
+  <Grant_Or_Contract_Number>5R01AI043477-14</Grant_Or_Contract_Number>
+  <Total_Support_Funds>437763</Total_Support_Funds>
+</Federal_PHS_Funding>
+</Person><Person Person_ID="554089"><Last_Name>FLETTERICK</Last_Name><First_Name>ROBERT</First_Name><Middle_Name>J</Middle_Name><Full_Name>FLETTERICK, ROBERT J</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>UCSF</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Federal_PHS_Funding>
+  <Organization>NIH</Organization>
+  <Sub_ID>305108</Sub_ID>
+  <Grant_Or_Contract_Number>1U01GM094614-01</Grant_Or_Contract_Number>
+  <Total_Support_Funds>1207013</Total_Support_Funds>
+</Federal_PHS_Funding>
+</Person><Person Person_ID="554090"><Last_Name>SUBRAMANI</Last_Name><First_Name>SURESH</First_Name><Full_Name>SUBRAMANI, SURESH</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>DIVISION OF BIOLOGICAL SCIENCE</Department><Federal_PHS_Funding>
+  <Organization>NIH</Organization>
+  <Sub_ID>305105</Sub_ID>
+  <Grant_Or_Contract_Number>5R37DK041737-21</Grant_Or_Contract_Number>
+  <Total_Support_Funds>593146</Total_Support_Funds>
+</Federal_PHS_Funding>
+</Person><Person Person_ID="554091"><Last_Name>FERRIN</Last_Name><First_Name>THOMAS</First_Name><Full_Name>FERRIN, THOMAS</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>RBVI</Department><Nonhost_Name>UCSF</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305112</Sub_ID>
+<Grant_Or_Contract_Number>5P41RR001081-33</Grant_Or_Contract_Number><Total_Support_Funds>1156110</Total_Support_Funds></Federal_PHS_Funding><Federal_PHS_Funding><Organization>NIH</Organization><Sub_ID>305112</Sub_ID>
+<Grant_Or_Contract_Number>3P41RR001081-32S1</Grant_Or_Contract_Number><Total_Support_Funds>986388</Total_Support_Funds></Federal_PHS_Funding></Person><Person Person_ID="554092"><Last_Name>FARESE</Last_Name><First_Name>ROBERT</First_Name><Full_Name>FARESE, ROBERT</Full_Name><Academic_Degree>MD</Academic_Degree>
+<Department>GICD</Department><Nonhost_Name>GLADSTONE INSTITUTES</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Non_Federal_Funding>
+  <Source_Type>FDN</Source_Type>
+  <Sub_ID>305102</Sub_ID>
+  <Organization_Name>CONSORTIUM FOR FRONTAL TEMPORAL DEMENTIA</Organization_Name>
+  <Grant_Or_Contract_Number>None Provided</Grant_Or_Contract_Number>
+</Non_Federal_Funding>
+</Person><Person Person_ID="554093"><Last_Name>MERICO</Last_Name><First_Name>DANIELE</First_Name><Full_Name>MERICO, DANIELE</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>CCBR</Department><Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="554094"><Last_Name>ISSERLIN</Last_Name><First_Name>RUTH</First_Name><Full_Name>ISSERLIN, RUTH</Full_Name><Academic_Degree>MSC</Academic_Degree>
+<Department>CCBR</Department><Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="554095"><Last_Name>WALLACE</Last_Name><First_Name>IAIN</First_Name><Full_Name>WALLACE, IAIN</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>CCBR</Department><Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="554096"><Last_Name>MICHAUT</Last_Name><First_Name>MAGALI</First_Name><Full_Name>MICHAUT, MAGALI</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>CCBR</Department><Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="554097"><Last_Name>GUIDOS</Last_Name><First_Name>CYNTHIA</First_Name><Full_Name>GUIDOS, CYNTHIA</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>DEPT OF IMMUNOLOGY</Department><Nonhost_Name>U TORONTO</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="554098"><Last_Name>JURISICA</Last_Name><First_Name>IGOR</First_Name><Full_Name>JURISICA, IGOR</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>ONTARIO CANCER INSTITUTE</Department><Nonhost_Name>UNIVERSITY HEALTH NETWORK</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country><Non_Federal_Funding>
+  <Source_Type>FDN</Source_Type>
+  <Sub_ID>305424</Sub_ID>
+  <Organization_Name>ONTARIO MINISTRY OF RESEARCH AND INNOVATION</Organization_Name>
+  <Grant_Or_Contract_Number>None Provided</Grant_Or_Contract_Number>
+</Non_Federal_Funding>
+</Person><Person Person_ID="554099"><Last_Name>STEIN</Last_Name><First_Name>LINCOLN</First_Name><Full_Name>STEIN, LINCOLN</Full_Name><Academic_Degree>MD</Academic_Degree><Academic_Degree>PHD</Academic_Degree><Nonhost_Name>ONTARIO INSTITUTE FOR CANCER RESEARCH</Nonhost_Name><Nonhost_Country>CANADA</Nonhost_Country></Person><Person Person_ID="554100"><Last_Name>SAITO</Last_Name><First_Name>RINTARO</First_Name><Full_Name>SAITO, RINTARO</Full_Name><Academic_Degree>PHD</Academic_Degree>
+</Person><Person Person_ID="554310"><Last_Name>MAERE</Last_Name><First_Name>STEVEN</First_Name><Full_Name>MAERE, STEVEN</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>VIB AND DEPARTMENT OF PLANT BI</Department><Nonhost_Name>GHENT UNIVERSITY</Nonhost_Name><Nonhost_Country>BELGIUM</Nonhost_Country></Person><Person Person_ID="554311"><Last_Name>KAMBUROV</Last_Name><First_Name>ATANAS</First_Name><Full_Name>KAMBUROV, ATANAS</Full_Name><Academic_Degree>MSC</Academic_Degree>
+<Department>DEPARTMENT OF VERTEBRATE GENOM</Department><Nonhost_Name>MAX PLANCK INSTITUTE FOR MOLECULAR GENETICS</Nonhost_Name><Nonhost_Country>GERMANY</Nonhost_Country></Person><Person Person_ID="554312"><Last_Name>PENTCHEV</Last_Name><First_Name>KONSTANTIN</First_Name><Full_Name>PENTCHEV, KONSTANTIN</Full_Name><Academic_Degree>MSC</Academic_Degree>
+<Department>DEPARTMENT OF VERTEBRATE GENOM</Department><Nonhost_Name>MAX PLANCK INSTITUTE FOR MOLECULAR GENETICS</Nonhost_Name><Nonhost_Country>GERMANY</Nonhost_Country></Person><Person Person_ID="554313"><Last_Name>CHANDA</Last_Name><First_Name>SUMIT</First_Name><Middle_Name>K</Middle_Name><Full_Name>CHANDA, SUMIT K</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Nonhost_Name>BURNHAM INSTITUTE FOR MEDICAL RESEARCH</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="554314"><Last_Name>BARBER</Last_Name><First_Name>DIANE</First_Name><Middle_Name>L</Middle_Name><Full_Name>BARBER, DIANE L</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>DEPT OF CELL AND TISSUE BIOLOG</Department><Nonhost_Name>UCSF</Nonhost_Name><Nonhost_State>CA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country></Person><Person Person_ID="557319"><Last_Name>HU</Last_Name><First_Name>ZHENJUN</First_Name><Full_Name>HU, ZHENJUN</Full_Name><Academic_Degree>PHD</Academic_Degree>
+<Department>BIOINFORMATICS PROGRAM</Department><Nonhost_Name>BOSTON UNIVERSITY</Nonhost_Name><Nonhost_State>MA</Nonhost_State><Nonhost_Country>USA</Nonhost_Country><Federal_PHS_Funding>
+  <Organization>NIH</Organization>
+  <Sub_ID>305994</Sub_ID>
+  <Grant_Or_Contract_Number>5R01RR022971-3 </Grant_Or_Contract_Number>
+  <Total_Support_Funds>437938</Total_Support_Funds>
+</Federal_PHS_Funding>
+</Person><Subproject Sub_ID="301378"><Subproject_ID>0001</Subproject_ID><Title>NATIONAL RESOURCE FOR NETWORK BIOLOGY (NRNB)</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Analysis of biological networks has exploded in recent years. A wide variety of technologies 
+have been introduced for mapping networks of gene and protein interactions, including 
+yeast-two-hybrid assays, affinity purification coupled to mass spectrometry, chromatin 
+immunoprecipitation measurements, synthetic-lethal and suppressor networks, 
+expression QTLs, and many others. These technologies have the potential to revolutionize 
+the study of human health, by enabling the construction of large pathway maps which 
+can pinpoint the molecular mechanisms underlying normal and disease states of biological 
+systems. However, the enormous variety and number of new molecular interaction 
+measurements necessitate new algorithms, conceptual frameworks, and software to 
+integrate, query, visualize, and interpret the resulting network data. The aim of the 
+National Resource for Network Biology (NRNB) is to provide a freely available, open-source 
+suite of software technology that broadly enables network-based visualization, analysis, 
+and biomedical discovery for NIH-funded researchers. Our overall objectives are to 
+assemble large-scale biological data into models of networks and pathways and to use 
+these networks to better understand how biological systems operate under normal 
+conditions ahd how they fail in disease. These goals will be carried out in four Technology 
+Research and Development projects: A. Network-based biomarkers for disease 
+classification; B. Recognizing trend motifs and dynamics in social networks; C. Network 
+visualization and representation; and D. Predictive modeling and network inference. The 
+centerpiece of our software development and support efforts will be Cytoscape, currently 
+one of the most functional and widely used network visualization and analysis tools. Now 
+in its sixth year of development, Cytoscape is co-developed by a multi-disciplinary team of 
+institutions known as the Cytoscape Consortium, who also comprise the host institutions 
+of our proposed resource.</Abstract><Type>S</Type><Progress></Progress><Investigator><Person_ID>453037</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548480</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548478</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548476</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548477</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548481</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>100</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305076"><Subproject_ID>0002</Subproject_ID><Title>NETWORK-GUIDED FORESTS (NGF) IDENTIFY NETWORK 
+MODULES AS [TRD A]
+BIOMARKERS</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Recent progress in high-throughput biological technologies such as yeast two-hybrid 
+enabled us to obtain huge amount of interaction data and it is becoming very important to 
+identify their functional network structures hidden in such data. In molecular networks, 
+such structures underlie signaling and metabolic pathways. Network structures may be 
+identified as connected subnetworks of interactions having particular properties, called 
+network modules, or as statistically enriched patterns of interaction called network motifs. 
+Network modules and motifs are proving to be of fundamental importance for 
+understanding the molecular basis of disease and for classifying disease states. Our 
+projects have been pursuing technological advances to better reveal network modular 
+structure or to apply modules to predict disease outcomes. In particular, we have been 
+developing technology to better enable network-based biomarkers based on the concept 
+that network modules are better predictors of cell state than are individual genes or 
+proteins. 
+Many biological and clinical outcomes are based not on single proteins, but on modules of 
+proteins embedded in protein networks. Given the importance of protein modules and 
+their outputs, a major activity within the field of Systems Biology has been to identify 
+such modules systematically through analysis of global data sets [1-5]. However, while a 
+number of methods have been proposed to identify coherently expressed or perturbed 
+modules, current methods do not provide the rich logical framework known to occur in 
+biological systems.
+
+References
+1.    Segal, E., et al., Module networks: identifying regulatory modules and their condition-
+specific regulators from gene expression data. Nat Genet, 2003. 34(2): p. 166-76.
+2.    Chuang, H.Y., et al., Network-based classification of breast cancer metastasis. Mol 
+Syst Biol, 2007. 3: p. 140.
+3.    Muller, F.J., et al., Regulatory networks define phenotypic classes of human stem cell 
+lines. Nature, 2008. 455(7211): p. 401-5.
+4.    Ravasi, T., et al., An atlas of combinatorial transcriptional regulation in mouse and 
+man. Cell, 2010. 140(5): p. 744-52.
+5.    Ulitsky, I., et al., DEGAS: de novo discovery of dysregulated pathways in human 
+diseases. PLoS One, 2010. 5(10): p. e13367.</Abstract><Type>T</Type><Progress>We developed a novel method called Network-Guided Forests (NGF) to learn the network 
+modules whose logic specifies key biological and clinical outcomes. NGF integrates key 
+ideas from Random Forests (RF) [6] with biological constraints induced by a protein-
+protein interaction network— the first use of protein networks in ensemble learning. The 
+NGF framework learns a set of decision trees (the “forest”) in which each tree maps to a 
+connected component of the protein-protein interaction network (Fig. 1). The decision 
+tree specifies a function that determines the output of the network component based on 
+the activity of its genes. In turn, the collection of all tree outputs is used to predict the cell 
+type or disease state of the biological sample (the “class”).
+ 	By construction, decision trees detect genes that influence a phenotypic outcome 
+both individually and through multiway interactions with other genes. As in the standard 
+Random Forests algorithm, NGF uses a permutation-based procedure to assess the 
+importance of each gene on the classification accuracy of the forest. We also assess the 
+importance of pairs of genes in a tree — in our study these pairs are constrained by the 
+network neighborhood. Genes and gene pairs with significantly high importance scores are 
+placed into clusters that capture similar patterns of presence/absence across the forest of 
+decision trees. Each cluster aggregates genes that fall into the same network region and, 
+in combination, have predictive power over the sample class. Hence these clusters are 
+termed “consensus decision modules” (Fig. 1).
+ 	We applied NGF to explore the functions used in diverse biological programs related 
+to tissue differentiation (Fig. 1), breast cancer metastasis, or mesenchymal 
+transformation of brain tumors, identifying sets of network modules which capture known 
+causal mechanisms of development or disease. The modules implement diverse logic 
+functions using both coherent and opposing gene activities, in which the module output 
+depends on expression increases for some genes and concomitant decreases for others. 
+Notably, we found that in cancer progression the most predictive decision functions can be 
+linked to interactions between known oncogenes and tumor suppressors, such that the 
+combined activity of both types of genes determines the disease outcome. 
+ 
+[[Figure 1]]
+ 
+Figure 1. Network-guided search for modules underlying tissue origin. Expression profiles 
+of adult tissue samples classified by their developmental origin are combined with a 
+network of protein-protein interactions among human transcription factors. Multiple 
+decision trees are built to describe the differential activity of many possibly overlapping 
+network regions. Network regions are clustered and filtered to identify core modules of 
+genes and gene interactions that are important for correct tissue classification. Grey 
+interactions within modules indicate gene pairs most often used by the decision trees. 
+Gene pairs that are most important for classification (as indicated by the permutation 
+test) are shown in blue. Class-specific expression of an important interaction between 
+HOXC8-SMAD1 (a known regulatory heterodimer) is shown.
+
+References
+6.    Breiman, L., Random forests. Machine Learning, 2001. 45(1): p. 5-32.</Progress><Investigator>
+  <Person_ID>453037</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305077"><Subproject_ID>0003</Subproject_ID><Title>IDENTIFYING ALTERED NETWORKS IN CANCER [TRD A]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>We are developing tools to automatically identify altered disease networks and enable the 
+discovery of network-based biomarkers in cancer. Recently, we and others have shown 
+proof of principle that the use of network and pathway information can help us 
+understand the pronounced genetic heterogeneity seen in individual tumors of the same 
+cancer type [1], and that they can lead to more accurate and robust signatures for 
+classifying disease states [2-5]. To date, such methods have been explored in glioblastoma 
+multiforme [6,7], as well as pancreatic [8], lung [9], breast and colorectal cancer [1]. The 
+algorithmic research in this TRD will be tied to analyzing multiple cancer types derived 
+from The Cancer Genome Atlas (TCGA), prostate cancer genome data derived from the 
+MSKCC Prostate Cancer Genome Project (PCGP), and chronic lymphocytic leukemia (CLL), 
+our two primary DBPs. 
+
+References
+1.  Lin, J. et al. A multidimensional analysis of genes mutated in breast and colorectal 
+cancers. Genome Research 17, 1304-18 (2007).
+2.  Chuang, H.Y., Lee, E., Liu, Y.T., Lee, D. &amp; Ideker, T. Network-based classification of 
+breast cancer metastasis. Mol Syst Biol 3, 140 (2007).
+3.  Efroni, S., Schaefer, C.F. &amp; Buetow, K.H. Identification of key processes underlying 
+cancer phenotypes using biologic pathway analysis. PLoS ONE 2, e425 (2007).
+4.  Tuck, D.P., Kluger, H.M. &amp; Kluger, Y. Characterizing disease states from topological 
+properties of transcriptional regulatory networks. BMC Bioinformatics 7, 236 (2006).
+5. Ideker, T. &amp; Sharan, R. Protein networks in disease. Genome Research 18, 644-52 
+(2008).
+6.  TCGA. Comprehensive genomic characterization defines novel cancer genes and core 
+pathways in human glioblastomas 43 (2008).
+7.  Parsons, W.D. et al. An Integrated Genomic Analysis of Human Glioblastoma 
+Multiforme. Science, 13 (2008).
+8.  Jones, S. et al. Core Signaling Pathways in Human Pancreatic Cancers Revealed by 
+Global Genomic Analyses. Science (2008).
+9.  Ding, L. et al. Somatic mutations affect key pathways in lung adenocarcinoma. Nature 
+455, 1069-75 (2008).</Abstract><Type>T</Type><Progress>The goal of this project is to integrate multidimensional genomic profiling data, including 
+sequence mutations, DNA copy-number alterations, and mRNA expression profiles, in 
+order to identify altered sub-networks in cancer. We refer to these modules as “driver 
+networks”, as they are likely to contribute to tumorigenesis in multiple patients. With 
+NRNB funding, we have recently begun to explore the use of an optimization algorithm 
+borrowed from statistical physics to connect altered genes in cancer into minimal spanning 
+networks. Such networks can identify the set of interactions able to explain the pattern of 
+correlated alterations in cancer, i.e. the driver networks, from a human reference 
+interaction network. The algorithm we are using, which addresses the minimum Steiner 
+tree problem, attempts to find the shortest connection between altered genes in a specific 
+cancer type. This network may be constructed with direct connections between altered 
+genes and/or with connections between altered and unaltered genes within a human 
+reference interaction network.
+ 	In general, this problem is classified as an NP-complete problem, meaning that there 
+is no efficient way of finding a solution. Additionally, once a network approaches an order 
+of magnitude of 10 altered genes, the minimum Steiner tree can only be approximated. 
+In order to handle the large number of genes in the human reference network, we are 
+using an algorithmic framework based on a distributed method, called message passing. 
+This method has been shown to be successful in various applications, such as detecting 
+protein associations in cell signaling [10] and data clustering [11]. We are currently 
+evaluating the use of the Steiner tree algorithm by using a training dataset from 
+glioblastoma and exploring the range of improvement obtained by varying the interaction 
+weights between genes in the human reference network based on the mRNA expression 
+profiles (Figure 1). 
+
+[[Figure 1]]
+
+Figure 1. Application of the Steiner tree algorithm to glioblastoma mulitforme (GBM). Blue 
+nodes represent genes altered by somatic mutation or copy number alteration. Pink nodes 
+represent Steiner tree “linker” nodes that minimally connect altered nodes. Canonical 
+pathways, including PI3K, P53 and RB signaling are outlined.  
+
+References
+10. Bailly-Bechet M, Borgs C, Braunstein A, et al. Finding undetected protein associations 
+in cell signaling by belief propagation. Proc Natl Acad Sci U S A. 2011;108(2):882-887.
+11. M. Bailly-Bechet, S. Bradde, A. Braunstein, A. Flaxman, L. Foini, R. Zecchina. 
+Clustering with shallow trees. J Stat Mech. 2009;P12010.</Progress><Investigator><Person_ID>548477</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548489</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305078"><Subproject_ID>0004</Subproject_ID><Title>VISUALIZING CANCER GENOMIC DATA IN THE CONTEXT OF 
+BIOLOGICAL NETWORKS [TRD A]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>We are developing tools to automatically identify altered disease networks and enable the 
+discovery of network-based biomarkers in cancer. Recently, we and others have shown 
+proof of principle that the use of network and pathway information can help us 
+understand the pronounced genetic heterogeneity seen in individual tumors of the same 
+cancer type [1], and that they can lead to more accurate and robust signatures for 
+classifying disease states [2-5]. To date, such methods have been explored in glioblastoma 
+multiforme [6,7], as well as pancreatic [8], lung [9], breast and colorectal cancer [1]. The 
+algorithmic research in this TRD will be tied to analyzing multiple cancer types derived 
+from The Cancer Genome Atlas (TCGA), prostate cancer genome data derived from the 
+MSKCC Prostate Cancer Genome Project (PCGP), and chronic lymphocytic leukemia (CLL), 
+our two primary DBPs. This project focuses on visualizing cancer genomic data in the 
+context of specific pathways and networks.
+
+References
+1.  Lin, J. et al. A multidimensional analysis of genes mutated in breast and colorectal 
+cancers. Genome Research 17, 1304-18 (2007).
+2.  Chuang, H.Y., Lee, E., Liu, Y.T., Lee, D. &amp; Ideker, T. Network-based classification of 
+breast cancer metastasis. Mol Syst Biol 3, 140 (2007).
+3.  Efroni, S., Schaefer, C.F. &amp; Buetow, K.H. Identification of key processes underlying 
+cancer phenotypes using biologic pathway analysis. PLoS ONE 2, e425 (2007).
+4.  Tuck, D.P., Kluger, H.M. &amp; Kluger, Y. Characterizing disease states from topological 
+properties of transcriptional regulatory networks. BMC Bioinformatics 7, 236 (2006).
+5. Ideker, T. &amp; Sharan, R. Protein networks in disease. Genome Research 18, 644-52 
+(2008).
+6.  TCGA. Comprehensive genomic characterization defines novel cancer genes and core 
+pathways in human glioblastomas 43 (2008).
+7.  Parsons, W.D. et al. An Integrated Genomic Analysis of Human Glioblastoma 
+Multiforme. Science, 13 (2008).
+8.  Jones, S. et al. Core Signaling Pathways in Human Pancreatic Cancers Revealed by 
+Global Genomic Analyses. Science (2008).
+9.  Ding, L. et al. Somatic mutations affect key pathways in lung adenocarcinoma. Nature 
+455, 1069-75 (2008).</Abstract><Type>T</Type><Progress>We have developed an initial prototype using Cytoscape Web [1], which is capable of 
+displaying networks derived from Pathway Commons [2], and overlaying these networks 
+with genomic data derived from the TCGA project. The prototype displays a fully 
+interactive network of the genes analyzed, plus details regarding individual genomic 
+alterations (Figure 2). We are planning to transfer knowledge we have gained from this 
+prototype and apply it to our cBio Cancer Genomics Portal (http://cbioportal.org). The 
+portal currently enables users to visualize, analyze and download large-scale cancer 
+genomic data sets, but is currently lacking in network visualization. With Cytoscape Web, 
+users will soon be able to enter a set of genes, visualize those genes in a network context, 
+and dynamically overlay genomic data onto the networks of interest. This will provide a 
+critical exploratory data analysis module to the portal, enabling the wider research 
+community to more easily visualize genomic data in the context of biological pathways, 
+and to develop and confirm hypotheses regarding cancer development and progression. 
+
+[[Figure 2]]
+
+Figure 2. Prototype of cancer network visualization, built with Cytoscape Web [1]. Left 
+panel shows a global network view of genes altered by somatic mutation or copy number 
+alteration in serous ovarian cancer (TCGA). Node size is proportional to frequency of 
+alteration. Right panel shows a local view of the BRCA/RB subnetwork, with genomic 
+alterations displayed as a compact OncoPrint. Experience gained from this prototype will 
+be used to add a new network visualization component to our cBio Cancer Genomics 
+Portal (http://cbioportal.org).
+ 
+References
+1. Lopes CT, Franz M, Kazi F, Donaldson SL, Morris Q, Bader GD., Cytoscape Web: an 
+interactive web-based network browser. Bioinformatics. 2010 Sep 15;26(18):2347-8.
+2. Cerami EG, Gross BE, Demir E, et al., Pathway Commons, a web resource for biological 
+pathway data. Nucleic Acids Res. 2011;39(Database issue):D685-D690. PMID:21071392</Progress><Investigator><Person_ID>548477</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548489</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305079"><Subproject_ID>0005</Subproject_ID><Title>RECOGNIZING TREND MOTIFS AND DYNAMICS IN NETWORKS 
+[TRD B]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>It is well known that humans tend to associate with other humans who have similar 
+characteristics, but it is unclear whether this tendency has consequences for the distribution 
+of genotypes in a population. Although geneticists have shown that populations tend to 
+stratify genetically, this process results from geographic sorting or assortative mating, and it 
+is unknown whether genotypes may be correlated as a consequence of non-reproductive 
+associations or other processes.</Abstract><Type>T</Type><Progress>In this TRD project published in PNAS, we study six available genotypes from the National 
+Longitudinal Study of Adolescent Health to test for genetic similarity between friends [1]. 
+Maps of the friendship networks show clustering of genotypes, and, after we apply strict 
+controls for population stratification, the results show that one genotype is positively 
+correlated (homophily) and one genotype is negatively correlated (heterophily). A replication 
+study on an independent sample from the Framingham Heart Study verifies that DRD2 
+exhibits significant homophily and that CYP2A6 exhibits significant heterophily. These novel 
+results show that homophily and heterophily obtain on a genetic (indeed, an allelic) level, 
+which has implications for the study of population genetics and social behavior. In particular, 
+the results suggest that association tests should include friends&apos; genes and that theories of 
+evolution should take into account the fact that humans might, in some sense, be 
+&quot;metagenomic&quot; with respect to the humans around them. This work continues to build off 
+our original DBP for the “Role of Social Networks in the Spread of Disease,” led by Nicholas 
+Christakis.
+
+References
+1. Fowler JH, Settle JE, Christakis NA. Correlated genotypes in friendship networks. Proc Natl 
+Acad Sci U S A. 2011 Feb 1;108(5):1993-7. Epub 2011 Jan 18. PMID: 21245293, 
+PMC3033315</Progress><Investigator>
+  <Person_ID>548478</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Publication_ID>418384</Publication_ID><Publication_ID>419629</Publication_ID><Publication_ID>419632</Publication_ID><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305080"><Subproject_ID>0006</Subproject_ID><Title>GENERAL LAYOUT ALGORITHMS AND VIEWS FOR 
+HIERARCHICAL, MODULAR NETWORKS [TRD C]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Biologists frequently use networks to represent the structure and function of the cell, using 
+intuitive metaphors to reduce multiple levels of spatial and temporal relationships to a two-
+dimensional image. At the same time, computational representations of the cell are more 
+abstract and tend to be less intuitive for biologists than human-made diagrams. We are 
+working to improve the biological relevance of computational visualizations of biological 
+networks in Cytoscape, in collaboration with investigators leading driving biological projects 
+and collaborative service projects. Intuitive biological network visualizations may one day 
+replace printed biology textbooks as the primary resource for knowledge about cellular 
+processes.</Abstract><Type>T</Type><Progress>We developed the thematic map plugin for Cytoscape, based on an earlier prototype 
+presented in the grant application. This plugin ‘rolls-up’ node or edge attributes into their 
+own nodes i.e. it transforms an input network into an attribute network, where node 
+attributes are nodes and edges summarize all connections between nodes with the 
+corresponding attributes in the original network. This view can be used in a number of 
+biologically useful ways, including to summarize large protein-protein interaction networks 
+in a simpler way. We are currently testing this plugin and it will be released in 2011.
+
+[[Figure 1]] 
+
+In a similar spirit to the thematic map plugin, we developed the Enrichment Map plugin. 
+Gene-set enrichment analysis is a useful technique to help functionally characterize large 
+gene lists, such as the results of gene expression experiments. This technique finds 
+functionally coherent gene-sets, such as pathways, that are statistically over-represented 
+in a given gene list. Ideally, the number of resulting sets is smaller than the number of 
+genes in the list, thus simplifying interpretation. However, the increasing number and 
+redundancy of gene-sets used by many current enrichment analysis software works 
+against this ideal. To overcome gene-set redundancy and help in the interpretation of 
+large gene lists, we developed &quot;Enrichment Map&quot;, a network-based visualization method 
+for gene-set enrichment results. Gene-sets are organized in a network, where each set is 
+a node and edges represent gene overlap between sets. Automated network layout groups 
+related gene-sets into network clusters, enabling the user to quickly identify the major 
+enriched functional themes and more easily interpret the enrichment results. Enrichment 
+Map is a significant advance in the interpretation of enrichment analysis. Any research 
+project that generates a list of genes can take advantage of this visualization framework. 
+Enrichment Map is implemented as a freely available and user friendly plug-in for the 
+Cytoscape network visualization software (http://baderlab.org/Software/EnrichmentMap/) 
+[1].
+
+[[Figure 2]]
+
+Enrichment Map for estrogen-treated cells versus untreated cells
+ 
+References
+1. Merico D, Isserlin R, Stueker O, Emili A, Bader GD. Enrichment map: a network-based 
+method for gene-set enrichment visualization and interpretation. PLoS One. 2010 Nov 
+15;5(11):e13984. PMID: 21085593; PMCID: PMC2981572.</Progress><Investigator>
+  <Person_ID>548479</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Publication_ID>418396</Publication_ID><Publication_ID>418397</Publication_ID><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305081"><Subproject_ID>0007</Subproject_ID><Title>SEMANTIC ZOOMING AND INFORMATION LAYERING [TRD C]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Our goal in this project is to develop methods to help researchers explore and interpret large 
+networks and their associated genome-scale data sets. As the volume, resolution and 
+complexity of biological data continue to increase, so do the challenges associated with 
+visualizing, analyzing and interpreting the data. Methods that we develop will help network 
+visualization scale, while still remaining interactive to support live exploration and hypothesis 
+testing.</Abstract><Type>T</Type><Progress>We have developed an initial implementation of a new filtering API for Cytoscape 3, which 
+will enable us to develop the next-generation interactive filtering system for Cytoscape. 
+We have verified that using a BitSet implementation to handle filter set operations will be 
+able to support large networks of up to 10 million nodes and edges. We are currently 
+receiving feedback about the new API and will implement it fully in Cytoscape 3.1 [1]. 
+
+We are also making progress on this project by helping to visualize biological pathways, in 
+general. We have recently implemented BioPAX Level 3 support in Cytoscape (BioPAX 
+Level 3 reader, writer and visualizer) [2]. This enables import of biological pathway 
+information from various pathway databases, including Reactome [3], WikiPathways [4] 
+and Pathway Commons [5], which will support future pathway visualization efforts.
+We continue to closely collaborate with Charlie Boone and Brenda Andrews labs who lead 
+our DBP: Synthetic genetic analysis of budding yeast (see DBP progress reports below).
+
+References
+1. http://cytoscape.wodaklab.org/wiki/Outdated_Cytoscape_3.0/FilterAPI
+2. http://www.biopax.org/
+3. Matthews L, Gopinath G, Gillespie M, Caudy M, et al. Reactome knowledgebase of 
+biological pathways and processes. Nucleic Acids Res. 2008 Nov 3. PMID: 18981052
+4. Pico AR, Kelder T, van Iersel MP, Hanspers K, et al. (2008) WikiPathways: Pathway 
+Editing for the People. PLoS Biol 6(7): doi:10.1371/journal.pbio.0060184
+5. Cerami et al. Pathway Commons, a web resource for biological pathway data. Nucl. 
+Acids Res. (2010) doi: 10.1093/nar/gkq1039</Progress><Investigator>
+  <Person_ID>548479</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Publication_ID>418396</Publication_ID><Publication_ID>418397</Publication_ID><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305082"><Subproject_ID>0008</Subproject_ID><Title>NETWORK LAYOUT BY KNOWN ONTOLOGY ATTRIBUTES [TRD C]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>The process of organizing network or pathway data into a diagram that effectively 
+communicates information about biological systems and provokes thought requires 
+biological expertise and even a bit of artistry. These diagrams illustrate myriad interactions 
+between genes, proteins and small molecules, and also their spatial and temporal 
+arrangement. One of the most biologically intuitive ways to organize information about 
+cellular systems is to place it in the context of a familiar physical map of the cell, with the 
+nucleus surrounded by cytosol, organelles and a plasma membrane. Similarly, proteins 
+known to be part of the same pathway should be placed close together in a diagram. A 
+good source of information about a protein’s cellular location and biological process 
+involvement is the Gene Ontology (GO) project [1], a collaborative effort to standardize 
+nomenclature for biological concepts and link these to genes and proteins from many 
+genomes. The GO project has developed three structured controlled vocabularies 
+(ontologies) that describe gene products in terms of their associated biological processes, 
+cellular components and molecular functions in a species-independent manner. Gene 
+Ontology provides much broader coverage of genomes for this type of information than is 
+available from any other source, such as traditional pathway models stored in pathway 
+databases [2].
+
+References
+1. The_Gene_Ontology_Consortium. Gene ontology: tool for the unification of biology. 25, 
+25-29 (2000).
+2. Cary, M.P., Bader, G.D. &amp; Sander, C. Pathway information for systems biology. FEBS 
+Lett 579, 1815-20 (2005).</Abstract><Type>T</Type><Progress>We developed a network layout plugin for Cytoscape, which utilizes Gene Ontology (GO) 
+annotations to help organize nodes in a biologically relevant way. The first version of the 
+GOLayout plugin is currently being tested and will be released in 2011. GOLayout first 
+partitions a given network into subnetworks based on the biological process annotations, 
+such as cell differentiation or cell cycle, provided by a pruned set of Gene Ontology called 
+“GO slim” (Figure 1). Each subnetwork is laid out based on cellular component 
+annotations over a scalable template of typical cell diagram. Finally, each node is colored 
+based on a discrete mapping to molecular function annotation, such that all kinases, for 
+example, might be colored green. The result is a biologically informative layout. Key 
+aspects of the design and implementation of the plugin were done as part of an NRNB 
+collaboration and service project with Allan Kuchinsky from Agilent Technologies, led by 
+Annette Adler (Visualizing Biological Networks with a Biologist’s Eye).
+
+[[Figure 1]]
+
+Figure 1. The result of using GOLayout to partition a massive “hairball” network into a 
+series of biological processes, each laid out into cellular compartments and colored by 
+molecular function according to Gene Ontology annotations. 
+
+   	The next version of GOLayout will include user-driven heuristics for highlighting 
+biologically interesting paths within the layout, as well as better ontology handling, i.e., for 
+navigating nested terms. Key features planned for the next release include support for 
+importing/exporting/printing the layouts in multiple formats. This will allow for custom 
+layout templates, as well as unique visualization, analysis and sharing workflows.</Progress><Investigator><Person_ID>548480</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548476</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305083"><Subproject_ID>0009</Subproject_ID><Title>MAPPING AND VISUALIZING COMPLEX ATTRIBUTES [TRD C]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>An increasing number of experimental methods, such as SNP or exon microarrays, are 
+generating data a sub-gene levels and it is extremely useful to interpret this information 
+in the context of biological networks and pathways [1-4]. We are extended Cytoscape to 
+enable visualization of this data on sub-gene structures, similar to how Cytoscape already 
+allows visualization of gene expression data on nodes that represent genes or proteins. 
+Input to the system will be a data set of sub-gene or protein features, such as SNPs, 
+exons or protein domains, and their associated data (e.g. population frequency, expression 
+level or domain type). The parent node (gene) color would be based on the expression 
+values of the exon, or could be based on a gene expression experiment, to allow 
+comparison between exon expression and gene expression. 
+
+References
+1. Mourich, D.V. &amp; Iversen, P.L. Splicing in the immune system: potential targets for 
+therapeutic intervention by antisense-mediated alternative splicing. Curr Opin Mol Ther 
+11, 124-32 (2009).
+2. Venables, J.P. et al. Cancer-associated regulation of alternative splicing. Nat Struct Mol 
+Biol (2009).
+3. Chang, J.S. et al. Pathway analysis of single-nucleotide polymorphisms potentially 
+associated with glioblastoma multiforme susceptibility using random forests. Cancer 
+Epidemiol Biomarkers Prev 17, 1368-73 (2008).
+4. Hoffman, A.E. et al. Clock-cancer connection in non-Hodgkin&apos;s lymphoma: a genetic 
+association study and pathway analysis of the circadian gene cryptochrome 2. Cancer Res 
+69, 3605-13 (2009).</Abstract><Type>T</Type><Progress>We have made progress toward supporting the mapping of attributes across these various 
+levels of abstraction with our ongoing work on group/metanode/module concepts and 
+representations in Cytoscape. The initial benefits of this work are expressed in new 
+metanode features, supporting the mapping of member node attributes up to the parent 
+node using basic functions (ave, sum, min, max, median). Next, we will add weighted 
+average, threshold and modal functions. This mapping infrastructure for metanodes is 
+critical to all downstream visualization work with sub-gene and supra-gene level features 
+and entities.
+Proteins and genes in biological networks are associated with an increasing amount of 
+data from multiple experiments, such as gene expression from time-series or across 
+normal and disease states. Ideally, this multi-dimensional information would be visualized 
+in the context of networks, but this is not possible with the current version of Cytoscape. 
+We are extending the Cytoscape visual mapping system to support multiple node 
+attributes at the same time using new types of visual attributes. Our primary DBP 
+(Alternative splicing in embryonic stem cells, Mercola/Burnham Institute), for instance, 
+requires this ability to view time series gene expression experiments. 
+	Through a new collaboration and service project (Visualizing Multiple Attributes, 
+Morris/UCSF), we coordinated on the design and implementation of the new nodeCharts 
+plugin. This plugin provides an interface for drawing pie, line, bar charts, and histograms 
+onto nodes using either attribute data or arbitrary data values (Figure 1). 
+
+[[Figure 1]]
+
+Figure 1. The sample network galFiltered with nodes painted with a pie graph representing 
+the significance of the expression difference for each experimental condition as expressed 
+in the attributes &quot;gal1RGsig (red), gal4RGsig (yellow), and gal80Rsig (green)&quot;.
+
+	This work is just the beginning of our larger aim of supporting information layering 
+and complex attribute visualization. There are other visual styles to add to nodeCharts, 
+including radar, concentric, grid, etc. Furthermore, the current nodeCharts plugins 
+provides only programmatic support through CyCommands. We will implement control 
+panels that utilize this nodeCharts to present a user interface to support complex mapping 
+decisions. Finally, connecting the mapping work with the visualization work, it will be 
+important to consider the unique cases of visualizing aggregate information from sub-gene 
+features to network nodes or from network nodes to metanodes.</Progress><Investigator><Person_ID>548480</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548476</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>418393</Publication_ID>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305084"><Subproject_ID>0010</Subproject_ID><Title>THE CYNI MODULAR NETWORK INDUCTION FRAMEWORK [TRD 
+D]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>In spite of steady progress in the development of methods that automatically learn network 
+models from data, these methods have not yet found broader use in the biological literature. 
+The CYNI project aims to provide an easy-to-use interface for network inference algorithms 
+making data-driven analysis of biological problems, including clustering and classification 
+tasks, hypothesis generation from data and support for experiment design amenable to 
+users of the Cytoscape software platform. It provides method developers with supporting 
+functionality and technical infrastructure that makes it straightforward provide their 
+software to a wider community. For tool users, the unified interface permits easy access to 
+large number state-of-the-art methods allowing for the rapid adaptation of existing data-
+processing workflows to new biological problems or the integration of novel tools in direct 
+comparison with extant methods. We will use reference implementations of tools that 
+demonstrate the new interface to method developers, and provide examples of their use in 
+biological application projects.</Abstract><Type>T</Type><Progress>Although classification, clustering and network induction provide conceptually 
+homogeneous approaches that a have a wide range practical problems, a large number of 
+variations exist, for instance with respect to the choice of particular algorithms, the 
+distance/similarity measures and the standardization of input data. For optimal results, 
+these choices have to be made in compliance with desired properties of the results and are 
+thus application-dependent.
+ 	To retain the flexibility and extensibility required for a widely applicable framework, 
+CYNI follows a modular approach that allows functionality to be shared between tasks, and 
+allows tailoring application-specific workflows from predefined building blocks. Specifically, 
+the network induction consist of three stages:
+ 
+1. An edge assessment using an information-theoretic measure,
+2. A pathway aggregation step and
+3. A component for experiment selection.
+
+These stages can be supplemented by an optional pre-processing step. Moreover, the 
+pathway aggregation step can be configured to harmonize with various edge scoring 
+measures (the default setting being adapted to a general-purpose method that does not 
+put restrictions on the interpretation of the edge weights). 	We applied this design to 
+a network induction and experiment design methodology for de-novo identification of 
+pathways from large-scale data within the BaSysBio project, which aims at the elucidation 
+of regulatory networks in the gram-positive bacterium Bacillus subtilis. The approach links 
+an observed phenotype to an external perturbation, and is currently implemented as a 
+series of stand-alone programs. Output is generated in several formats, including the .sif 
+format read by Cytoscape.
+ 	Following the implementation of the Cyni-plugin interface, we are planning to 
+integrate the developed algorithms as reference plugin implementations for demonstrating 
+the network induction interface.</Progress><Investigator>
+  <Person_ID>548481</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305085"><Subproject_ID>0011</Subproject_ID><Title>TRAINING AND DOCUMENTATION</Title><AIDS_Flag>N</AIDS_Flag><Abstract>This subproject tracks our efforts toward Training (workshops, online tutorial system, built-in 
+walkthroughs, manuals, documentation).</Abstract><Type>D</Type><Progress>Workshops:
+For the reporting period, NRNB has organized 8 training events (in 7 cities in 4 countries), 
+with an additional 4 events already planned for 2011. These events include tutorials, 
+workshops and courses. For the same period, NRNB investigators and collaborators have 
+given 7 invited lectures. For 2011, several conferences are planned, including the annual 
+Cytoscape retreat, which will take place on May 18-21 in San Diego, CA.
+
+Open Tutorials:
+We have developed a unique tutorial management system that caters to developers (with 
+wiki tools for creating and updating content), presenters (with prepared slideshows and 
+handouts), and students (with up-to-date online content). Open Tutorials 
+(http://opentutorials.cgl.ucsf.edu) is now the primary source of tutorial material for the 
+Cytoscape project. We recently created a new Cytoscape tutorial for &quot;Basic Expression 
+Analysis&quot; that uses publicly available human experimental data. This tutorial, like the original 
+tutorial for yeast, represents one of the most common use cases of Cytoscape for biologists. 
+The site has received over 1,000 visitors in the past month, being used by individuals, 
+developers and presenters.  This scalable tutorial management solution will allow NRNB to 
+provide tutorial support services to a broad community.
+</Progress><Investigator><Person_ID>548476</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548485</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305086"><Subproject_ID>0012</Subproject_ID><Title>OUTREACH</Title><AIDS_Flag>N</AIDS_Flag><Abstract>This subproject tracks our efforts toward Outreach (website, events, gsoc, position papers, 
+PR, helpdesk, social media, AdWords).</Abstract><Type>D</Type><Progress>Annual Cytoscape Retreat:
+We are actively planning this year’s annual Cytoscape Retreat and Symposium, hosted by 
+the National Resource for Network Biology (NRNB) and the San Diego Center for Systems 
+Biology (SDCSB). In addition to developer meetings, the retreat will include user and new 
+developer tutorials, a Plugin Expo, and special symposium. The symposium will be 
+presented in conjunction with the SDCSB as the sixth annual Systems to Synthesis 
+Symposium on May 20th at the Salk Institute.  
+http://cytoscape.org/CytoscapeRetreat2011/
+
+Helpdesk:
+One of the ways we provide support for NRNB tools is through dedicated helpdesk and 
+discussion mailing lists. We have begun monitoring the activity of these lists for the 
+Cytoscape community as an ongoing metric for the effectiveness of our support. As a 
+starting baseline, this first year saw 723 messages and a response rate of ~61%. Some of 
+the topics are informational posts that don’t require response, so we don’t expect 100%. 
+However, we have identified an opportunity here for improvement. From an analysis of 
+our mailing list patterns, we have identified three approaches for improving response rates 
+and disseminating information to users:
+
+ * Monthly response rates will be collected to identify months with lower than average 
+response rates. A targeted strategy can then be employed to increase the response rate 
+during these months.
+ * The most common discussion topics and questions will be identified, in order to improve 
+the dissemination of critical information to users. In addition to FAQ topics, we will use 
+this information to create innovative context-specific solutions tailored to each question. 
+For example, users often ask about the syntax for increased memory allocation for 
+Cytoscape. This information could be communicated in an error message any time 
+Cytoscape experiences a memory-related failure, before the user even formulates the 
+question.
+ * We are automating the analysis of helpdesk activity so that weekly alerts can be sent 
+to NRNB staff whenever an email goes unanswered. This will allow us to maximize our 
+response rate and quickly address gaps in our collective attention.
+
+Social Media:
+We have also initiated a social media effort for Cytoscape through a number of difference 
+tools (http://www.cytoscape.org/community.html). For example, a Twitter account is used 
+for quick announcements (http://twitter.com/cytoscape) and YouTube is utilized for video 
+tutorials (http://www.youtube.com/results?search_query=cytoscape).
+
+Google AdWords:
+With our non-profit account, we are directly &gt;1,300 clicks a month to NRNB tools and 
+resources via Google AdWords. This is worth just over $1,000 a month, which we are 
+getting free-of-charge. Note: approx half of the traffic is for WikiPathways, which is not yet 
+officially a NRNB resource (TBD).  We have a spending limit of $329 per day through this 
+program, so we will continue to identify new ad words and relevant resources.
+
+Google Summer of Code:
+We were accepted as a mentoring organization in this year&apos;s GSoC program. Google 
+allocated 10 student “slots” to us, which have filled with qualified and enthusiastic 
+summer students. The students will write open source code for NRNB-related projects 
+during the summer. This is equivalent to $55,000 paid out as student and mentor 
+stipends.</Progress><Investigator><Person_ID>548476</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548485</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>419631</Publication_ID><Publication_ID>445439</Publication_ID><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305087"><Subproject_ID>0013</Subproject_ID><Title>DISSEMINATION AND ACCESS</Title><AIDS_Flag>N</AIDS_Flag><Abstract>This subproject tracks our efforts toward Dissemination and Access for both users and 
+developers (download traffic, code repos, Tools page, Cytoscape IDE, infrastructure,  other 
+targeted web features).</Abstract><Type>D</Type><Progress>Download traffic stats over reporting period:
+2010 09	3805
+2010 10	4319
+2010 11	4426
+2010 12	4309
+2011 01	4660
+2011 02	4610
+2011 03	6141
+
+Web traffic:
+We are averaging over 10,000 visits (60,000 page views) to the Cytoscape website per 
+month. An additional 3,000 visits per month are logged at the NRNB website. And our 
+tutorial management, Open Tutorials, site has received over 1,000 visitors in the past 
+month, being used by individuals, developers and presenters.
+
+Code repos and Infrastructure:
+New maven repositories have been set up in Wodak lab. New Redmine project 
+management system (wiki, bugs, repo, etc) is being set up by Bader lab. Cytoscape project 
+is on Ohloh.
+
+Websites:
+The NRNB site includes a dedicated Tools Page with links to download pages. The Tools 
+page is linked to through website.  The Cytoscape website includes links to Open Tutorials 
+and the NRNB website. The site also include targeted content on the front page to 
+uniquely engage the following interests: Biology, Social Science, Semantic Wed, General 
+Complex Network Analysis, Plugin Development.
+
+New programmer access:
+Kei developed a Cytoscape IDE to be used within Eclipse to help management Maven and 
+other technologies used in 3.0 development.</Progress><Investigator><Person_ID>548476</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548482</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548486</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305088"><Subproject_ID>0014</Subproject_ID><Title>ADMINISTRATION AND MANAGEMENT</Title><AIDS_Flag>N</AIDS_Flag><Abstract>This subproject tracks our efforts toward Administration and Management (tracking, 
+reporting, EAC agenda, coordinating other D&amp;Ts, resource roadmap, strategic planning)</Abstract><Type>D</Type><Progress>Alex and Kristina:
+- Established NRNB web site and content
+- Entered past 6 months of events, news, publications
+
+Alex:
+- Set up tracking infrastructure for projects, events, publications, collaborations, news and 
+staff
+- Established contact with each TRD project, and created report template
+- Organized GSoC org application and mentor coordination
+
+Kristina:
+- Started CiteULike profile for NRNB to collect all relevant articles
+
+Trey and Alex:
+- Clarified staff roles
+- Clarified services provided by NRNB
+- Coordinated first APR completion plan and executed
+- Coordinated first EAC meeting agenda
+- Identified new collaborations at Sage Congress 2011
+
+Trey and Cita:
+- Organized annual Cytoscape Retreat and Symposium
+
+
+
+
+
+
+
+
+
+
+</Progress><Investigator><Person_ID>548485</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548476</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548487</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305089"><Subproject_ID>0015</Subproject_ID><Title>THE CANCER GENOME ATLAS (TCGA) [DBP 1]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>The Cancer Genome Atlas (TCGA) Project is a multi-year NIH sponsored program aimed at 
+understanding the molecular basis of cancer.  Initially, the project will focus on three 
+cancer types: brain (glioblastoma multiforme), ovarian (serous cystadenocarcinoma), and 
+lung (squamous carcinoma).   Each cancer type studied will generate a complete list of 
+somatic mutations, copy number alterations, microRNA expression, mRNA expression, and 
+epigenetic DNA methylation profiles for each matched tumor-normal sample. Mutation 
+data for the second and third phases of the TCGA project will generate sequence data for 
+~6,200 genes in &gt;200 matched tumor-normal pairs in GBM and ovarian cancers.  All 
+samples include extensive clinical annotation, including patient age, gender, survival and 
+treatment.
+The TCGA Project is organized as a distributed research network across multiple research 
+institutions within the United States (Figure 24).  Since 2006, MSKCC, under the direction 
+of Marc Ladanyi (PI), has been a TCGA Cancer Genome Characterization Center (CGCC) for 
+copy number analysis of all TCGA samples.  Using Agilent arrays, MSKCC provides 
+characterization of chromosome segment gains and losses, and is also charged with 
+developing new approaches for detecting novel genetic rearrangements.  Since 2007, the 
+Computational Biology Center at MSKCC, under the direction of Chris Sander (PI) has also 
+been extensively involved in the pathway and network analysis of GBM and ovarian 
+cancers.  Sander’s group also currently chairs the Pathway Analysis subgroup for the TCGA 
+ovarian data analysis project.  
+In 2009, Ladanyi and Sander jointly applied to create a Center for Translational Cancer 
+Genomic Analysis at MSKCC (see next progress report)...  </Abstract><Type>C</Type><Progress>The MSKCC Center for Translational Cancer Genomic Analysis, a Genome Data Analysis 
+Center type B (GDAC-B), was funded to develop novel integrative analysis methods for 
+studying cancer genomic data, thereby enabling the translation of genomic insights into 
+new clinical applications. The planned novel translational genomics analyses are presented 
+in four specific aims organized around four themes: Subtype discovery. Pathway analysis, 
+Therapy nomination, and Software development. These methods will be critical to helping 
+the Cancer Genome Atlas (TCGA) project meet its stated objective of accelerating our 
+understanding of the molecular basis of cancer, and improving our ability to diagnose, 
+treat, and prevent cancer. The analysis work and method development will be closely 
+coordinated with the GDACs working group (GDAC-WG), software tools will be fully 
+integrated with the TCGA analytic pipelines and results of analyses will be made freely 
+available to the scientific community via TCGA internet portals, with well-established plans 
+for caBIG interoperability. The work of this GDAC-B will build on the flow of data from 
+Genome Characterization Centers and Genome Sequencing Centers, as integrated by the 
+GDAC-A data analysis centers. The applicant group of the MSKCC Center for Translational 
+Cancer Genomic Analysis has a strong track record in large scale collaborative cancer 
+genomics within the TCGA pilot phase and other consortia, and benefits from a 
+computational biology program that is uniquely embedded in a comprehensive cancer 
+center with a major focus on basic and translational research.
+
+Resulting publications:
+1. Rapaport Franck; Leslie Christina. Determining frequent patterns of copy number 
+alterations in cancer. PloS one 2010;5(8):e12028.
+2. Betel Doron; Koppal Anjali; Agius Phaedra; Sander Chris; Leslie Christina. 
+Comprehensive modeling of microRNA targets predicts functional non-conserved and non-
+canonical sites. Genome biology 2010;11(8):R90.</Progress><Investigator><Person_ID>548477</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548492</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Publication_ID>418394</Publication_ID><Publication_ID>418395</Publication_ID><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305090"><Subproject_ID>0016</Subproject_ID><Title>NETWORK-BASED ANALYSIS OF CHRONIC LYMPHOCYTIC 
+LEUKEMIA (CLL) [DBP 2]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Chronic Lymphocytic Leukemia (CLL) is a malignancy of immune B cells. Under ordinary 
+circumstances, these cells learn to recognize and help destroy foreign antigens as well as 
+self-antigens that are abnormally expressed, such as in uncontrolled cell growth during 
+cancer.  In CLL, however, malignant B cells are rendered unable to detect leukemia-
+associated antigens.  Instead, they accumulate in patients&apos; blood, marrow, and lymphoid 
+tissue.  Recently, the Kipps laboratory at the UCSD Moores Cancer Center has shown that 
+B cells transduced to express the cell surface receptor CD154 are very effective at 
+inducing anti-CLL cytotoxic T lymphocytes. Hence, viral transduction of Ad-CD154 is a 
+potential strategy for gene therapy for patients with this disease [1].
+
+After treatment with autologous Ad-CD154-transduced CLL cells, some patients are 
+observed with an acute fall in leukemia cell counts while others are not.  To evaluate the 
+mechanism(s) responsible for the acute fall in leukemia cell counts, this interdisciplinary 
+DBP will bridge technology for network-based biomarker discovery (TRD A, Ideker and 
+Sander) with clinical expertise in hematology/oncology at UCSD Moores Cancer Center 
+(Kipps).  The Kipps group has gathered mRNA expression profiles for B-cells extracted from 
+more than 200 patients with CLL, many of whom were seen by Kipps at UCSD.  This DBP 
+will perform a network analysis of the CLL profiles to unveil gene subnetworks that help 
+clear the accumulated B leukemia cells by CD154 transduction.  Moreover, this DBP will 
+perform a network-based classification to predict the responsiveness of a newly diagnosed 
+patient to this gene therapy.
+
+References
+1. Dicker, F., Kater, A.P., Fukuda, T. &amp; Kipps, T.J. Fas-ligand (CD178) and TRAIL 
+synergistically induce apoptosis of CD40-activated chronic lymphocytic leukemia B cells. 
+Blood 105, 3193-8 (2005).
+</Abstract><Type>C</Type><Progress></Progress><Investigator>
+  <Person_ID>548493</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305091"><Subproject_ID>0017</Subproject_ID><Title>ROLE OF SOCIAL NETWORKS IN THE SPREAD OF DISEASE [DBP 
+3]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>The understanding of collective behavior in social networks is of great importance for a 
+wide range of topics, spanning the development of disease intervention strategies to the 
+identification of terrorist threats. This project will study health behaviors and outcomes in 
+a high-quality, large social network generated from the Framingham Heart Study which 
+has surveyed more than 12,000 people over a time span of 32 years [1-3]. It will also 
+seek to integrate a variety of other network data, including the National Longitudinal 
+Study of Adolescent Health, which includes 90,000 adolescents [4]. We will apply the 
+methods for trend motif identification developed in TRD B to shed light on the co-evolution 
+of networks and behaviors and to resolve the question of whether or not cascades in 
+behavior occur in these networks. We will also aim to uncover novel intervention 
+mechanisms to efficiently alter outcomes in these networks. For example, which 
+individuals should be targeted for weight loss or smoking cessation?  
+
+References
+1. Christakis, N.A. &amp; Fowler, J.H. The spread of obesity in a large social network over 32 
+years. N Engl J Med 357, 370-9 (2007).
+2. Christakis, N.A. &amp; Fowler, J.H. The collective dynamics of smoking in a large social 
+network. N Engl J Med 358, 2249-58 (2008).
+3. Fowler, J.H. &amp; Christakis, N.A. Dynamic spread of happiness in a large social network: 
+Longitudinal analysis over 20 years in the Framingham Heart Study. British Medical 
+Journal 337(2008).
+4. Fowler JH, Dawes CT, Christakis NA. Model of genetic variation in human social
+networks. Proc Natl Acad Sci U S A. 2009 Feb 10;106(6):1720-4. Epub 2009 Jan 26. 
+PubMed PMID: 19171900; PubMed Central PMCID: PMC2644104.</Abstract><Type>C</Type><Progress>New publication:
+Fowler JH, Settle JE, Christakis NA. Correlated genotypes in friendship networks. Proc Natl 
+Acad Sci U S A. 2011 Feb 1;108(5):1993-7. Epub 2011 Jan 18. PMID: 21245293, 
+PMC3033315
+
+Abstract: 
+It is well known that humans tend to associate with other humans who have similar 
+characteristics, but it is unclear whether this tendency has consequences for the 
+distribution of genotypes in a population. Although geneticists have shown that 
+populations tend to stratify genetically, this process results from geographic sorting or 
+assortative mating, and it is unknown whether genotypes may be correlated as a 
+consequence of nonreproductive associations or other processes. Here, we study six 
+available genotypes from the National Longitudinal Study of Adolescent Health to test for 
+genetic similarity between friends. Maps of the friendship networks show clustering of 
+genotypes and, after we apply strict controls for population stratification, the results show 
+that one genotype is positively correlated (homophily) and one genotype is negatively 
+correlated (heterophily). A replication study in an independent sample from the 
+Framingham Heart Study verifies that DRD2 exhibits significant homophily and that 
+CYP2A6 exhibits significant heterophily. These unique results show that homophily and 
+heterophily obtain on a genetic (indeed, an allelic) level, which has implications for the 
+study of population genetics and social behavior. In particular, the results suggest that 
+association tests should include friends&apos; genes and that theories of evolution should take 
+into account the fact that humans might, in some sense, be metagenomic with respect to 
+the humans around them.</Progress><Investigator>
+  <Person_ID>548494</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Publication_ID>418384</Publication_ID><Publication_ID>419629</Publication_ID><Publication_ID>419634</Publication_ID><Publication_ID>419641</Publication_ID><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305092"><Subproject_ID>0018</Subproject_ID><Title>DYNAMIC NETWORK MODELS OF CARDIOMYOCYTE 
+DIFFERENTIATION [DBP 4]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Deciphering the genetic and cellular programs that lead to differentiation of embryonic 
+stem cells (ESCs) into cardiac precursor cells and the subsequent development into cardiac 
+cells has been the subject of intense research over the past decade. Efforts to regenerate 
+damaged heart using a variety of methods ranging from extraneous incorporation of ESCs 
+to introduction of specific proteins and small molecules have been unsuccessful even 
+though this has led to significant insights. Numerous signaling molecules and transcription 
+factors have been shown to participate directly or indirectly at various stages of 
+cardiomyogenesis.
+
+Despite this progress, it is still not possible to efficiently program ESCs to develop into 
+cardiomyocytes using known proteins. This is most likely because our knowledge of the 
+factors involved is incomplete. Another critical limitation is that we do not yet know how 
+to manipulate the known differentiation factors and signaling pathways, many of which 
+must be added or activated within particular time windows to be effective. Although we 
+have precise knowledge of many components of the possible signal transduction cascades 
+that are stimulated by heart-inducing factors, there is only sparse knowledge of how the 
+many signaling pathways are coordinately modulated by the finely tuned, combinatorial 
+action of these inducers during embryonic or ESC cardiogenesis. Furthermore, the 
+signaling components themselves have been worked out largely by manipulation of 
+cardiogenic cells with single proteins such that it is not certain that a putative cascade 
+actually operates as it has been described – instead it may be a more complex network. 
+While several transcriptional control elements in human ESCs have been identified, the 
+function of alternative isoforms in self-renewal, pluripotency, and tissue lineage 
+specification remains largely unknown. 
+
+Through NHLBI funding, the Mercola laboratory is developing contextually appropriate and 
+information-rich data sets that track the differentiation of ESCs during cardiomyogenesis. 
+Through collaboration between this DBP and RAVIN TRD C, we will analyze these data to 
+reconstruct models of the detailed signaling and regulatory networks involved in this 
+process. The experimental readouts from the Mercola laboratory provide a wealth of data 
+that needs to be assimilated and integrated into quantitative models in order to decipher 
+the detailed networks underlying cardiomyogenesis. This will form the first and main 
+biomedical application to be addressed through technology developed in TRD C.</Abstract><Type>C</Type><Progress>New publication:
+Salomonis N, Schlieve CR, Pereira L, Wahlquist C, Colas A, Zambon AC, Vranizan
+K, Spindler MJ, Pico AR, Cline MS, Clark TA, Williams A, Blume JE, Samal E,
+Mercola M, Merrill BJ, Conklin BR. Alternative splicing regulates mouse embryonic
+stem cell pluripotency and differentiation. Proc Natl Acad Sci U S A. 2010 Jun
+8;107(23):10514-9. Epub 2010 May 24. PMID: 20498046; PMCID:
+PMC2890851.
+
+Abstract:
+Two major goals of regenerative medicine are to reproducibly transform adult somatic cells 
+into a pluripotent state and to control their differentiation into specific cell fates. Progress 
+toward these goals would be greatly helped by obtaining a complete picture of the RNA 
+isoforms produced by these cells due to alternative splicing (AS) and alternative promoter 
+selection (APS). To investigate the roles of AS and APS, reciprocal exon-exon junctions 
+were interrogated on a genome-wide scale in differentiating mouse embryonic stem (ES) 
+cells with a prototype Affymetrix microarray. Using a recently released open-source 
+software package named AltAnalyze, we identified 144 genes for 170 putative isoform 
+variants, the majority (67%) of which were predicted to alter protein sequence and 
+domain composition. Verified alternative exons were largely associated with pathways of 
+Wnt signaling and cell-cycle control, and most were conserved between mouse and 
+human. To examine the functional impact of AS, we characterized isoforms for two genes. 
+As predicted by AltAnalyze, we found that alternative isoforms of the gene Serca2 were 
+targeted by distinct microRNAs (miRNA-200b, miRNA-214), suggesting a critical role for 
+AS in cardiac development. Analysis of the Wnt transcription factor Tcf3, using selective 
+knockdown of an ES cell-enriched and characterized isoform, revealed several distinct 
+targets for transcriptional repression (Stmn2, Ccnd2, Atf3, Klf4, Nodal, and Jun) as well as 
+distinct differentiation outcomes in ES cells. The findings herein illustrate a critical role for 
+AS in the specification of ES cells with differentiation, and highlight the utility of global 
+functional analyses of AS.</Progress><Investigator>
+  <Person_ID>548495</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Publication_ID>418393</Publication_ID><Publication_ID>419639</Publication_ID><Publication_ID>419652</Publication_ID><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305093"><Subproject_ID>0019</Subproject_ID><Title>SYNTHETIC GENETIC ANALYSIS OF BUDDING AND FISSION 
+YEAST [DBP 5]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Drs. Andrews and Boone are working to complete the first complete genetic interaction 
+network for a cell and to decipher the general principles that govern these networks. This 
+reference map provides a model for expanding genetic network analysis to higher organisms, 
+and it will stimulate valuable insights into gene function, drug target and mode-of-action 
+analysis. The resulting complete map of genetic interactions for budding yeast, with ~6000 
+genes, will contain 36 million quantitative interaction pairs (18 million unique pairs). The 
+current data set already represents over 6 million pairs uncovering over 170,000 high 
+confidence genetic interactions. To effectively organize and interpret this enormous network, 
+RAVIN personnel led by Drs. Bader and Conklin (TRD C) will develop new visualization 
+methods to explore the modularity of the genetic network, to show only the information 
+needed at a specific level of detail, and to create simplified views of the network, focusing on 
+specific systems of interest.</Abstract><Type>C</Type><Progress>The fundamental principle underlying this DBP is that we need to discover the rules 
+governing how genes interact with one another in order to be able to predict which rare 
+combinations of gene mutations cause human disease or other significant phenotypes.  
+Andrews and Boone aim to discover the general principles of genetic interaction by 
+mapping the first complete genetic interaction network for a eukaryotic cell and directly 
+testing the conservation of these principles.  They are taking a unique experimental 
+approach to define and dissect the rules of complex genetic networks. The strategy entails 
+the use of combinatorial genetic perturbations to systematically screen for genetic 
+interactions.  In particular, they have established key infrastructure that enables the 
+construction of all possible double gene deletion mutant combinations in genetically 
+tractable yeast model systems in an automated, high throughput manner. Genetic 
+interactions are subsequently scored by assessing extreme phenotypes that result from 
+the collapse of an essential cellular function.  This information is assembled into a network 
+that reflects the genetic landscape of a cell.
+The approach is paying off. During the reporting period NRNB investigator, Gary Bader, has 
+collaborated with Drs. Boone and Andrews on 3 new publications, extracting knowledge 
+about protein complexes [1], regions of protein disorder [2] and physiological fitness [3] 
+from comparisons of genetic interactions on a genome scale. Each of these published 
+projects utilized Cytoscape.
+
+References
+1. Michaut M, Baryshnikova A, Costanzo M, Myers CL, Andrews BJ, Boone C, Bader GD. 
+Protein complexes are central in the yeast genetic landscape. PLoS Comput Biol. 2011 
+Feb;7(2):e1001092. Epub 2011 Feb 24. PMID: 21390331; PMCID: PMC3044758.
+2. Bellay J, Han S, Michaut M, Kim T, Costanzo M, Andrews BJ, Boone C, Bader GD, Myers 
+CL, Kim PM. Bringing order to protein disorder through comparative genomics and genetic 
+interactions. Genome Biol. 2011 Feb 16;12(2):R14. PMID: 21324131.
+3. Baryshnikova A, Costanzo M, Kim Y, Ding H, Koh J, Toufighi K, Youn JY, Ou J, San Luis 
+BJ, Bandyopadhyay S, Hibbs M, Hess D, Gingras AC, Bader GD, Troyanskaya OG, Brown 
+GW, Andrews B, Boone C, Myers CL. Quantitative analysis of fitness and genetic 
+interactions in yeast on a genome scale. Nat Methods. 2010 Dec;7(12):1017-24. Epub 
+2010 Nov 14. PMID: 21076421.</Progress><Investigator><Person_ID>548496</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548497</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>418396</Publication_ID><Publication_ID>418397</Publication_ID><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305094"><Subproject_ID>0020</Subproject_ID><Title>AGENTS THAT BOOST INNATE ANTIMICROBIAL DEFENSES [DBP 
+6]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>This DBP attempts to find innovative strategies to stimulate innate immune defense 
+mechanisms.  It can be seen in the perspective of the current attempts at preventing and 
+treating infectious diseases, or situations of conflict between the host and its commensal 
+flora. 
+
+The aim of this DBP is to identify novel immunomodulators stimulating antimicrobial 
+defense mechanisms and epithelial restitution without eliciting significant inflammation. 
+The significance of these immunomodulators would be to prevent or treat recurrent or 
+chronic enteric infections that are currently untreatable.  Availability of such molecules 
+would also have enormous potential in the treatment of other diseases such as the 
+inflammatory bowel diseases (IBD, e.g. Crohn’s Disease). Many IBDs encompass a strong 
+component of suppression of the innate antimicrobial mechanisms keeping the gut flora in 
+check, particularly epithelial defensins [1].  Such molecules would also be beneficial in 
+preventing systemic infections following bacterial intestinal translocations in the course of 
+aggressive, bone marrow suppressive poly-chemotherapies for some cancers, lymphomas 
+and leukemias.
+
+Aim 1, that seeks to establish a network of gene regulation, will involve global 
+transcriptomic profiling of cells in which key genes are perturbed by RNA interference. 
+These data will serve as the basis for the inference of a gene regulatory network, which 
+will be derived using the iterative network inference project developed in TRD D. The 
+expertise of the DBP experimental collaborators will be essential in driving this process. 
+The inferred network, in turn, will serve to generate hypotheses that will be verified in 
+vivo in Aim 2. Furthermore, the inferred regulatory network will imply a set of hypotheses 
+about the effects of perturbing different network genes by RNAi. The results of the high-
+throughput cell-based screening in Aim 3 will validate these predictions. Accordingly, the 
+DBP project represents a comprehensive and compatible use case for the technologies 
+developed in TRD D, and it will challenge and apply all aspects of the proposed technology.
+
+References
+1. Fellermann, K., Wehkamp, J., Herrlinger, K.R. &amp; Stange, E.F. Crohn&apos;s disease: a 
+defensin deficiency syndrome? Eur J Gastroenterol Hepatol 15, 627-34 (2003).</Abstract><Type>C</Type><Progress></Progress><Investigator>
+  <Person_ID>548498</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305095"><Subproject_ID>0021</Subproject_ID><Title>PROSTATE CANCER GENOME PROJECT [CSP 1]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>The goal of the Prostate Cancer Genome Project (PCPG) is to create a molecular 
+characterization of individual prostate cancers, which will enable physicians and patients to 
+make more informed decisions about how aggressively to treat the cancer. The PCGP project 
+aims to evaluate the utility of improved methods for high throughput sequencing of critical 
+genomic regions to characterize human tumor samples and provide clinically useful 
+information. Changing the outcome for prostate cancer patients requires defining the 
+fundamental biology of this poorly understood disease. Treatment options could then be 
+tailored based on individual tumor biology. The PCPG will collaborate with NRNB personnel 
+(Sander and Ideker groups) to use the NetBioMarker plugin (TRD A) to further aid in the 
+classification of prostate cancer types.
+
+The project will generate a wealth of data for use in classifying prostate tumors based on 
+their molecular profile. Network-based analysis and classification of prostate samples, as 
+proposed in TRD A, will aid in interpreting these large-scale genomic data. The PCGP will 
+provide another avenue for grounding network analysis development in a clinically relevant 
+setting, and enable greater collaboration between computational biologists and clinical 
+oncologists. Ultimately, this should allow a significant improvement in the quality of care for 
+this disease by better informing patients and physicians the likely outcome of an individual 
+patient’s disease.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548477</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548500</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305096"><Subproject_ID>0022</Subproject_ID><Title>GENETIC BASIS OF ADOLESCENT SOCIAL NETWORKS AND 
+EFFECTS ON HEALTH [CSP 2]
+</Title><AIDS_Flag>N</AIDS_Flag><Abstract>As part of a grant from the NIA, we are studying the causal mechanisms underlying the 
+relationship between social networks and health in the National Longitudinal Study of 
+Adolescent Health (AddHealth) with an emphasis on understanding the role of social 
+networks and their genetic precursors. The AddHealth data were collected in two waves 
+between 1994 and 1996. In 2001 and 2002, AddHealth respondents, 18 to 26 years old, 
+were also re-interviewed in a third wave to investigate the influence that adolescence has on 
+young adulthood. For the present work, we will conceptualize “health” as three health 
+behavioral outcomes: smoking, drinking, and overweight.
+
+Although this CSP involves the same biomedical collaborator as DBP 3 (Christakis), the two 
+projects are distinct in biology and technology.  In terms of biology, the focus of DBP 3 is on 
+the role of adult social networks in the spread of behaviors that influence obesity and 
+smoking.  In contrast, the focus of this CSP is on the role of genes that influence 
+interactions in adolescent friendship networks and how these interactions, in turn, influence 
+the health of an individual.  In terms of technology, our focus here is on network properties 
+such as centrality and clustering in contrast to the trend motifs and regression models of 
+DBP 3.  This CSP will benefit from the network analysis technology being advanced in TRD B 
+and network visualization technology in TRD C.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548478</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548494</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305097"><Subproject_ID>0023</Subproject_ID><Title>GENETIC AND MOLECULAR EPIDEMIOLOGY OF ADULT GLIOMA 
+[CSP 3]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Our collaborators in the Wrensch laboratory are engaged in four activities encompassing 
+genomic, bioinformatic, biostatistical, and laboratory methods to study the genetic and 
+molecular epidemiology of adult glioma. The overarching hypothesis of this work is that 
+novel inherited variation in glioma susceptibility and prognosis can be identified (or 
+confirmed) through integration of new genomic technologies and 
+bioinformatic/biostatistical tools with high-quality subject resources. They further 
+hypothesize that demographic, environmental, and immunological factors are likely to 
+influence such susceptibility, and that different constellations of factors may be involved 
+with different histologic and molecular subtypes of glioma.
+The project has completed genotyping of existing adult glioma subjects and controls on 
+the Illumina 370duo.  The Wrensch lab has recently submitted a genome wide association 
+study (GWAS) for publication showing, with replication data from the Mayo Clinic, that 
+areas of 9p21 and RTEL1 may be involved in glioma susceptibility. In addition the project 
+has developed a publicly available, novel tool (www.SNPLogic.org) for SNP selection, 
+prioritization and annotation. SNPLogic aids in rational SNP selection, prioritization, and 
+interpretation for SNP disease association studies. SNPLogic has several unique 
+advantages over other public SNP annotation systems: availability of user/group accounts 
+with an unlimited number of created and saved SNP lists, flexible three-level SNP list 
+sharing, and a powerful user-defined SNP scoring system. This program has proven 
+invaluable in selecting the most cost-effective genotyping panel for, and in interpreting 
+results from, this study.
+The ability of SNPLogic to associate other data with SNP lists such as pathway and gene 
+enrichment data will require that we provide links to tools such as WikiPathways, 
+GenMAPP-CS and Cytoscape. Enhanced visualization support as described in TRD C will 
+facilitate the visualization of SNP context at the level of pathways and individual protein 
+structure models. Other efforts will include the use of webservices at WikiPathways 
+(http://www.wikipathways.org/ - a relates network biology resource), to generate 
+pathway images with the genes colored based on SNP information, which will have 
+clickable links back to the SNP list table. We will also enhance protein structure 
+visualization using Chimera [http://www.cgl.ucsf.edu/chimera/] and Cytoscape using SNP 
+coordinates and known PDB IDs to return a 3D model with the SNP region highlighted.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548476</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548499</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305098"><Subproject_ID>0024</Subproject_ID><Title>VISUALIZING BIOLOGICAL NETWORKS WITH A BIOLOGIST’S 
+EYE [CSP 4]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Biologists frequently use networks to represent the biology of the cell, using intuitive 
+metaphors to reduce multiple levels of spatial and temporal relationships to a two-
+dimensional page. Such representations serve as useful models to summarize a body of 
+knowledge or to propose hypothetical interactions. Making these models accessible to 
+computation and data mapping is an important and timely effort coinciding with advances 
+in high-throughput generation of genomic, proteomic, and metabolomic data. At the same 
+time, computational representations can be more abstract and less intuitive for biologists 
+than human-curated networks. This is because computational models do not easily 
+represent the unstructured annotation information that underlies the conceptual richness 
+of the curated network.  
+
+These issues are of high priority to Agilent, which markets a suite of genomics, 
+proteomics, and systems biology software applications, in addition to hardware 
+instrumentation.  Agilent has been a strong supporter of the Cytoscape project since its 
+inception, and has had several in-house programmers working on Cytoscape core code or 
+plugins for the past several years.
+
+Researchers need tools to not only aid in the collection and processing of large-scale 
+datasets, but also to help make sense of the data and place it in the familiar context of 
+biological pathways. By modeling the data to allow for a more direct mapping of large and 
+diverse datasets we will lower the barrier between data collection and hypotheses. 
+Furthermore, we will enrich the connection between the actual data, e.g. relating to a 
+particular exon, and the network of genes and proteins by defining the possible transcripts 
+and isoforms to which that exon contributes.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548476</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548501</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305099"><Subproject_ID>0025</Subproject_ID><Title>MOLECULAR PROFILING IN HEART DISEASE BIOMARKER 
+DISCOVERY [CSP 5]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Cardiovascular disease (CVD), and heart failure (HF) specifically, is a leading cause of 
+mortality in North America. Despite recent progress, the molecular mechanisms of 
+cardiomyopathies that result in decreased cardiac contractility and ultimately overt HF 
+remain unclear. Given the recent association of microRNA (miRNA) inhibition of protein 
+synthesis to the development of cardiac hypertrophy and HF [1,2], we have initiated a 
+collaborative effort to identify and characterize miRNAs active in validated mouse models 
+of dilated (DCM) and hypertrophic cardiomyopathy (HCM). We have also completed 
+quantitative global surveys of protein and mRNA in a time-course study of DCM disease 
+progression. We have obtained preliminary evidence that specific miRNAs differentially 
+accumulate and modulate select protein targets under pathological conditions.
+In this application, we propose to advance these studies and uncover the identities, 
+targets and biological effects of all miRNAs linked to the pathology of cardiomyopathy and 
+HF. Specifically, we will extend our preliminary results and establish the miRNA-target 
+regulatory pathways affected in DCM and other mouse models of HF. We will validate our 
+top-ranked predictions by stringent independent experimental methods. We will use 
+genetic knock-down plus transgenic over-expression technologies, cell biological assays, 
+and high-throughput imaging to investigate the effects of perturbation of individual 
+miRNAs and their targets on disease progression to HF. We expect that modulation of key 
+miRNA-target effectors will ameliorate the cardiac phenotype. This proposal builds on a 
+substantive existing body of data, and will further fundamental understanding of the 
+maladaptive response to perturbed calcium handling that ultimately leads to catastrophic 
+loss of cardiac function.
+This project will benefit from the RAVIN resource through access to transforming 
+technology for network analysis of miRNA data. Using the BIoNetMarker plugin we will 
+transform a gene-by-gene miRNA analysis to summarize miRNA in the context of 
+networks and pathways.
+
+References
+1. Mann, D.L. MicroRNAs and the failing heart. N Engl J Med 356, 2644-5 (2007).
+2. Mishima, Y., Stahlhut, C. &amp; Giraldez, A.J. miR-1-2 gets to the heart of the matter. Cell 
+129, 247-9 (2007).
+</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548502</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305100"><Subproject_ID>0026</Subproject_ID><Title>PROJECT BASYSBIO [CSP 6]</Title><AIDS_Flag>N</AIDS_Flag><Abstract>The overall objective of BaSysBio is to generate quantitative data about the network 
+components at multiple levels of information flow in order to understand the global 
+regulation of gene transcription in bacteria at the system level. To achieve this objective, 
+BaSysBio is focusing on developing and adapting high-throughput technologies to facilitate 
+quantitative measurements, in conjunction with developing and validating computational 
+systems biology methodologies to enable the quantitative interpretation of the data and 
+unravel the underlying principles of regulatory network interactions.
+
+Experimental data are generated in the highly tractable Gram-positive model bacterium 
+Bacillus subtilis with two specific goals: (1) to unravel the global regulatory structure of B. 
+subtilis metabolism to understand how transcriptional regulation is integrated with the 
+other levels of control; (2) to achieve a quantitative understanding of the cellular 
+transcriptional responses under conditions mimicking pathogenesis, and to apply the 
+acquired knowledge and the integrated modeling/experiments strategy developed in the 
+model bacterium to understand the regulatory networks controlling pathogenesis in the 
+closely related disease-causing bacteria Bacillus anthracis and Staphylococcus aureus.
+
+Involvement of NRNB will give access to new concepts in computational network inference 
+to facilitate the comprehension of biological complexity. BaSysBio will develop explicative 
+dynamic regulation models that include transcription, translation, and metabolic 
+processes. Beyond fostering a deeper understanding of transcriptional control in B. subtilis 
+and related pathogens through a systems-based approach, BaSysBio aims at developing 
+novel methodologies in several areas that will be critical for the future development of 
+systems biology including predictive, large-scale mathematical modeling, efficient coupling 
+between experimentation and computation, elucidation of general design principles, and 
+the effective application of methods and knowledge on model organisms to related, yet 
+less well-characterized species.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548481</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548503</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305101"><Subproject_ID>0027</Subproject_ID><Title>GENETIC NETWORKS UNDERLYING DNA DAMAGE</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Abstract
+Although cellular behaviors are dynamic, the networks that govern these behaviors have 
+been mapped primarily as static snapshots. Using an approach called differential epistasis 
+mapping, we have discovered widespread changes in genetic interaction among yeast 
+kinases, phosphatases, and transcription factors as the cell responds to DNA damage. 
+Differential interactions uncover many gene functions that go undetected in static 
+conditions. They are very effective at identifying DNA repair pathways, highlighting new 
+damage-dependent roles for the Slt2 kinase, Pph3 phosphatase, and histone variant Htz1. 
+The data also reveal that protein complexes are generally stable in response to 
+perturbation, but the functional relations between these complexes are substantially 
+reorganized. Differential networks chart a new type of genetic landscape that is invaluable 
+for mapping cellular responses to stimuli.
+
+Reference
+1. Bandyopadhyay S, Mehta M, Kuo D, Sung MK, Chuang R, Jaehnig EJ, Bodenmiller B,
+Licon K, Copeland W, Shales M, Fiedler D, Dutkowski J, Guénolé A, van Attikum H, 
+Shokat KM, Kolodner RD, Huh WK, Aebersold R, Keogh MC, Krogan NJ, Ideker T.
+Rewiring of genetic networks in response to DNA damage. Science. 2010 Dec
+3;330(6009):1385-9. Erratum in: Science. 2011 Jan 21;331(6015):284. PMID: 
+21127252; PMCID: PMC3006187.
+
+NRNB Investigator:
+Trey Ideker</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548515</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548523</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Publication_ID>418399</Publication_ID>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305102"><Subproject_ID>0028</Subproject_ID><Title>IDENTIFYING GENETIC MODIERS OF TDP43 TOXICITY</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Despite having identified several genes involved in Frontal Temporal Dementia (FTD), the 
+mechanisms by which one or any of these genes causes FTD is unknown.  TDP43 can be 
+found in ubiquitin-positive aggregates isolated from patients with FTD.  However, the 
+mechanisms leading to the formation of these aggregates is currently unknown.  S. 
+cerevisiae has proved a useful system to identify genes involved in other neurodegenerative 
+proteinopathies.  Using S. cerevisiae we will identify genes involved in TDP43 toxicity and 
+thus provide novel information regarding possible mechanisms by which FTD is caused.  
+Analysis of our genetic interaction dataset will be done using system analysis programs such 
+as cytoscape.  Additionally, guidance for our analysis will be done in collaboration with 
+members of NRNB, primarily using Cytoscape and GenMAPP-CS.  
+
+NRNB Contact:
+Alex Pico</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>554092</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548476</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548491</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305103"><Subproject_ID>0029</Subproject_ID><Title>QUANTITATIVE PROTEOMIC APPROACH TO IDENTIFY THE MECHANISM OF 
+AD</Title><AIDS_Flag>N</AIDS_Flag><Abstract>It has been known for more than forty years that Alzheimer’s disease (AD) brains exhibit 
+extracellular amyloid beta protein (Abeta) plaques and intracellular protein aggregates 
+known as neurofibrillary tangles. However, the mechanism by which Abeta causes AD has 
+remained elusive. We propose a novel in vivo quantitative proteomic approach to 
+determine the effects of Abeta on the aging brain proteome to uncover detailed AD 
+pathological mechanism(s). We will apply a recently developed stable isotope protein 
+labeling method to the investigation of AD pathology. The strength of our approach stems 
+from our ability to simultaneously determine the relative expression level of thousands of 
+proteins in a single analysis thus providing the means to test many cellular pathways of 
+potential relevance to AD and normal aging. We hypothesize that the identification of 
+proteins with perturbed expression in the affected brain regions of multiple AD mouse 
+models will reveal pathways critical to AD pathology. Further, we will also determine the 
+changes in protein abundance in brain during normal aging to gain insight into potential 
+risk factors associated with the age of AD onset. To validate our observations, the levels of 
+the candidate proteins will be investigated in human AD brain by quantitative mass 
+spectrometry and western blot. We will attempt to rescue AD pathology by correcting 
+protein expression in AD model; cells, worms, and mice. Subsequently, we will use 
+biochemical and molecular approaches to investigate the mechanism responsible for 
+altered protein expression. Ultimately we aim to determine the pathological molecules and 
+forces responsible for AD which could eventually lead to the development of an effective
+treatment for AD.
+
+Mapping the proteins we find altered in AD onto the cytoscape network represents an 
+enormous opportunity to find new and exciting potential AD drug targets. 
+
+NRNB Contact:
+Rintaro Saito (Ideker)
+</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554100</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548504</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305104"><Subproject_ID>0030</Subproject_ID><Title>EPIGENETICS ANALYSIS IN RA SYNOVIAL FIBROBLASTS</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Much of the research in the last decade on disease susceptibility for rheumatoid arthritis (RA) 
+has focused on genomics. While this has provided significant insights into disease 
+pathogenesis, the field of epigenetics is underdeveloped, and most of the current work 
+focuses on microRNA. The critical importance of DNA methylation in autoreactivity and in 
+neoplasia, the role of environmental stress on DNMT expression, and the potential for 
+vertical transmission of risk across generations has drawn us to DNMTs as critical regulators 
+in RA. Our proposal is novel in that it implicates methylation in risk as well as an amplifying 
+factor that can alter the natural history of disease due to the synovial inflammatory disease. 
+   We have already investigated the difference of methylation patterns at a given CpG site 
+between RA synovial fibroblasts and control samples. We found that methylation patterns of 
+more than 300 genes are totally different. In this time, we are going to investigate their 
+networks using Cytoscape, and then we will decide the genes we have to investigate next.
+
+NRNB Contact:
+Keiichiro Ono (Ideker)
+Rintaro Saito (Ideker)</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548486</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554100</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548536</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305105"><Subproject_ID>0031</Subproject_ID><Title>EXTENDED AUTOPHAGY NETWORK XAN</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Autophagy is an ubiquitous cellular degradation pathway involved in cellular homeostasis, 
+regulation of protein turnover and organelle quality control. Genes contributing to this 
+pathway have been linked to cancer, inflammation, neurodegeneration, aging and innate as 
+well as adaptive immune responses. Our lab focusses on the role of autophagy in organelle 
+turnover, particularly on autophagic degradation of peroxisomes (a processed coined 
+&apos;pexophagy&apos;) and mitochondria (&apos;mitophagy&apos;) using yeast and mammalian cell models.
+
+As part of an initiative to analyze target specificity of autophagy in a global context, we want 
+to establish a data set representing the extended autophagy network (XAN) which is 
+designed to help us identifying promising target genes for siRNA approaches in human cells. 
+To this aim, we want to perform a Meta-Analysis of recent literature and data base entries, 
+and pool data with respect to regulation, protein:protein interactions, microRNA targets, 
+signal transduction pathways and disease association. We plan to use the Cytoscape platform 
+as an integrative tool for data collection, visualization and analysis. The final aim is to 
+broaden our understanding of human autophagy subtypes and the molecular basis of target 
+specificity. 
+
+NRNB Contact:
+Rintaro Saito (Ideker)
+Trey Ideker</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>554090</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554100</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548535</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305107"><Subproject_ID>0033</Subproject_ID><Title>CONSTITUTIVE INTESTINAL NF-ΚB WITH MAPK ACTIVATION 
+TRIGGERS 
+INFLAMMATION</Title><AIDS_Flag>N</AIDS_Flag><Abstract>We generated IKKβ(EE)IEC mice, which express in intestinal epithelial cells (IEC) a 
+constitutively active form of IKKβ. IKKβ(EE)IEC mice exhibit NF-κB activation in IEC, express 
+copious amounts of inflammatory chemokines but only small amounts of TNF.
+
+To investigate NF-κB-driven gene expression in IEC, we performed microarray analysis. 
+Expression of ≈150 genes was increased &gt;2.5-fold in IKKβ(EE)IEC enterocytes relative to 
+WT counterparts. We would like to get a network analysis of our data to understand how a 
+constitutive NF-KB activation regulates other signaling pathways.
+
+NRNB Contact:
+Trey Ideker</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>554088</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548506</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305108"><Subproject_ID>0034</Subproject_ID><Title>STRUCTURES OF PROTEIN COMPLEXES THAT REGULATE 
+TRANSCRIPTION IN 
+ES CELLS</Title><AIDS_Flag>N</AIDS_Flag><Abstract>The major goal of this proposal is to reveal molecular mechanisms underlying formation 
+and function of critical transcriptional assemblies essential to embryonic stem (ES) cells 
+and cells with induced pluripotency (induced pluripotent stem (iPS) cells). Using 
+bioinformatics and high throughput experimental methods, we will prepare defined 
+domains of critical transcriptional factors controlling cell pluripotency and analyze them in 
+their functional associations. Thousands of assemblies will be evaluated by biochemical 
+and biophysical methods to identify the critical ones to be targeted by X-ray 
+crystallography. We aim for determination of three-dimensional structures for about 100 
+stable multi-component transcriptional assemblies. Each of them will represent a partial 
+image of complicated transcriptional machinery controlling the specific transcriptional 
+landscape of pluripotent cells. We expect that thoughtful analyses of these structures will 
+enable us to establish the proper connections between these partial images and 
+reconstruct a general model for function of critical participants of this transcriptional 
+machinery. We will justify this model and the observed regulatory interactions within 
+identified transcriptional complexes in mutational and functional studies using iPS cells. 
+The experiments are to be done at multiple sites: The Methodist Hospital Research 
+Institute (Houston), Department of Biochemistry and Biophysics at UCSF, the Gladstone 
+Institute of Cardiovascular Disease (UCSF) and X-ray crystallography by the PSI labs. The 
+proposed structural and functional studies will propel our general knowledge of the basic 
+mechanisms controlling cell fate, including those underlying self renewal, differentiation 
+and pathogenesis of cancer. The results of this research will also provide more efficient 
+molecular tools allowing precise control over cell programming and reprogramming. The 
+accumulated structural and functional data would be immediately available to biochemical 
+and clinical researchers, and therefore, would have a major impact on stem cell research 
+as well as regenerative medicine. 
+
+NRNB staff is collaborating with Dr. Yumoto to assist with target selection and 
+prioritization.  Using the GeneMania Cytoscape plugin, NRNB staff has to identified a set of 
+related genes to be considered as possible targets, starting from the list of already 
+identified targets. NRNB staff also constructed a pathway at WikiPathways by augmenting 
+a pluripotency-related pathway with targets and interaction information provided by Dr. 
+Yumoto. Both the network visualizations from Cytoscape and the pathway diagram have 
+been used in presentations and grant progress reports. 
+
+NRNB Contact:
+Kristina Hanspers (Conklin, Pico)</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>554089</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548485</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548476</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548480</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548507</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305109"><Subproject_ID>0035</Subproject_ID><Title>METABOLOMICS AND EPIGENETICS OF DIABETIC KIDNEY DISEASE</Title><AIDS_Flag>N</AIDS_Flag><Abstract>The prevailing theory to explain the complications of type 1 diabetes is
+based upon the idea that exposure to excess glucose will set off a
+cascade of deleterious events, initially driven by over-production of
+mitochondrial superoxide anions. Our data using cell culture, animal
+models and human subjects strongly favors a completely different
+hypothesis. We hypothesize that mitochondrial function and mitochondrial
+superoxide anion production is shut down in response to exposure to
+excess glucose. This effect, termed the Crabtree effect, if persistent
+will lead to Warburg metabolism which is closely tied to production of
+disease-promoting pro-fibrotic and inflammatory molecules.
+
+The proposed studies will test this hypothesis in patients with type 1
+diabetes at the metabolomic and epigenetic level and in experimental
+systems to prove our hypothesis and establish the molecular mechanisms
+driving this course of events in the diabetic kidney. Metabolomic and
+epigenetic markers of reduced mitochondrial function and biogenesis will
+be performed in urine samples from patients in the FINN-DIANE and CRIC
+cohort. The significance of reduced mitochondrial function will lead to
+progressive cell dysfunction and consequent reduction in the glomerular
+filtration rate and renal failure. We postulate that the pathogenetic
+mechanism mediating the shutdown of mitochondria in diabetes is via
+inhibition of the AMPK pathway leading to inhibition of PGC1a thus
+inhibiting mitogenesis. AMPK regulation of autophagy is also impaired by
+reducing beclin 1 thus leading to retention of impaired mitochondria.
+Thus impaired mitogenesis and impaired mitophagy sets off an
+inflammatory and pro-fibrotic cascade. The role of this pathway will be
+tested in mouse models of diabetic kidney disease using novel imaging
+tools and cell specific deletion of AMPK and PGC1a.
+
+A systems biology approach will be used to demonstrate novel biomarkers
+that closely reflect and track renal mitochondrial status at the
+metabolomic and epigenetic level.
+
+NRNB Contact:
+Rintaro Saito (Ideker)
+</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554100</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548508</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305110"><Subproject_ID>0036</Subproject_ID><Title>THE ROLE OF ESCARGOT IN REGULATING STEM CELL BEHAVIOR IN 
+DROSOPHILA</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Escargot is a bHLH transcriptional repressor that is expressed in many stem cell populations 
+(neural, germline, intestinal) in Drosophila, and loss of Esg leads to loss of stem cells in the 
+testis and a skewing of  cell fates in the intestine. We have used a variation of ChIP-chip, 
+called DamID, to identify putative targets of Escargot in testes and intestines.  In addition, 
+we have ongoing microarray analyses to identify targets that may be regulated by this 
+protein.  Lastly, we have great mass spec data for interacting proteins.  So , our goal is to 
+identify tissue-specific, as well as stem cell specific targets of this txn factor, and then put 
+this together with the mass spec analyses to begin to unravel putative stem cell networks in 
+multiple tissues in flies.
+
+NRNB Contact:
+Trey Ideker</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548509</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305111"><Subproject_ID>0037</Subproject_ID><Title>CONNECTING CYTOSCAPE WITH BINDINGDB</Title><AIDS_Flag>N</AIDS_Flag><Abstract>BindingDB is a public, web-accessible database of measured binding affinities, focusing chiefly 
+on the interactions of protein considered to be drug-targets with small, drug-like molecules. 
+BindingDB contains 648,915 binding data, for 5,662 protein targets and 284,206 small 
+molecules.
+
+This collaboration project aims to connect Cytoscape to BindingDB in order to make binding 
+affinity data available as node or edge attributes within the context of biological networks in 
+Cytoscape.
+
+NRNB Contact:
+Mike Smoot (Ideker)
+Kei Ono (Ideker)
+Trey Ideker</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548486</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548482</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548518</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305112"><Subproject_ID>0038</Subproject_ID><Title>VISUALIZING MULTIPLE ATTRIBUTES</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Proteins and genes in biological networks are associated with an increasing amount of data 
+from multiple experiments, such as gene expression from time-series or across normal and 
+disease states. Ideally, this multi-dimensional information would be visualized in the context 
+of networks, but this is not possible with the current version of Cytoscape. 
+
+The Node chart plugin exports commands that can be used by users (via the Command Tool) 
+or by plugin developers who can call the commands using the Cytoscape 
+CyCommandHandler mechanism. In either case, node charts provides a simple way to paint 
+bar, line, or pie graphs onto nodes. These graphics are preserved as part of the session, and 
+are rendered as objects, providing excellent graphics stability. The capabilities of the 
+renderings are limited, so users with more complex charting needs should look at the 
+GoogleCharts plugin, which links to the Cytoscape 2.8 formula capability.
+
+NRNB Contact:
+Alex Pico</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>554091</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548476</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548483</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305116"><Subproject_ID>0039</Subproject_ID><Title>GENETIC NETWORKS UNDERLYING CILIOGENESIS</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Primary cilia are evolutionarily conserved cellular organelles that organize diverse 
+signalling pathways. Defects in the formation or function of primary cilia are associated 
+with a spectrum of human diseases and developmental abnormalities. Genetic screens in 
+model organisms have discovered core machineries of cilium assembly and maintenance. 
+However, regulatory molecules that coordinate the biogenesis of primary cilia with other 
+cellular processes, including cytoskeletal organization, vesicle trafficking and cell-cell 
+adhesion, remain to be identified. Here we report the results of a functional genomic 
+screen using RNA interference (RNAi) to identify human genes involved in ciliogenesis 
+control. The screen identified 36 positive and 13 negative ciliogenesis modulators, which 
+include molecules involved in actin dynamics and vesicle trafficking. Further investigation 
+demonstrated that blocking actin assembly facilitates ciliogenesis by stabilizing the 
+pericentrosomal preciliary compartment (PPC), a previously uncharacterized compact 
+vesiculotubular structure storing transmembrane proteins destined for cilia during the 
+early phase of ciliogenesis. The PPC was labelled by recycling endosome markers. 
+Moreover, knockdown of modulators that are involved in the endocytic recycling pathway 
+affected the formation of the PPC as well as ciliogenesis. Our results uncover a critical 
+regulatory step that couples actin dynamics and endocytic recycling with ciliogenesis, and 
+also provides potential target molecules for future study. 
+
+Abstract from Kim, J., Lee, J.E., Heynen-Genel, S., Suyama, E., Ono, K., Lee, K., Ideker, 
+T., Aza-Blanc, P., Gleeson, J.G. Functional genomic screen for modulators of ciliogenesis 
+and cilium length. Nature 464(7291):1048-51 (2010)</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548505</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548524</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548512</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548516</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>418736</Publication_ID>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305178"><Subproject_ID>0040</Subproject_ID><Title>CYTOSCAPE</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Services provided by NRNB to Cytoscape:
+
+=Organizational=
+* Projects: propose and seek funding for Cytoscape development projects; document 
+progress on aims under the purview of NRNB; provide annual report; provide competitive 
+renewal support
+* Impact: Measure impact of Cytoscape - e.g. track relevant publications and 
+collaborations
+* Interface: identify related resources, project and programs; facilitate new collaborations; 
+hold joint conferences
+* Host: link to Cytoscape downloads, documentation and tutorials from nrnb.org
+* EAC: provide recommendations and proposals to Cytoscape Consortium regarding 
+technical development aims and organizational opportunities
+* Cytoscape Board: organize regular board meetings
+
+=Development=
+* Projects: carry out Cytoscape development under TRD aims; coordinate with Chief 
+Architect, Facilitators and Core Developers
+
+=Training=
+* Tutorials: prioritize, produce and promote tutorial materials; organize events (see 
+Community)
+* Feedback: collect and organize feedback from training events to share with developers
+
+=Community=
+* Events: organize, promote and staff Cytoscape lectures, tutorials and workshops
+* News: highlight news items related to Cytoscape and NRNB project-associated 
+investigators
+* Communication: coordinate discussion lists, help desk, Facebook, Twitter, etc
+* GSoC: support Cytoscape projects, mentors and students in annual Summer of Code 
+program sponsored by Google
+* Retreat: organizing the annual retreat for Cytoscape and NRNB</Abstract><Type>S</Type><Progress></Progress><Investigator>
+  <Person_ID>453037</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Publication_ID>419633</Publication_ID><Publication_ID>419636</Publication_ID><Publication_ID>419642</Publication_ID><Publication_ID>419643</Publication_ID><Publication_ID>419644</Publication_ID><Publication_ID>419646</Publication_ID><Publication_ID>419647</Publication_ID><Publication_ID>419648</Publication_ID><Publication_ID>419649</Publication_ID><Publication_ID>419650</Publication_ID><Publication_ID>419653</Publication_ID><Publication_ID>419655</Publication_ID><Publication_ID>419656</Publication_ID><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305179"><Subproject_ID>0041</Subproject_ID><Title>SDSC TRITON RESOURCE</Title><AIDS_Flag>N</AIDS_Flag><Abstract>SDSC Triton Resource is a new high-performance, data-centric compute resource on the 
+UCSD campus. The resource comprises three major components: a Petascale Data Analysis 
+Facility, a Compute Cluster, and a Data Oasis. Each offers unique and powerful capabilities 
+designed to support data analysis needs on scale with today&apos;s most demanding and data-
+intensive processing tasks.</Abstract><Type>S</Type><Progress></Progress><Investigator><Person_ID>553992</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305180"><Subproject_ID>0042</Subproject_ID><Title>OPEN TUTORIALS</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Open Tutorials is an online resource for accessing, developing and distributing training and 
+teaching materials for a variety of open source bioinformatics, including Cytoscape and RBVI. 
+As an NRNB service, other network biology-related open source software may be supported 
+by this tutorial management system.</Abstract><Type>S</Type><Progress></Progress><Investigator>
+  <Person_ID>548476</Person_ID>
+  <Investigator_Type>P</Investigator_Type>
+</Investigator>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305242"><Subproject_ID>0043</Subproject_ID><Title>CYTOSCAPE CORE</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Cytoscape (http://cytoscape.org) is a core research tool either used by or representing the 
+research effort of every project and collaboration engaged by the NRNB. As such, the 
+development and maintenance of Cytoscape receives a large amount of attention. Cytoscape 
+development is progressing along two fronts: we are continuing to maintain the existing 2.8 
+series of releases and we are developing version 3.0 of Cytoscape which represents an 
+evolution of our architecture designed to modularize the core of Cytoscape, define a clear 
+and consistent API, and simplify the experience of developing and maintaining plugins for 
+Cytoscape. </Abstract><Type>T</Type><Progress>We released Cytoscape 2.8.0 in October of 2010 and a subsequent maintenance release 
+2.8.1 in February of 2011.  Version 2.8 introduces two powerful new features that when 
+used together can create rich visualization.  These features are custom node graphics and 
+attribute equations.  Custom node graphics allow Cytoscape end users to map arbitrary 
+graphical images onto nodes in a Cytoscape network using the existing VizMapper 
+interface.  Attribute equations provide Excel like functionality to the Cytoscape attribute 
+browser.  We provide a variety of functions that allow normal Cytoscape attributes 
+(numbers, strings, lists) to be manipulated in common ways within Cytoscape.  The 
+purpose of attribute equations isn’t to supplant the use of R or Excel for data analysis, but 
+rather to provide a convenient way for users to manipulate data within Cytoscape.  
+Combining custom node graphics with attribute equations allow us to generate exciting 
+graphics relatively easily.  For example, given a Cytoscape node attribute of  a PDB 
+identifier, we’re able to write an equation that concatenates the identifier string together 
+with URL parts to produce a complete URL pointing to an image of the 3D structure 
+provided on the PDB website.  We’re then able to map this URL to a node where the URL 
+gets interpreted as an image resulting in the 3D structure of the specified proteins being 
+displayed on the nodes of the network.
+In conjunction with Cytoscape 2.8, we’ve also been developing the next generation of 
+Cytoscape, version 3.0.  The Cytoscape 3.0 development effort has resulted in the first 
+developer milestone release of 3.0 at the end of January 2011.  The purpose of this 
+milestone was to present a functioning application to the core Cytoscape development 
+team so that they could begin porting plugins and to use and critique the 3.0 API.  The 
+Bader Group ported a number of core plugins from 2.8, including BioPAX and 
+PathwayCommons and implemented session reading and writing. In early March 2011 we 
+held a small meeting of core developers at UC San Diego to discuss the design of 
+Cytoscape 3.0 and to plan the remaining development.  We are currently on track to 
+release developer milestone 2 prior to the 2011 Cytoscape retreat.
+The primary goal of Cytoscape 3.0 is to have feature parity with Cytoscape 2.X, but there 
+will be new features included as well.  We have begun initial development on a “Quick 
+Start” plugin designed to help novice users get their attribute and network data into 
+Cytoscape was quickly and easily as possible.</Progress><Investigator><Person_ID>453037</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548476</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548477</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>419645</Publication_ID>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305414"><Subproject_ID>0044</Subproject_ID><Title>PATHWAY AND NETWORK ANALYSIS OF MOUSE MODELS OF HEART DISEASE</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Global protein expression profiling can potentially uncover perturbations associated with 
+common forms of heart disease. We have used shotgun MS/MS to monitor the state of 
+biological systems in cardiac tissue correlating with disease onset, cardiac insufficiency and 
+progression to heart failure in a time-course mouse model of dilated cardiomyopathy. 
+However, interpreting the functional significance of the hundreds of differentially expressed 
+proteins has been challenging. Here, we utilize improved enrichment statistical methods and 
+an extensive collection of functionally related gene sets, gaining a more comprehensive 
+understanding of the progressive alterations associated with functional decline in dilated 
+cardiomyopathy. We visualize the enrichment results as an Enrichment Map, where 
+significant gene sets are grouped based on annotation similarity. This approach vastly 
+simplifies the interpretation of the large number of enriched gene sets found. For pathways 
+of specific interest, such as Apoptosis and the MAPK (mitogen-activated protein kinase) 
+cascade, we performed a more detailed analysis of the underlying signaling network, 
+including experimental validation of expression patterns.
+
+NRNB Contact:
+Gary Bader
+Ruth Isserlin</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548525</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>554094</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305415"><Subproject_ID>0045</Subproject_ID><Title> PATHWAY AND NETWORK ANALYSIS OF MOUSE MODELS OF LEUKEMIA</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Signaling through the Notch-1 receptor is required to induce T lineage specification and 
+also to suppress B cell development in the thymus. Subsequently, Notch-1 activation 
+regulates survival and maturation of early T cell progenitors as they migrate through the 
+thymic cortex. Members of two structurally distinct families of Notch ligands, Delta-like 
+and Jagged, are widely expressed in lymphoid tissues. We have shown that Lunatic Fringe 
+critically regulates Notch-1 activation during multiple early stages of intrathymic T cell 
+development (Immunity, 2001; Nature Immunology, 2005).
+
+Our genetic approaches have revealed that Lunatic Fringe endows T cell progenitors with 
+the ability to compete for functionally limiting Delta-like Notch ligands in specific micro-
+environmental niches. Our current goals are to: 1) identify the genetic targets of Notch-1 
+signaling in early T cell progenitors, 2) identify the micro-environmental niches where 
+intrathymic Notch-1 activation takes place, and 3) determine how dysregulation of Notch-
+1 signaling causes T cell leukemia.
+
+In contrast to T cell development, B cell development in the bone marrow does not require 
+Notch activation. Newly formed B cells migrate from the bone marrow to the spleen, 
+where most develop into follicular (Fo) B cells, the major recirculating T-dependent B cell 
+subset. However, a small subset develops into marginal zone (MZ) B cells in response to 
+Notch-2 activation by Delta-like1. Unlike Fo B cells, MZ B cells are sessile cells that reside 
+near the marginal sinus in the red pulp of the spleen where they can be activated by 
+bacterial cell wall polysaccharides in a T cell-independent fashion, thus providing crucial 
+protection against bacterial sepsis.
+
+Our current goals are to: 1) determine which cells in the spleen present Dll-1 to induce 
+MZ B cell development, 2) determine how Fringe proteins regulate Notch-2-Dll-1 
+interactions during MZ B cell development, 3) investigate molecular mechanisms by which 
+Notch-2 regulates MZ B cell development, and 4) determine how Fringe proteins regulate 
+Notch-Dll-1 interactions to control T cell activation and homoestasis in peripheral lymphoid 
+tissues.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548526</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554097</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554093</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305416"><Subproject_ID>0046</Subproject_ID><Title>PATHWAY AND NETWORK ANALYSIS OF PEDIATRIC BRAIN TUMOURS</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Brain tumors are the most common solid malignancies observed in children, and the most 
+common cause of pediatric cancer death. The most common pediatric brain cancer, 
+medulloblastoma, originates in the cerebellum, and then metastasizes through the spinal 
+fluid to the rest of the brain and spinal cord. Survival rates have increased to &gt;60% 
+secondary to the surgery, whole brain and spinal cord radiation, and aggressive 
+chemotherapy used in modern treatment. Survivors however are often left devastated 
+with cognitive, physical, reproductive, social, and neurological deficits due to both the 
+disease and its therapy. As survivors are children, they represent a long-term economic 
+and societal challenge to Canadian healthcare, and a significant burden of suffering.
+While originally thought to encompass one disease, our recent pilot study of 100 tumors 
+demonstrates that medulloblastoma is in fact a heterogeneous group of diseases with 
+distinct demographics, clinical presentations, histology, transcriptomes, cancer genetics, 
+and clinical outcome. Some children are undoubtedly over-treated and suffer needless 
+complications, while others rapidly expire despite what is likely futile therapy. To address 
+this heterogeneity we formed the Medulloblastoma Advanced Genomics International 
+Consortium (MAGIC), which is composed of &gt;45 leading pediatric neuro-oncology centers 
+from around the world who have contributed &gt;1200 high quality frozen medulloblastomas 
+to our tumor bank at Sick Kids. Our diverse group of clinical and basic science investigators 
+from across Canada and around the world will:
+1) Discover biologically driven and clinically important homogeneous subgroups of 
+medulloblastoma through whole transcriptome profiling of 1000 tumors, and develop 
+reliable and robust biomarkers for subgroup identification in clinical trials.
+2) Prioritize genomic studies on tumors from children with molecularly defined high risk 
+subgroups of medulloblastoma, and/or a worse quality of life in order to improve functional 
+outcomes and diminish health care expenditures (GE3LS).
+3) Discover tumor subgroup specific somatic mutations in order to inform current clinical 
+trials of targeted therapies being tested in medulloblastoma, and to identify novel genes 
+and pathways already targeted in other diseases, and for which therapy could be rapidly 
+transitioned to Phase II trials in medulloblastoma.
+4)	Apply economic methodology with Canadian families and oncologists to determine 
+the proper balance between increased risks of tumor recurrence versus increased quality 
+of life after therapy de-escalation as a guide to develop the next generation of clinical trials 
+for children with medulloblastoma (GE3LS).
+Through development of a comprehensive biologically based stratification of 
+medulloblastoma patients we hope to diminish excessive and futile therapies, identify 
+children at risk for disabling and expensive complications, and identify novel targets for 
+therapy of children who currently have no significant options for clinical trials, and hence 
+little hope. This project builds upon the globally recognized Canadian strength in pediatric 
+neuro-oncology, and the MAGIC consortium allows us to ask questions that cannot be 
+duplicated elsewhere in the world. Our co-applicants include individuals with roles in 
+clinical trial agencies from around the world, which we anticipate will allow rapid 
+translational of the benefits of stratified treatment to improve outcomes for children with 
+brain cancer and to realize reduce health care expenditure in Canada and around the 
+world. Our approach to de-escalate therapy for children with good prognosis tumors will 
+result in immediate diminished acute health care costs and decreased need for expensive 
+long-term care of disabled children and adults. Identification of biomarkers for children 
+who are currently over-treated, in combination with data that will quantify and validate 
+parent’s acceptance of therapy de-escalation will guide the next generation of clinical trials 
+across North America and Europe within the time frame of the granting period there-by 
+providing societal, economic, clinical, and academic benefits to Canada.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548527</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554094</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305417"><Subproject_ID>0047</Subproject_ID><Title>PATHWAY AND NETWORK ANALYSIS OF AUTISM SPECTRUM DISORDER</Title><AIDS_Flag>N</AIDS_Flag><Abstract>The autism spectrum disorders (ASDs) are a group of conditions characterized by 
+impairments in reciprocal social interaction and communication, and the presence of 
+restricted and repetitive behaviours. Individuals with an ASD vary greatly in cognitive 
+development, which can range from above average to intellectual disability. Although ASDs 
+are known to be highly heritable ( approximately 90%), the underlying genetic determinants 
+are still largely unknown. Here we analysed the genome-wide characteristics of rare (&lt;1% 
+frequency) copy number variation in ASD using dense genotyping arrays. When comparing 
+996 ASD individuals of European ancestry to 1,287 matched controls, cases were found to 
+carry a higher global burden of rare, genic copy number variants (CNVs) (1.19 fold, P = 
+0.012), especially so for loci previously implicated in either ASD and/or intellectual disability 
+(1.69 fold, P = 3.4 x 10(-4)). Among the CNVs there were numerous de novo and inherited 
+events, sometimes in combination in a given family, implicating many novel ASD genes such 
+as SHANK2, SYNGAP1, DLGAP2 and the X-linked DDX53-PTCHD1 locus. We also discovered 
+an enrichment of CNVs disrupting functional gene sets involved in cellular proliferation, 
+projection and motility, and GTPase/Ras signalling. Our results reveal many new genetic and 
+functional targets in ASD that may lead to final connected pathways.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548528</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554093</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305418"><Subproject_ID>0048</Subproject_ID><Title>ANALYSIS OF CHEMOGENOMIC INFORMATION IN YEAST</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Present day approaches to uncover gene function often rely on the ability to construct 
+gene knockouts. While this gene-by-gene approach is straightforward in organisms with 
+facile genetic methods such as yeast and flies, it is difficult in most other organisms. 
+Furthermore, gene knockouts only allow analysis of nonessential genes. Fast acting, 
+reversible chemical probes are an ideal way to perturb the function of essential genes. The 
+primary objective of this proposal is to identify inhibitory chemical probes for all essential 
+gene products in yeast using a genome-wide method that allows us to profile the relative 
+sensitivity all protein targets in a cell simultaneously. This chemogenomic assay, 
+Haplolnsufficiency Profiling (HIP), is based on the observation that lowering the dosage of 
+a single gene from two copies to one copy in diploid yeast results in a heterozygote that is 
+sensitized to any compound that acts on the product of this gene (Nat Genet. 21,278 
+(1999)). In the assay, a complete collection of 5,918 heterozygous deletion strains is 
+pooled, grown competitively in the presence of compound and sampled. Molecular bar-
+codes incorporated into each strain allow parallel analysis and relative strain fitness to be 
+quantitatively assessed by hybridization to oligonucleotide arrays. We validated the assay 
+by screening 1,200 compounds with known biological activity. For all FDA therapeutics 
+screened, the strain heterozygous for the known target was highly sensitive to drug. 
+Recent breakthroughs in assay miniaturization and automation enable high-throughput 
+screening of large numbers of compounds. As a result, the assay can now be implemented 
+in a combined functional genomics and compound discovery effort. The outcome of this 
+effort will be a catalog of chemical probes and their essential gene targets. In addition, 
+such genome-wide exploration of biological and chemical space will identify novel, 
+&quot;druggable&quot; targets and allow characterization of chemical structures that comprise &quot;drug-
+like&quot; compounds. As part of this effort, data will be disseminated to the community via a 
+web interface. Cytoscape is being used to visualize and analyze chemogenomic networks 
+derived from these experiments.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548529</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554095</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305419"><Subproject_ID>0049</Subproject_ID><Title>ANALYZING HSP90 GENETIC INTERACTIONS IN THE YEAST</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Targeting Hsp90 as a Powerful, Broadly Effective Therapeutic Strategy for Diverse Fungal 
+Infectious Diseases. We previously established that inhibition of Hsp90 in the leading fungal 
+pathogen of humans, Candida albicans, blocks the evolution of resistance to drugs that 
+target the cell membrane and renders resistant pathogens responsive to treatment in vitro. 
+Our translational work in this area established broad therapeutic potential and was recently 
+published in PNAS (Cowen LE et al. 2009. PNAS 106:2818-23). Inhibition of Hsp90 with 
+molecules that are well tolerated in humans enhances the efficacy of antifungals in an 
+invertebrate model of disease caused by C. albicans and by the most lethal mould, 
+Aspergillus fumigatus. Genetic reduction of pathogen Hsp90 enhances the therapeutic 
+efficacy of antifungals in a mouse model of disseminated fungal disease. This paves the way 
+for the new therapeutics. Our current efforts in this area focus on drug screens to identify 
+new molecules with the capacity to abrogate fungal drug resistance. We are using Cytoscape 
+to visualize networks of Hsp90 and its targets.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548530</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554096</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305420"><Subproject_ID>0050</Subproject_ID><Title>CLINICAL GENOMICS OF HUMAN GENETIC DISEASES</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Discovery of the gene variants that cause or modulate common disease has the potential 
+to yield profound medical and socioeconomic benefit. Knowledge of the gene variants 
+influencing disease risk, outcome and drug responsiveness will make it increasingly 
+possible to tailor or customize an individual’s medical care so as to optimize health 
+outcomes. However, despite extraordinary advances in genomic technologies, many 
+challenges remain to achieving this so-called “personalized medicine” paradigm. Chief 
+among these challenges are the current bottlenecks in: a) defining the majority of the 
+gene variants modulating common disease; b) access to analytic methods capable of 
+handling the highly complex datasets produced by next generation sequencing-based 
+population studies; and c) access to methods and tools that enable medically-relevant 
+genomic discoveries to be integrated into clinical care. 
+
+It is the goal of this project to address these challenges through development of an 
+integrated portfolio of statistical methods and computational tools that will be created, 
+tested and refined using two prototype autoimmune diseases, rheumatoid arthritis and 
+primary biliary cirrhosis, as exemplars of chronic diseases for which improved diagnostic 
+and therapeutic strategies would have high societal impact. The specific aims of our 
+project are to:
+1)	Identify the major gene variants modulating two prototype autoimmune diseases by 
+targeted and whole exome sequencing;
+2)	Develop, apply and disseminate biometric methods to expedite use of 
+exome/genome-scale datasets for defining and clinically applying disease risk/outcome-
+modulating variants; and   
+3)	Develop, apply and disseminate bioinformatics tools for incorporating disease-
+relevant genomic knowledge into clinical practice.
+</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548531</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554094</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305421"><Subproject_ID>0051</Subproject_ID><Title>MAPPING AND ANALYZING CELL-CELL INTERACTIONS IN THE HEMATOPOIETIC 
+SYSTEM</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Intercellular (between cell) communication networks maintain homeostasis and coordinate 
+regenerative and developmental cues in multicellular organisms. Despite the importance of 
+intercellular networks in stem cell biology, their rules, structure and molecular components 
+are poorly understood. Herein, we describe the structure and dynamics of intercellular and 
+intracellular networks in a stem cell derived, hierarchically organized tissue using 
+experimental and theoretical analyses of cultured human umbilical cord blood progenitors. By 
+integrating high-throughput molecular profiling, database and literature mining, mechanistic 
+modeling, and cell culture experiments, we show that secreted factor-mediated intercellular 
+communication networks regulate blood stem cell fate decisions. In particular, self-renewal is 
+modulated by a coupled positive-negative intercellular feedback circuit composed of 
+megakaryocyte-derived stimulatory growth factors (VEGF, PDGF, EGF, and serotonin) versus 
+monocyte-derived inhibitory factors (CCL3, CCL4, CXCL10, TGFB2, and TNFSF9). We 
+reconstruct a stem cell intracellular network, and identify PI3K, Raf, Akt, and PLC as 
+functionally distinct signal integration nodes, linking extracellular, and intracellular signaling. 
+This represents the first systematic characterization of how stem cell fate decisions are 
+regulated non-autonomously through lineage-specific interactions with differentiated 
+progeny.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548532</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>419638</Publication_ID>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305422"><Subproject_ID>0052</Subproject_ID><Title>DEVELOPMENT OF GENEMANIA GENE FUNCTION PREDICTION SOFTWARE</Title><AIDS_Flag>N</AIDS_Flag><Abstract>GeneMANIA (www.genemania.org) helps you predict the function of your favourite genes 
+and gene sets. GeneMANIA finds other genes that are related to a set of input genes, using a 
+very large set of functional association data. Association data include protein and genetic 
+interactions, pathways, co-expression, co-localization and protein domain similarity. You can 
+use GeneMANIA to find new members of a pathway or complex, find additional genes you 
+may have missed in your screen or find new genes with a specific function, such as protein 
+kinases. Your question is defined by the set of genes you input. If members of your gene list 
+make up a protein complex, GeneMANIA will return more potential members of the protein 
+complex. If you enter a gene list, GeneMANIA will return connections between your genes, 
+within the selected datasets.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548533</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>419640</Publication_ID>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305423"><Subproject_ID>0053</Subproject_ID><Title>DEVELOPMENT OF CYTOSCAPE SOFTWARE</Title><AIDS_Flag>N</AIDS_Flag><Abstract>The major challenge of the post genomic biology is to gain knowledge on the biological 
+function of gene products and the mechanisms of the cellular processes in which they are 
+involved. An important first step in this endeavor is to derive the circuitry of the cellular 
+systems: the networks of physical, biochemical and regulatory interactions, as well as the 
+information processing (signal transduction) pathways that occur in cells. Large efforts are 
+therefore devoted world-wide to collecting genome scale data on these interactions and 
+pathways, using experimental methods, bioinformatics inference procedures, and text 
+mining algorithms. As a result, impressive bodies of valuable but noisy data are being 
+produced. But consolidating and validating these data, and more importantly, deriving 
+meaningful biological information from them poses major challenges. Currently we are 
+developing a workbench for displaying and analyzing metabolic and other types of networks 
+using Cytoscape. These include efficient means for interactively mapping onto these 
+networks information on protein sequences, domains and 3D structures, as well as data on 
+drug targets, and genes associated with human diseases. Presently, we use such mappings 
+to investigate the relations between local network properties, orthology relationships and 
+protein/gene function.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548534</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305424"><Subproject_ID>0054</Subproject_ID><Title>CANCER GENE ENCYCLOPAEDIA (CGEP)</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Despite the introduction of powerful chemotherapeutic agents over the past years, most 
+cancers retain devastating mortality rates. To improve cancer treatment, we need to 
+discover biomarkers for early cancer detection and for planning optimal treatment, and we 
+need new therapeutic approaches for targeting metastatic disease.
+This will be achieved by identifying and characterizing prognostic/predictive genes (cancer 
+targets), which will improve diagnosis and treatment planning. Systematic 
+characterization of gene products, their interactions and function will enable identification 
+of new drug targets and combination therapies. Many biological assays have been used to 
+characterize protein function and interactions, and to link these to cancer. Due to assay 
+biases, thousands of proteins and their interactions remain uncharacterized—30-40% of 
+cancer targets have no protein interaction data and cannot be used in integrative 
+analyses.
+To accelerate and optimize the process of functionally characterizing relevant proteins, we 
+will apply computational biology and identify the most important putative cancer targets, 
+and provide their predicted function and optimal biological assay to focus functional 
+studies. The Cancer Gene Encylopedia (CGEP) project will initially integrate and expand 
+seven key existing systems that we have developed here in Ontario: CDIP (Cancer Data 
+Integration Portal) a molecular cancer profile database, GeneMANIA for gene function 
+prediction, I2D (Interologous Interaction Database) for protein interactions, Reactome for 
+expert pathway curation, Pathway Commons for pathway annotation, and Cytoscape and 
+NAViGaTOR for cancer network integration, visualization and analysis. This will enable 
+rational identification of the most relevant cancer protein interactions, verification using 
+text mining and human curation from PubMed, prediction of the most suitable bioassays 
+for interaction validation, gene/protein function characterization, and relevant protein 
+structure target identification.
+CGEP integrates an international team with expertise in protein interaction curation at the 
+European Bioinformatics Institute, gene annotation in the GeneCards database (Israel), 
+protein structure characterization in PSI-Nature Structural Genomics Knowledgebase, 
+expert pathway curation/annotation at Reactome and Pathway Commons, public pathway 
+annotation in WikiPathways, and leading basic/translational researchers to enable 
+selecting best approaches for validating cancer targets, their relevant protein 
+interactions/pathways.
+This visionary proposal will transform cancer research by providing relevant 
+interaction/pathway data, leading to comprehensive characterization of clinically useful 
+prognostic/predictive signatures that will improve cancer diagnosis and treatment 
+planning. In turn, this Ontario-led and internationally integrated cancer resource will lead 
+to improved treatments by identifying and developing new drug targets, and designing 
+combination therapies. This globally directed effort will enable Ontario to participate in the 
+international IMEx, Reactome and ENFIN consortia. Ontario will fill the current gap of 
+expert curation of cancer interactions and pathways and provide leadership in 
+computationally-driven identification of novel cancer targets, their interactions and 
+pathways. CGEP findings will accelerate novel treatments and create commercialization 
+possibilities. Moreover, this project provides opportunities to establish a unique training 
+environment and prepare critically needed highly qualified personnel who will work on the 
+forefront of cancer genomics and translational research in Ontario’s R&amp;D sectors in the 
+future.
+
+http://ophid.utoronto.ca/cgep/project.jsp</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>554098</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548479</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554099</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305426"><Subproject_ID>0055</Subproject_ID><Title>B-CELL DIFFERENTIATION NETWORKS</Title><AIDS_Flag>N</AIDS_Flag><Abstract>B-cell differentiation networks. We recently participated in a project led by the Laboratory of 
+Cornelis Murre (UCSD) focused on identifying the regulatory network underlying B-cell 
+differentiation. Integrative analysis of genome-wide gene expression, TF-DNA binding (ChIP-
+seq) and histone methylation profiles uncovered a global network of over 2000 putative 
+targets regulated by three key transcription factors (E2A, EBF1 and Foxo1) which act in a 
+combinatorial, cell-state-specific fashion12. This study made extensive use of Cytoscape for 
+data integration, visualization, as well as functional enrichment analysis.
+We have shown that E2A and EBF1, as well as E2A and Foxo1, were wired together by a 
+vast spectrum of cis-regulatory sequences. These associations were dynamic during 
+developmental progression. Occupancy by the E2A isoform E47 directly resulted in greater 
+abundance, as well as a pattern of monomethylation of histone H3 at lysine 4 (H3K4) across 
+putative enhancer regions. Finally, we divided the pro-B cell epigenome into clusters of loci 
+with occupancy by E2A, EBF and Foxo1. From this analysis we constructed a global network 
+consisting of transcriptional regulators, signaling and survival factors that we propose 
+orchestrates B cell fate.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548522</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548514</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305852"><Subproject_ID>0056</Subproject_ID><Title>GENETIC ANALYSIS OF GLAUCOMA AND AGE-RELATED MACULAR 
+DEGENERATION</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Genetic Analysis of Glaucoma and Age-related Macular Degeneration. The prevalence of 
+genome-wide genetic data has driven the investigation of genetic associations with human 
+diseases. Age-related Macular Degeneration (AMD) and Glaucoma are highly heritable ocular 
+diseases with genetic roots that are not fully understood. Collecting genetic data is only the 
+first step, as the computational tools and algorithms for analyzing it are still a matter of 
+considerable research. We are working to collect whole-exome genetic information from 
+several hundreds of patients, diagnosed with AMD, Glaucoma, or Control, to better 
+understand ocular disease. We are also employing novel algorithms involving gene network 
+and pathway information to improve the power and the ability to meaningfully interpret the 
+genetic data.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548520</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548511</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305853"><Subproject_ID>0057</Subproject_ID><Title>PINGO: A CYTOSCAPE PLUGIN TO FIND CANDIDATE GENES</Title><AIDS_Flag>N</AIDS_Flag><Abstract>PiNGO is a tool to screen biological networks for candidate genes, i.e. genes predicted to be 
+involved in a biological process of interest. The user can narrow the search to genes with 
+particular known functions or exclude genes belonging to particular functional classes. PiNGO 
+provides support for a wide range of organisms and Gene Ontology classification schemes, 
+and it can easily be customized for other organisms and functional classifications. PiNGO is 
+implemented as a plugin for Cytoscape, a popular network visualization platform.
+
+PiNGO is distributed as an open-source Java package under the GNU General Public License 
+(http://www.gnu.org/), and can be downloaded via the Cytoscape plugin manager. A detailed 
+user guide and tutorial are available on the PiNGO website 
+(http://www.psb.ugent.be/esb/PiNGO.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>554310</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548486</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548482</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>419644</Publication_ID>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305854"><Subproject_ID>0058</Subproject_ID><Title>CONSENSUSPATHDB PLUGIN FOR CYTOSCAPE</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Protein-protein interaction detection methods are applied on a daily basis by molecular 
+biologists worldwide. After generating a set of potential interactions, biologists face the 
+problem of highlighting the ones that are novel and collecting evidence with respect to 
+literature and annotation. This task can be as tedious as searching for every predicted 
+interaction in several interaction data repositories, or manually screening the scientific 
+literature. To facilitate the task of evidence mining and novelty assessment of protein-
+protein interactions, we have developed a Cytoscape plugin that automatically mines 
+publication references, database references, interaction detection method descriptions and 
+pathway annotation for a user-supplied network of interactions. The basis for the annotation 
+is ConsensusPathDB-a meta-database that integrates numerous protein-protein, signaling, 
+metabolic and gene regulatory interaction repositories for currently three species: Homo 
+sapiens, Saccharomyces cerevisiae and Mus musculus.
+
+The ConsensusPathDB plugin for Cytoscape (version 2.7.0 or later) can be installed within 
+Cytoscape on a major operating system (Windows, Mac OS, Unix/Linux) with Sun Java 1.5 
+or later installed through Cytoscape&apos;s Plugin manager (category &apos;Network and Attribute I/O&apos;). 
+The plugin is freely available for download on the ConsensusPathDB web site 
+(http://cpdb.molgen.mpg.de).</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>554311</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548486</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>554312</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>419636</Publication_ID><Publication_ID>419643</Publication_ID><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305855"><Subproject_ID>0059</Subproject_ID><Title>A HUMAN MAP KINASE INTERACTOME</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Mitogen-activated protein kinase (MAPK) pathways form the backbone of signal transduction 
+in the mammalian cell. Here we applied a systematic experimental and computational 
+approach to map 2,269 interactions between human MAPK-related proteins and other 
+cellular machinery and to assemble these data into functional modules. Multiple lines of 
+evidence including conservation with yeast supported a core network of 641 interactions. 
+Using small interfering RNA knockdowns, we observed that approximately one-third of MAPK-
+interacting proteins modulated MAPK-mediated signaling. We uncovered the Na-H exchanger 
+NHE1 as a potential MAPK scaffold, found links between HSP90 chaperones and MAPK 
+pathways and identified MUC12 as the human analog to the yeast signaling mucin Msb2. 
+This study makes available a large resource of MAPK interactions and clone libraries, and it 
+illustrates a methodology for probing signaling networks based on functional refinement of 
+experimentally derived protein-interaction maps.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>554313</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>554314</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548515</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>419627</Publication_ID>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305992"><Subproject_ID>0060</Subproject_ID><Title>NETWORK ANALYSIS OF THE HUMAN KINOME</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Network analysis of the human kinome. Network analysis of the human kinome. The 
+kinome is amongst the most important regulatory layers of the cellular machinary in higher 
+eukaryotes. Inspite of its paramount importance much about the ways in which the kinome 
+affects treanscritptional regulations remains unknown. In this study a comprehnsive set of 
+over 700 kineases are perturbe using siRNA microRNAs and a wide chemical assay comprised 
+of ~1500 compunds, in a model cell line. A precise mesaurement of the expression level of 8 
+specifcially chosen genes is taken using a Luminex gene bead assay. The measurements are 
+used to charcterize the similarities and diffrences amongst the kinome. We further attempt 
+to use a modified version of GSEA method to discover functionaly enrihced subsets of 
+interest in this kinome pertuabtion set.</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548521</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548510</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305993"><Subproject_ID>0061</Subproject_ID><Title>NETWORK BIOMARKERS OF EATING DISORDERS</Title><AIDS_Flag>N</AIDS_Flag><Abstract>Network biomarkers of eating disorders. Network biomarkers of eating disorders. Network 
+biomarkers of eating disorders. 
+Anorexia nervosa (AN) is a mental illness with high mortality that most commonly afflicts
+adolescent female individuals. Clinical symptoms include chronic food refusal, weight loss
+and body image distortions. Using data generated in a genome-wide association study (1033 
+AN cases and 3733 pediatric control subjects of European ancestry genotyped on the 
+Illumina HumanHap610 platform) as well as rich phenotypic characterization including both 
+physiological and psychiatric measurements, we are attempting to use both these data 
+sources, coupled with known genetic interaction to construct a diagnostic model and 
+facilitate phenotypically associated pathway discovery using supervised learning methods 
+(Elastic-net regression and log-loss boosting with additive decision trees).</Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>548519</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>548511</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Subproject Sub_ID="305994"><Subproject_ID>0062</Subproject_ID><Title>VISANT-PREDICTOME SYSTEM</Title><AIDS_Flag>N</AIDS_Flag><Abstract>VisANT—Predictome system is an integrative software platform for the visualization, mining, 
+analysis and modeling of the biological networks. VisANT allows visual analysis and 
+exploratory navigation of the interactions between biomolecules (inclusive relationships) for 
+110+ organisms, both computational and experimental. The system is automatically 
+synchronized with other databases such as MINT, BioGrid and Entrez Gene for the 
+corresponding data. VisANT implements an advanced graph type—metagraph, developed in 
+our Lab to integrate inclusive or partially inclusive relationships between information at 
+different abstraction scales (e.g., the hierarchy of Gene Ontology, or network modules) and 
+the adjacent relationships between biomolecules into one single network. Such visualization 
+technology is often referred to multi-scale visualization because information at different 
+abstraction scales is presented in one network. Using this technology VisANT integrates 
+hierarchy of Gene Ontology with the interaction network and developed two network-based 
+enrichment algorithms to facilitate the combined analysis of biological high-throughput data 
+(e.g. expression data) in the context of both biomolecular networks and a solid functional 
+classification system of gene products. Furthermore, cluster groups or other motifs of the 
+network can be re-examined and validated by the identification of statistically enriched GO 
+annotations among the affected genes/proteins. </Abstract><Type>C</Type><Progress></Progress><Investigator><Person_ID>557319</Person_ID><Investigator_Type>P</Investigator_Type></Investigator><Investigator><Person_ID>453037</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Investigator><Person_ID>548482</Person_ID><Investigator_Type>C</Investigator_Type></Investigator><Publication_ID>435781</Publication_ID>
+<Percent_Grant_Dollars>0</Percent_Grant_Dollars></Subproject><Publication Publication_ID="418736"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20393563</PM_UID></Publication><Publication Publication_ID="419656"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21296752</PM_UID></Publication><Publication Publication_ID="435781"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>17586824</PM_UID></Publication><Publication Publication_ID="419629"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20856792</PM_UID></Publication><Publication Publication_ID="419631"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20829833</PM_UID></Publication><Publication Publication_ID="419636"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21071422</PM_UID></Publication><Publication Publication_ID="419638"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20924352</PM_UID></Publication><Publication Publication_ID="419640"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20926419</PM_UID></Publication><Publication Publication_ID="419641"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21287589</PM_UID></Publication><Publication Publication_ID="419643"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20847220</PM_UID></Publication><Publication Publication_ID="419646"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21088028</PM_UID></Publication><Publication Publication_ID="419648"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21118483</PM_UID></Publication><Publication Publication_ID="419650"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20861033</PM_UID></Publication><Publication Publication_ID="419655"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20947524</PM_UID></Publication><Publication Publication_ID="419627"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20936779</PM_UID></Publication><Publication Publication_ID="419632"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20212120</PM_UID></Publication><Publication Publication_ID="419633"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21257609</PM_UID></Publication><Publication Publication_ID="419634"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20610424</PM_UID></Publication><Publication Publication_ID="419639"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21325131</PM_UID></Publication><Publication Publication_ID="419642"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21473782</PM_UID></Publication><Publication Publication_ID="419644"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>Y</Resource_Acknowledged><PM_UID>21278188</PM_UID></Publication><Publication Publication_ID="419645"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21149340</PM_UID></Publication><Publication Publication_ID="419647"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21123224</PM_UID></Publication><Publication Publication_ID="419649"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21414991</PM_UID></Publication><Publication Publication_ID="419652"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21295266</PM_UID></Publication><Publication Publication_ID="419653"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21300700</PM_UID></Publication><Publication Publication_ID="418395"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20799968</PM_UID></Publication><Publication Publication_ID="418393"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20498046</PM_UID></Publication><Publication Publication_ID="418394"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>20711339</PM_UID></Publication><Publication Publication_ID="418396"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21390331</PM_UID></Publication><Publication Publication_ID="418397"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21324131</PM_UID></Publication><Publication Publication_ID="418399"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>N</Resource_Acknowledged><PM_UID>21127252</PM_UID></Publication><Publication Publication_ID="418384"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>Y</Resource_Acknowledged><PM_UID>21245293</PM_UID></Publication><Publication Publication_ID="445439"><Publication_Type>J</Publication_Type><In_Press>N</In_Press><Resource_Acknowledged>Y</Resource_Acknowledged><PM_UID>21390021</PM_UID></Publication><Research_Risk>
+  <Human_Subjects_Involved>N</Human_Subjects_Involved>
+  <Human_Subjects_IRB_Approval>A</Human_Subjects_IRB_Approval>
+  <Human_Subjects_Training>A</Human_Subjects_Training>
+  <DS_Monitoring_Plan>A</DS_Monitoring_Plan>
+  <Gender_Minority_Req>A</Gender_Minority_Req>
+  <Vertebrate_Animals_Used>N</Vertebrate_Animals_Used>
+  <IACUC_Approval>A</IACUC_Approval>
+</Research_Risk>
+<Attachment><Filename>P41RR031228_2011_AD.pdf</Filename><Domain_Code>AD</Domain_Code></Attachment><Attachment><Filename>P41RR031228_2011_CM.pdf</Filename><Domain_Code>CM</Domain_Code></Attachment><Attachment><Filename>P41RR031228_2011_HI.pdf</Filename><Domain_Code>HI</Domain_Code></Attachment><Attachment><Filename>P41RR031228_2011_RP.pdf</Filename><Domain_Code>RP</Domain_Code></Attachment></P41_Progress_Report>
