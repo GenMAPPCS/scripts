@@ -14,6 +14,7 @@ use Encode;
 ## 3. Publiciations and attrs (PublicationID, PMUID)
 ## 4. Person-subproject links and attr (Investigator_Type)
 ## 5. Paper-subproject links
+## 6. Combined file with person-subproject links and paper-subproject links. Also has investigator type as edge attribute where relevant
 ##
 ## This parser requires the XML::LibXML perl module. Install this from CPAN with the following commands:
 ## perl -MCPAN -e shell
@@ -32,7 +33,7 @@ if (scalar(@ARGV) == 1)
         }
 else
         {
-        print "Too many arguments. Try again.\n";
+        print "Too many arguments (or not enough). Specify the input file as an argument.\n";
         exit;
         }
 
@@ -44,6 +45,12 @@ open (XML, "$inputxml") or die "Can't open $inputxml: $!";
 open (UTF, ">$utffile") or die "Can't open $utffile: $!";
 while (<XML>){
         my $line = $_;
+	if ($line =~ /<!DOCTYPE HTML PUBLIC/i){
+		#last line of useful data ends with HTML garbage
+		my @split = split(/<!DOCTYPE HTML PUBLIC/, $line);
+		print UTF encode('utf8', $split[0]);
+		last;
+	}
         unless ($line =~ /^ERROR:/){
                 print UTF encode('utf8', $line);
         }
@@ -58,7 +65,7 @@ unless ( open(PERSONS, ">$personsattrs") )
          print "could not open file $personsattrs\n";
          exit;
         }
-print PERSONS "PersonID\tFullName\tNonHostName\tNonHostCountry\n";
+print PERSONS "PersonID\tFullName\tNonHostName\tNonHostCountry\tType\n";
 
 my $subprojectattrs = $filename."-subprojects_2.txt";
 unless ( open(SUBPROJECTS, ">$subprojectattrs") )
@@ -82,7 +89,7 @@ unless ( open(PUBLICATIONS, ">$publicationattrs") )
          print "could not open file $publicationattrs\n";
          exit;
         }
-print PUBLICATIONS "PublicationID\tPMUID\n";
+print PUBLICATIONS "PublicationID\tPMUID\tType\n";
 
 my $pubstoprojects = $filename."-publication-subproject_5.txt";
 unless ( open(PUBSTOPROJECT, ">$pubstoprojects") )
@@ -134,7 +141,7 @@ foreach my $person (@persons) {
 		$nonhostCountry = 'USA';
 		}
 	
-	print PERSONS "$personID\t$fullName\t$nonhostName\t$nonhostCountry\n";
+	print PERSONS "$personID\t$fullName\t$nonhostName\t$nonhostCountry\tPERSON\n";
 }
 
 ##########
@@ -148,7 +155,7 @@ foreach my $subproject (@subprojects) {
 	my $subType = $subproject->getElementsByTagName('Type');
 	my $subTitle = $subproject->getElementsByTagName('Title');
 	
-	$subTitle =~ s/\n/ /sg;  ##substitute newline for space
+	$subTitle =~ s/\n/ /sg;  ##substitute newline for space since some titles contains line breaks
 	
 	if ($subproject->getElementsByTagName('Publication_ID')) {
 		
@@ -156,7 +163,6 @@ foreach my $subproject (@subprojects) {
 
 		if (length($pubID) > 6) {
 
-			#my @pmuids = split(/(\d{6})/, $pubID);  ## this produces an array with a null string at every other element 
 			my @pmuids = $pubID =~ m/(\d{6})/g;
 			foreach my $p (@pmuids) {
 			print PUBSTOPROJECT "$subID\t$p\n";
@@ -193,7 +199,7 @@ foreach my $publication (@publications)	{
 	my $publicationID = $publication->getAttribute('Publication_ID');
 	my $PMUID = $publication->getElementsByTagName('PM_UID');
 	
-	print PUBLICATIONS  "$publicationID\t$PMUID\n";
+	print PUBLICATIONS  "$publicationID\t$PMUID\tPUB\n";
 }
 
 ##########
@@ -204,3 +210,4 @@ close PUBLICATIONS;
 close SUBPROJECTS;
 close PUBSTOPROJECT;
 close PERSONTOSUBPROJECT;
+close COMBINED;
